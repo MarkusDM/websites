@@ -1,0 +1,512 @@
+.application {
+    margin-bottom: 20.5rem;
+    @media only screen and (max-width: 48em) {
+        margin-bottom: 31rem;
+    }
+    .container {
+        width: 100%;
+        padding-left: 19.4rem;
+        padding-right: 12.6rem;
+        @media only screen and (max-width: 48em) {
+            padding: 0 4rem;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column;
+        }
+    }
+    &__left-block {
+        @media only screen and (max-width: 48em) {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 0;
+        }
+    }
+    &__box-small {
+        width: 27.4rem;
+        height: 12.4rem;
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 2.2rem;
+        position: relative;
+        padding-top: 4.5rem;
+        padding-left: 3.1rem;
+        padding-right: 3.2rem;
+        padding-bottom: 2.5rem;
+        display: flex;
+        margin-bottom: 2.2rem;
+        @media only screen and (max-width: 48em) {
+            display: flex;
+            width: 34.1rem;
+            height: 25rem;
+            padding-top: 3.7rem;
+            padding-bottom: 4rem;
+            border-radius: 4rem;
+            align-items: center;
+            padding-left: 2.6rem;
+            margin-right: 4rem;
+        }
+    }
+    &__box-small--everest {
+        width: 27.4rem;
+        height: 8.4rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 3rem;
+        padding-right: 6.3rem;
+        @media only screen and (max-width: 48em) {
+            display: flex;
+            width: 34rem;
+            height: 21rem;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+            padding-left: 2.5rem;
+            border-radius: 4rem;
+            margin-top: 3rem;
+            margin-right: 0rem;
+            padding-right: 1rem;
+        }
+        .application__box-small-image {
+            height: 5rem;
+            width: 4rem;
+            margin-right: 1.5rem;
+            position: relative;
+            top: -0.3rem;
+            @media only screen and (max-width: 48em) {
+                width: 7rem;
+                height: 7rem;
+                margin-right: 1.4rem;
+            }
+        }
+    }
+    &__box-small-icon {
+        position: absolute;
+        width: 5.6rem;
+        height: 5.6rem;
+        top: -2.7rem;
+        right: 2.7rem;
+        @media only screen and (max-width: 48em) {
+            width: 8.4rem;
+            height: 8.4rem;
+            top: -6rem;
+            right: 2rem;
+        }
+    }
+    &__box-small-image {
+        height: 5rem;
+        width: 4.7rem;
+        margin-right: 1rem;
+        position: relative;
+        top: -0.3rem;
+        @media only screen and (max-width: 48em) {
+            width: 10rem;
+            height: 10rem;
+            margin-right: 1.1rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &__box-small-inner {
+        display: flex;
+        flex-direction: column;
+        strong {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            color: #3066C1;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.1rem;
+                line-height: 4.1rem;
+                margin-bottom: 0.6rem;
+            }
+        }
+        span {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.6rem;
+            line-height: 3rem;
+            color: #262626;
+            @media only screen and (max-width: 48em) {
+                font-size: 3rem;
+                line-height: 3.8rem;
+            }
+        }
+    }
+    &__left {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 108.3rem;
+        margin-right: 8rem;
+        padding-top: 2rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 10.3rem;
+        }
+    }
+    &__box-big {
+        width: 27.4rem;
+        height: 24.5rem;
+        background: rgba(255, 255, 255, 0.7);
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 2.2rem;
+        padding: 1.5rem;
+        position: relative;
+        margin-bottom: 3.7rem;
+        @media only screen and (max-width: 48em) {
+            width: 30rem;
+            height: 24.5rem;
+            padding: 1.6rem;
+            border-radius: 4.4rem;
+            margin-bottom: 0;
+            margin-right: 4rem;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                border-radius: 3.8rem;
+            }
+        }
+    }
+    &__right-title {
+        font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 5.8rem;
+        letter-spacing: 0.02em;
+        color: #262626;
+        margin-bottom: 3rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 5.1rem;
+            margin-bottom: 4.8rem;
+            margin-bottom: 4.8rem;
+        }
+    }
+    &__right-text {
+        font-family: 'Akzidenz-Grotesk Pro Med Ext', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 156%;
+        color: #262626;
+        margin-bottom: 5rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.1rem;
+            margin-bottom: 4rem;
+        }
+    }
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column;
+        }
+        .link-btn {
+            top: -1.9rem;
+            left: 1rem;
+            @media only screen and (max-width: 48em) {
+                left: initial;
+                top: 19rem;
+                width: 31rem;
+            }
+            &::before {
+                position: absolute;
+                content: '';
+                width: 7.7rem;
+                height: 7.7rem;
+                right: -3.7rem;
+                top: 1.4rem;
+                @media only screen and (max-width: 48em) {
+                    top: -0.9rem;
+                    width: 4.9rem;
+                    height: 4.9rem;
+                    right: 1rem;
+                }
+            }
+            span {
+                font-size: 2rem;
+                line-height: 2.5rem;
+                @media only screen and (max-width: 48em) {
+                    font-size: 3rem;
+                }
+            }
+        }
+        .link-btn-before::after {
+            position: absolute;
+            content: '';
+            background-size: 2rem 1.7rem;
+            top: 3.4rem;
+            right: -1.8rem;
+            @media only screen and (max-width: 48em) {
+                top: -0.5rem;
+                right: 1.2rem;
+            }
+        }
+    }
+    &__form-inner {
+        position: relative;
+        margin-right: 3.7rem;
+        margin-bottom: 3.7rem;
+        @media only screen and (max-width: 48em) {
+            margin-right: 0;
+            margin-bottom: 4.3rem;
+        }
+        input {
+            width: 27.8rem;
+            height: 7.8rem;
+            border: 0.14rem solid #E7EBEE;
+            box-sizing: border-box;
+            border-radius: 1.5rem;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 2.2rem;
+            line-height: 2.7rem;
+            padding-top: 3.4rem;
+            padding-left: 2rem;
+            padding-bottom: 1.7rem;
+            /* text */
+            color: #262626;
+            @media only screen and (max-width: 48em) {
+                width: 100%;
+                margin-right: 0;
+                height: 13.8rem;
+                border-radius: 4rem;
+                padding-top: 5.2rem;
+                padding-left: 4rem;
+                font-size: 3.4rem;
+            }
+        }
+        label {
+            position: absolute;
+            top: 2rem;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1rem;
+            line-height: 1.2rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #262626;
+            z-index: 2;
+            left: 2.2rem;
+            top: 1.6rem;
+            @media only screen and (max-width: 48em) {
+                left: 4rem;
+                top: 3.8rem;
+                font-size: 2.1rem;
+            }
+        }
+    }
+    &__form-inner:nth-child(3n) {
+        margin-right: 4rem;
+        @media only screen and (max-width: 48em) {
+            margin-right: 0;
+        }
+    }
+    &__form-inner--calendar {
+        width: 27.8rem;
+        height: 7.8rem;
+        border: 0.14rem solid #E7EBEE;
+        box-sizing: border-box;
+        border-radius: 1.5rem;
+        background-image: url(../img/calendar.svg);
+        background-repeat: no-repeat;
+        background-position: 90% 50%;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            margin-right: 0;
+            height: 13.8rem;
+            background-repeat: no-repeat;
+            background-position: 94% 53%;
+            background-size: 4.3rem;
+        }
+    }
+    &__inner {
+        .custom-checkbox {
+            // Тут мы просто центрируем чекбокс и текст
+            display: flex;
+            align-items: center;
+            @media only screen and (max-width: 48em) {
+                margin-top: 3rem;
+            }
+        }
+        .custom-checkbox .checkbox {
+            margin-right: 1.5rem;
+            @media only screen and (max-width: 48em) {
+                margin-right: 0;
+            }
+        }
+        .checkbox-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.6rem;
+            line-height: 1.9rem;
+            /* Gray 2 */
+            color: #98999C;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.05rem;
+                line-height: 3.6rem;
+                width: 60rem;
+                padding-left: 1.4rem;
+                top: 1.7rem;
+                position: relative;
+            }
+        }
+        .custom-checkbox input {
+            -webkit-appearance: none; // Скрываем оригинальный чекбокс
+            position: absolute; // После скрытия оставется пустое пространство,
+            // но абсолютное позиционирование это устранит
+        }
+        .checkbox {
+            position: relative;
+            border: 0.1rem solid #C4C4C4;
+            box-sizing: border-box;
+            border-radius: 0.3rem;
+            width: 2.6rem;
+            height: 2.6rem;
+            @media only screen and (max-width: 48em) {
+                width: 4.4rem;
+                height: 4.5rem;
+            }
+        }
+        .checkmark {
+            // Тут центритуем и пишем стили для иконки
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: auto;
+            display: none; // Скрываем иконку
+        }
+        .custom-checkbox input:checked~.checkbox .checkmark {
+            display: block; // Показываем иконку, когда чекбокс активен
+        }
+        .custom-checkbox input:checked~.checkbox {
+            background: linear-gradient(265.24deg, #154BA5 -5.38%, #01348A 96.47%);
+            border: 2px solid blue;
+            // Если вы хотите не только отображать икнонку, но и менять
+            // сам чекбокс после активации - напишите сюда код для активного состояния
+        }
+    }
+}
+
+.select-form {
+    position: relative;
+    label {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        /* text */
+        color: #262626;
+        @media only screen and (max-width: 48em) {
+            top: 4rem;
+            left: 4rem;
+            font-size: 2rem;
+        }
+    }
+}
+
+.select__head-form {
+    width: 27.8rem;
+    height: 7.8rem;
+    border: 0.14rem solid #E7EBEE;
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* text */
+    color: #262626;
+    @media only screen and (max-width: 48em) {
+        width: 100%;
+        margin-right: 0;
+        height: 13.8rem;
+        padding-top: 9rem;
+        padding-left: 4rem;
+        font-size: 2.1rem;
+    }
+}
+
+.select__head-form::after {
+    width: 1rem;
+    height: 0.6rem;
+    position: absolute;
+    right: 2rem;
+    bottom: 50%;
+    transform: translateY(50%);
+    content: '';
+    display: block;
+    transition: .2s ease-in;
+}
+
+.select__head-form.open::after {
+    transform: translateY(50%) rotate(180deg);
+}
+
+.select__list-form {
+    display: none;
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    right: 0;
+    background: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 100;
+    font-size: 1.4rem;
+    color: #424348;
+    width: 27.8rem;
+    height: 7.8rem;
+    border: 0.14rem solid #E7EBEE;
+    border-radius: 1.5rem;
+    @media only screen and (max-width: 48em) {
+        width: 100%;
+        margin-right: 0;
+        height: 13.8rem;
+        z-index: 4;
+        background-color: #fff;
+        top: 13.6rem;
+        font-size: 3.1rem;
+    }
+}
+
+.select__list-form::-webkit-scrollbar {
+    width: 0.7rem;
+    background-color: #F8F9FA;
+    padding: 0.6rem;
+}
+
+.select__list-form::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #D9D9D9;
+}
+
+.select__list-form .select__item-form {
+    position: relative;
+    border-top: 0.14rem solid #E7EBEE;
+    cursor: pointer;
+    list-style-type: none;
+    padding: 1.5rem;
+    @media only screen and (max-width: 48em) {
+        padding: 3rem;
+    }
+}

@@ -1,0 +1,235 @@
+.news {
+    margin-bottom: 19rem;
+    @media only screen and (max-width: 48em) {
+        margin-top: -84.7rem;
+        margin-bottom: 27rem;
+    }
+    .container {
+        width: 152rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            padding: 0 4.2rem;
+        }
+    }
+    &__wrapper {
+        position: relative;
+        .swiper-pagination {
+            font-size: 0;
+        }
+        .swiper-pagination-current {
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.6rem;
+            line-height: 1.9rem;
+            color: #000000;
+            position: relative;
+            right: 9rem;
+            top: 2rem;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.1rem;
+                right: 14.1rem;
+                top: 6rem;
+            }
+        }
+        .swiper-pagination-total {
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.6rem;
+            line-height: 1.9rem;
+            color: #C0C8DB;
+            position: relative;
+            left: 9rem;
+            top: 2.2rem;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.1rem;
+                top: 6.3rem;
+                left: 12rem;
+            }
+        }
+    }
+    &__block-title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 6.3rem;
+        padding-top: 3.9rem;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column;
+            margin-bottom: 9rem;
+        }
+        .link-btn {
+            @media only screen and (max-width: 48em) {
+                span {
+                    font-size: 3.2rem;
+                }
+            }
+            &::before {
+                @media only screen and (max-width: 48em) {
+                    right: 43rem;
+                    width: 5.1rem;
+                    height: 5.1rem;
+                    right: 41.9rem;
+                    width: 5.1rem;
+                    height: 5.1rem;
+                    top: -1.2rem;
+                }
+            }
+            &::after {
+                position: absolute;
+                content: '';
+                width: 4rem;
+                height: 4rem;
+                background-image: url(../img/icon/arrowwhite.svg);
+                background-repeat: no-repeat;
+                background-size: 1.3rem 1.3rem;
+                background-position: 50% 50%;
+                z-index: 2;
+                @media only screen and (max-width: 48em) {
+                    left: 21.5rem;
+                    top: -0.7rem;
+                }
+            }
+        }
+    }
+    &__title {
+        font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 5.8rem;
+        letter-spacing: 0.02em;
+        color: #262626;
+        @media only screen and (max-width: 48em) {
+            font-size: 5.1rem;
+            margin-bottom: 6.3rem;
+        }
+    }
+    &__slide {
+        border-radius: 2.2rem;
+        display: flex;
+        width: 35.2rem;
+        margin-right: 3.7rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            margin-bottom: 6rem;
+            margin-right: 0;
+        }
+    }
+    &__slide:nth-child(4n) {
+        margin-right: 0;
+    }
+    &__box {
+        width: 35.2rem;
+        height: auto;
+        background: #FFFFFF;
+        border-radius: 2.2rem;
+        padding-top: 4.72rem;
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        padding-bottom: 3.8rem;
+        display: flex;
+        flex-direction: column;
+        box-shadow: -2px 4px 12px 3px rgba(196, 196, 196, 0.2);
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            height: auto;
+            padding-bottom: 7rem;
+            padding-top: 7rem;
+        }
+    }
+    &__box:last-child {
+        margin-right: 0;
+    }
+    &__box-title {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        text-align: center;
+        color: #262626;
+        margin-bottom: 3rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.2rem;
+            line-height: 3.8rem;
+            margin-bottom: 4rem;
+        }
+    }
+    &__box-date {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        text-align: center;
+        color: #959699;
+        margin-bottom: 2.4rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 2.4rem;
+            margin-bottom: 4rem;
+        }
+    }
+    &__box-image {
+        width: 17.792rem;
+        height: 17.792rem;
+        display: inline-block;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+        @media only screen and (max-width: 48em) {
+            width: 54%;
+            height: 29.5rem;
+            margin-bottom: 4.94rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 4rem;
+            filter: drop-shadow(0.5rem 2.23332rem 5rem rgba(39, 40, 49, 0.29));
+            @media only screen and (max-width: 48em) {
+                object-fit: cover;
+                border-radius: 6rem;
+            }
+        }
+    }
+    &__box-link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+        position: relative;
+        color: #959699;
+        padding-bottom: 1.57rem;
+        margin: 0 auto;
+        display: inline-block;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.1rem;
+        }
+        &::before {
+            position: absolute;
+            content: '';
+            background-image: url(../img/line.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 100%;
+            height: 0.1rem;
+            bottom: 0;
+            @media only screen and (max-width: 48em) {
+                object-fit: cover;
+                border-radius: 6rem;
+                background-image: url(../img/bgline.png);
+                width: 28rem;
+                height: 0.1rem;
+                bottom: -1.5rem;
+                left: -4rem;
+            }
+        }
+    }
+    &__swiper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.check__people {
+    display: flex;
+}

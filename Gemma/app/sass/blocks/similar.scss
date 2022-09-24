@@ -1,0 +1,20 @@
+.similar {
+    margin-bottom: 25.4rem;
+    .container {
+        width: 154.5rem;
+    }
+    .title {
+        margin-bottom: 7rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 9rem;
+    }
+
+    .all-btn {
+        margin: 0 auto;
+    }
+}

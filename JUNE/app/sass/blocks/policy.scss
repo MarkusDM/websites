@@ -1,0 +1,87 @@
+.policy {
+    padding-top: 10.6rem;
+    .container {
+        width: 100%;
+        padding-left: 18.5rem;
+    }
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4.7rem;
+
+        &__text {
+            padding-right: 0;
+            padding-left: 5rem;
+            &::before {
+                left: 0;
+                right: initial;
+                top: 1rem;
+            }
+        }
+        
+    }
+
+    &__global {
+        width: 115rem;
+        margin-left: 18rem;
+        
+    }
+
+    &__link {
+        padding-left: 5.8rem;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 184%;
+        color: #2B2F36;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 2.8rem;
+            height: 1rem;
+            background-image: url(../img/icon/prevblackarrow.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            left: 0;
+            top: 1rem;
+        }
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4.7rem;
+        strong {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.5rem;
+            line-height: 152%;
+            color: #242323;
+            display: block;
+            margin-bottom: 3.2rem;
+        }
+
+        p {
+            font-family: 'Euclid Circular A',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height:  156%;
+            color: #A7A7AE;
+            padding-bottom:  2.5rem;
+        }
+
+        span {
+           width: 106.4rem;
+           margin: 0 auto;
+           font-family: 'Euclid Circular A',sans-serif;
+           font-style: normal;
+           font-weight: 400;
+           font-size: 1.8rem;
+           line-height:  156%;
+           color: #A7A7AE;
+        }
+    }
+}

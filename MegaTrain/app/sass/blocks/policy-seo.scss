@@ -1,0 +1,113 @@
+.policy-seo {
+    margin-bottom: 20.3rem;
+    .container {
+        width: 126.1rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+        }
+    }
+    &__category {
+        display: flex;
+        margin-bottom: 4rem;
+        @media only screen and (max-width: 48em) {
+            padding-left: 0;
+            padding-right: 0;
+            margin-bottom: 10rem;
+        }
+        span {
+            position: relative;
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.7rem;
+            line-height: 147%;
+            color: #C9C9C9;
+            padding-right: 5rem;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.05rem;
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 1.2rem;
+                background: #262626;
+                top: 0.55rem;
+                right: 0;
+                @media only screen and (max-width: 48em) {
+                    width: 2px;
+                    height: 2.2rem;
+                    top: 1rem;
+                }
+            }
+        }
+        span:last-child {
+            padding-right: 0;
+            padding-left: 5rem;
+            color: #262626;
+            &::before {
+                display: none;
+            }
+        }
+    }
+    &__title {
+        font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 5.8rem;
+        letter-spacing: 0.02em;
+        color: #262626;
+        margin-bottom: 6rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 5rem;
+        }
+    }
+    &__text {
+        font-family: 'Gilroy', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.7rem;
+        line-height: 147%;
+        color: #262626;
+        margin-bottom: 2rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.05rem;
+            margin-bottom: 4rem;
+        }
+    }
+    &__ul {
+        padding-left: 2rem;
+        li {
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.7rem;
+            line-height: 147%;
+            display: inline-block;
+            color: #262626;
+            margin-bottom: 2rem;
+            position: relative;
+            padding-left: 2rem;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.05rem;
+                margin-bottom: 4rem;
+                padding-left: 4rem;
+            }
+            &::before {
+                position: absolute;
+                content: '';
+                background: #3066C1;
+                width: 1rem;
+                height: 0.1rem;
+                left: 0;
+                top: 50%;
+                @media only screen and (max-width: 48em) {
+                    width: 2rem;
+                    height: 0.2rem;
+                    top: 2rem;
+                }
+            }
+        }
+    }
+}

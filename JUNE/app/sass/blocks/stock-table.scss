@@ -1,0 +1,66 @@
+.stock-table {
+    width: 35.2rem;
+    height: 51rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    &__image {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        box-shadow: 1.5rem 2rem 7rem rgba(92, 93, 100, 0.03);
+        border-radius: 2rem;
+        &::after {
+            position: absolute;
+            content: '';
+            z-index: 2;
+            border-radius: 2rem;
+            background: linear-gradient(360deg, #2B2F36 0%, rgba(43, 47, 54, 0) 60%);
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 152%;
+        position: relative;
+        display: inline-block;
+        padding-left: 3rem;
+        padding-top: 35.6rem;
+        color: #FFFFFF;
+        z-index: 3;
+        margin-bottom: 2rem;
+    }
+
+    &__text {
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 156%;
+        color: rgba(255, 255, 255, 0.8);        
+        position: relative;
+        display: inline-block;
+        padding-left: 3rem;
+        color: #FFFFFF;
+        z-index: 3;
+        margin-top: auto;
+    }
+
+
+    .desk {
+        display: block;
+    }
+
+    .mob {
+        display: none;
+    }
+
+
+}

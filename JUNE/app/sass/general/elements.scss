@@ -1,0 +1,265 @@
+.title {
+	display: flex;
+	align-items: center;
+	&__text {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 5.8rem;
+		line-height: 8.4rem;
+		color: #2B2F36;
+		position: relative;
+		padding-right: 4.9rem;
+		&::before {
+			position: absolute;
+			content: '';
+			width: 3.9rem;
+			height: 4rem;
+			background-image: url(../img/icon/butterfly.svg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			right: 0rem;
+			top: 2rem;
+		}
+	}
+}
+
+
+
+
+
+.all-btn {
+	width: 24.6rem;
+	height: 6.2rem;
+	background: #FC5945;
+	border-radius: 100rem;
+    display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 3.3rem;
+	position: relative;
+	&::before {
+		position: absolute;
+		content: '';
+		background-image: url(../img/icon/arrow.svg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 3rem;
+		height: 1rem;
+		right: 3.1rem;
+	}
+
+
+
+	span {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 2rem;
+		line-height: 184%;
+		color: #FFFFFF;
+	}
+}
+
+
+.custom-checkbox {
+	display: inline-block;
+	&__input{
+	
+		&:checked + span {
+			
+			&::before {
+				background: #1A1B20;
+			}
+
+			&::after {
+				content: '';
+				width: 1.2rem;
+				height: 1.2rem;
+				background-image: url(../img/icon/check.svg);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				position: absolute;
+				z-index: 2;
+				left: 0.6rem;
+				top: 0.5rem;
+				
+			}
+		}
+	}
+
+	&__text {
+		font-style: normal;
+		font-weight: 600;
+		font-size: 1.6rem;
+		line-height: 1.9rem;
+		letter-spacing: 0.08em;
+		color: #1A1B20;
+		position: relative;
+		padding-left: 4.3rem;
+		cursor: pointer;
+		&::before {
+			position: absolute;
+			content: '';
+			width: 2.3rem;
+			height: 2.3rem;
+			left: 0;
+			top: 0;
+			border: 1px solid #1A1B20;
+			z-index: 1;
+		}
+
+	}
+
+	&__text:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+.number {
+	display: flex;
+	margin-bottom: 4.2rem;
+	.minus,
+	.plus {
+		width: 3.6rem;
+		height: 3.6rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 4rem;
+		line-height: 2.4rem;
+		color: #143383;
+		cursor: pointer;
+	}
+
+	.text {
+		width: 7.5rem;
+		height: 4.2rem;
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 2.4rem;
+		line-height: 2.4rem;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: #143383;
+		border: none;
+	}
+}
+
+
+.link {
+	font-family: 'Open Sans',sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #1A1B20;
+	padding-left: 4.6rem;
+	position: relative;
+	display: inline-block;
+	&::before {
+		position: absolute;
+		content: '';
+		width: 3.3rem;
+		height: 0.8rem;
+		background-image: url(../img/icon/arrowprev.svg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		left: 0;
+		top: 0.42rem;
+	}
+}
+
+
+.checkbox.style-f {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	user-select: none;
+	
+  }
+  .checkbox.style-f input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+	
+  }
+  .checkbox.style-f input:checked ~ .checkbox__checkmark {
+	border: 0.2rem solid #D7DBE8;
+	background-color: #fff;
+
+	
+	
+	
+  }
+  .checkbox.style-f input:checked ~ .checkbox__checkmark:after {
+	transform: scale(1);
+	
+	
+  }
+  
+
+  .checkbox.style-f .checkbox__checkmark {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 3.5rem;
+	height: 3.5rem;
+	background: #143383;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0.2rem solid #143383;
+	&::after {
+		position: absolute;
+		content: '';
+		width: 1.4rem;
+		height: 1.4rem;
+		background: #fff;
+		border-radius: 50%;
+	}
+
+  }
+
+
+  
+.test-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	flex-direction: column;
+
+	a {
+		width: 40rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 2rem;
+		color: #FFFFFF;
+		background:#143383;
+		margin-bottom: 2rem;
+	}
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 10;
+	background: rgba(117, 117, 117, 0.26);
+    backdrop-filter: blur(18px);
+	display: none;
+	
+}

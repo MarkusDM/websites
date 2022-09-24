@@ -1,0 +1,30 @@
+.best {
+    margin-bottom: 11rem;
+    .container {
+        width: 154rem;
+    }
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 7rem;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+
+        .product {
+            margin-right: 6.2rem;
+        }
+
+        .product:nth-child(4n) {
+            margin-right: 0;
+        }
+    }
+
+    .mobile {
+        display: none;
+    }
+}

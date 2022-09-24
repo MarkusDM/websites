@@ -1,0 +1,103 @@
+.certificate {
+    margin-bottom: 19.2rem;
+    .container {
+        width: 154rem;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 6rem;
+    }
+
+    &__item {
+        font-family: 'Open Sans','sans-serif';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.4rem;
+        line-height: 3.3rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #1A1B20;
+        position: relative;
+        padding-bottom: 1.1rem;
+        cursor: pointer;
+    }
+
+    &__mobile {
+        display: none;
+    }
+    .mobile {
+        display: none;
+    }
+
+    &__item.active-item {
+        &::before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            background: #1A1B20;
+            height: 0.1rem;
+            bottom: 0;
+        }
+    }
+
+    &__block {
+        display: none;
+    }
+    &__block.active-block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__inner {
+        display: flex;
+        margin-right: 6.4rem;
+        margin-bottom: 6.4rem;
+    }
+
+    &__inner:nth-child(3n),
+    &__inner:nth-child(4n) {
+        margin-bottom: 0;
+    }
+
+    &__inner:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    &__image {
+        width: 33.7rem;
+        height: 49.8rem;
+        margin-right: 6.4rem;
+        cursor: pointer;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__image:last-child {
+        margin-right: 0;
+    }
+
+    &__bottom-logo {
+        width: 18.6rem;
+        height: 4.4rem;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &__desk {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+.fancybox__toolbar,.fancybox__thumbs,.fancybox__nav {
+    display: none;
+}

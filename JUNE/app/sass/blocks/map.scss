@@ -1,0 +1,152 @@
+.map {
+    background: #4B555E;
+    padding-top: 8rem;
+    padding-bottom: 4.8rem;
+    position: relative;
+    .container {
+        width: 134.6rem;
+    }
+
+    &__title {
+        display: flex;
+        margin-bottom: 7rem;
+        strong {
+            display: inline-block;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 5.7rem;
+            line-height: 8.4rem;
+            letter-spacing: 0.01em;
+            color: #FFFFFF;
+            padding-right: 7.9rem;
+            margin-right: 7.8rem;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: '';
+                width: 0.2rem;
+                height: 8.5rem;
+                background: #FFFFFF;
+                right: 0;
+            }
+        }
+
+        span {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.5rem;
+            line-height: 152%;
+            color: #FFFFFF;
+        }
+
+
+    }
+
+    &__image {
+       
+        position: relative;
+       
+    }
+
+    svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .part {
+        opacity: 0.2;
+        fill: #fff;
+        cursor: pointer;
+    }
+
+    .active {
+        fill: blue;
+        opacity: 0.2;
+    }
+
+    .part:hover {
+        transition: all 0.4s;
+        fill: purple;
+    }
+
+    &__image-scheme-item {
+        position: absolute;
+        cursor: pointer;
+        top: 36rem;
+       
+    }
+  
+    &__image-scheme-popup {
+        display: none;
+        border: 1px solid #777;
+        padding: 2rem;
+        position: absolute;
+        background: #fff;
+        min-width: 30rem;
+        z-index: 9999;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        text-align: left;
+        top: 0;
+        strong {
+            font-size: 2.2rem;
+            line-height: 2.8rem;
+            margin-bottom: 1rem;
+            display: block;
+            text-transform: uppercase;
+        }
+
+        span {
+            display: block;
+            font-size: 1.8rem;
+            line-height: 2rem;
+        }
+    }
+
+
+
+
+    
+   
+
+}
+.yandex-content {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 8.4rem;
+        letter-spacing: 0.01em;
+       
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        strong {
+            font-weight: 700;
+            font-size: 2.2rem;
+            line-height: 152%;
+           margin-bottom: 0.5rem;
+            display: block;
+
+        }
+
+        span {
+            font-family: 'Euclid Circular A';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 156% ;
+            margin-bottom: 0.5rem;
+            display: block;
+
+            color: #A7A7AE;
+        }
+    }
+}

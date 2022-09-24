@@ -1,0 +1,170 @@
+.o-hidden
+  overflow: hidden
+
+.popup
+  display: none
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+   z-index: 110
+  overflow-y: auto
+  overflow-x: hidden
+  background: rgba(0, 0, 0, 0.5)
+ 
+  &.active
+    display: block
+  &-wrap
+    min-height: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 3rem
+  &-close
+    position: absolute
+    top: 3.5rem
+    right: 3.7rem
+    width: 4.4rem
+    cursor: pointer
+    img
+      vertical-align: middle
+  &-content
+    width: 112.2rem
+    padding: 9.7rem 13.7rem 8.3rem
+    background: #F2F5FF
+    border-radius: 3.2rem
+    box-shadow: 0 1rem 4rem rgba(19, 85, 169, 0.1)
+    position: relative
+  &-title
+    display: flex
+    align-items: center
+    font-size: 3.7rem
+    font-family: 'Akrobat', sans-serif
+    font-weight: 700
+    color: #0E192E
+    margin-bottom: 5rem
+    &__img
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 7.8rem
+      height: 7.8rem
+      flex-shrink: 0
+      border-radius: 50%
+      background: linear-gradient(180deg, #FFF1F1 -8.66%, #F96D6D 100%)
+      box-shadow: .2rem .4rem .8rem rgba(117, 156, 201, 0.1)
+      position: relative
+      z-index: 1
+      margin-right: 2.8rem
+      &::before
+        content: ''
+        position: absolute
+        inset: .8rem
+        background: linear-gradient(180deg, #FFFDFD 0%, #FFF8FB 100%)
+        box-shadow: 0 .2rem 1.5rem rgba(169, 19, 19, 0.3)
+        border-radius: inherit
+        z-index: -1
+      img
+        width: 2.4rem
+  .popup-form
+    label
+      display: inline-flex
+      width: 100%
+      margin-bottom: 6.4rem
+      textarea
+        width: 100%
+        height: 32.4rem
+        background: #fff
+        padding: 4.5rem 4.5rem
+        border-radius: 2rem
+        resize: none
+        border: none
+        font-size: 1.8rem
+        font-family: 'Euclid Circular A', sans-serif
+        font-weight: 300
+        line-height: 1.67
+        color: #0E192E
+        &::placeholder
+          color: #ADB2C4
+    &__documents
+      &-title
+        font-size: 2.7rem
+        font-family: 'Akrobat', sans-serif
+        font-weight: 700
+        color: #0E192E
+        margin-left: -.6rem
+        margin-bottom: 2.3rem
+      &-count
+        margin-left: .7rem
+        font-size: 1.8rem
+        font-family: 'Euclid Circular A', sans-serif
+        font-weight: 700
+        color: #ADB2C4
+      &-list
+        margin-left: -.8rem
+        margin-bottom: 5.2rem
+      &-item
+        padding: 2.4rem 2rem
+        border-radius: 2rem
+        background: #fff
+        box-shadow: 1.5rem 2rem 8rem rgba(232, 235, 244, 0.8)
+        &:not(:last-child)
+          margin-bottom: 2rem
+        &-file
+          background: #FFDBDD
+          border-radius: 1.5rem
+          padding: .9rem 5.5rem
+          font-size: 1.3rem
+          font-family: 'Euclid Circular A', sans-serif
+          font-weight: 500
+          line-height: 1.62
+          color: #DB333E
+          position: relative
+          margin-bottom: 2.5rem
+          &::before
+            content: ''
+            position: absolute
+            top: 50%
+            left: 1.5rem
+            transform: translateY(-50%)
+            width: 2.5rem
+            height: 2.5rem
+            background: url(../img/file.svg) 50% no-repeat
+            background-size: contain
+        &-reason
+          width: 90%
+          font-size: 1.4rem
+          font-family: 'Euclid Circular A', sans-serif
+          margin-left: .5rem
+          &-title
+            color: #ADB2C4
+            margin-bottom: .7rem
+          &-text
+            font-weight: 600
+            line-height: 1.5
+            color: #0E192E
+    &__btn
+      width: 28.5rem
+      height: 6.2rem
+      background: linear-gradient(180deg, #005A9D 0%, #0B4AA9 100%)
+      border-radius: 10rem
+      box-shadow: 0 1rem 4rem rgba(19, 85, 169, 0.3)
+      font-size: 1.8rem
+      font-family: 'Euclid Circular A', sans-serif
+      font-weight: 600
+      color: #fff
+  
+  &.popup-application
+    .popup
+      &-content
+        padding-top: 6.7rem
+        padding-bottom: 6.5rem
+      &-title
+        margin-bottom: 3rem
+      &-form
+        label
+          margin-bottom: 5.4rem
+        textarea
+          height: 25.3rem
+          padding: 2.8rem 3.6rem

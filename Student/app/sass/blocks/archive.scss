@@ -1,0 +1,228 @@
+.archive {
+    &__tables {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__title {
+        display: flex;
+        margin-bottom: 6.2rem;
+        h2 {
+            font-family: 'Akrobat', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 5rem;
+            line-height: 130%;
+            color: #0E192E;
+            margin-right: 3.8rem;
+        }
+    }
+    &__number {
+        font-family: 'Euclid Circular A', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+        color: #ADB2C4;
+        padding-top: 2.5rem;
+    }
+    &__select-block {
+        display: flex;
+        margin-bottom: 7.3rem;
+        .select {
+            &__head {
+                &::after {
+                    right: 3.3rem;
+                }
+            }
+        }
+        .select:last-child {
+            width: 23.1rem;
+        }
+    }
+    .archive-table {
+        width: 61.9rem;
+        background: #FFFFFF;
+        box-shadow: 1.5rem 2rem 8rem rgba(232, 235, 244, 0.8);
+        border-radius: 3.2rem;
+        position: relative;
+        padding-left: 4.1rem;
+        padding-right: 4.1rem;
+        padding-top: 3.4rem;
+        padding-bottom: 5rem;
+        position: relative;
+        margin-bottom: 2rem;
+        margin-right: 2.9rem;
+        &__schedule {
+            display: flex;
+            padding-bottom: 3rem;
+        }
+        &__description {
+            padding-bottom: 4rem;
+            span {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 156%;
+                color: #ADB2C4;
+                display: inline-block;
+                margin-bottom: 1rem;
+            }
+            .text {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-size: 1.8rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2.5rem;
+            }
+        }
+        &__image {
+            width: 7.7rem;
+            height: 7.7rem;
+            margin-right: 1.8rem;
+        }
+        &__title {
+            display: flex;
+            flex-direction: column;
+            span {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 187%;
+                color: #ADB2C4;
+                display: inline-block;
+            }
+            strong {
+                font-family: 'Akrobat', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 3.5rem;
+                line-height: 4.2rem;
+                color: #0E192E;
+                display: inline-block;
+            }
+        }
+        &__number {
+            width: 14rem;
+            height: 6.1rem;
+            background: #80A6D1;
+            border-bottom-left-radius: 3.2rem;
+            border-top-right-radius: 3.2rem;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            right: 0;
+            span {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.8rem;
+                line-height: 167%;
+                color: #FFFFFF;
+            }
+        }
+        &__inner {
+            display: flex;
+            flex-wrap: wrap;
+            width: 57rem;
+            border-top: 0.1rem solid #E5ECF1;
+            border-bottom: 0.1rem solid #E5ECF1;
+            padding-top: 2.6rem;
+            padding-bottom: 2rem;
+        }
+        &__block {
+            display: flex;
+            margin-bottom: 4rem;
+            min-width: 20.5rem;
+            margin-right: 6.4rem;
+        }
+        &__block:nth-child(3),
+        &__block:nth-child(4) {
+            margin-bottom: 0;
+        }
+        &__block:nth-child(2n) {
+            margin-right: 0;
+        }
+        &__icon {
+            width: 3rem;
+            height: 3rem;
+            display: inline-block;
+            margin-right: 1rem;
+            position: relative;
+            right: 0.5rem;
+            top: 1rem;
+        }
+        &__text {
+            display: flex;
+            flex-direction: column;
+            span {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 156%;
+                color: #ADB2C4;
+                display: inline-block;
+            }
+            strong {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.8rem;
+                line-height: 156%;
+            }
+        }
+        &__btn {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 3rem;
+            .text {
+                display: flex;
+                align-items: center;
+                font-family: 'Euclid Circular A', sans-serif;
+                font-size: 1.8rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2.3rem;
+                span {
+                    color: #EB3232;
+                    margin-right: 0.2rem;
+                    font-family: 'Euclid Circular A', sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 2.3rem;
+                    line-height: 2.9rem;
+                }
+            }
+        }
+        .button-all {
+            margin-top: 0.2rem;
+            width: 19.8rem;
+            background: linear-gradient(180deg, #005A9D 0%, #0B4AA9 100%);
+            box-shadow: 0px 1rem 4rem rgba(19, 85, 169, 0.3);
+            border-radius: 3.2rem;
+            height: 5.6rem;
+            &::before {
+                display: none;
+            }
+            font-family: 'Euclid Circular A',
+            sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.8rem;
+            line-height: 156%;
+            color: #FFFFFF;
+        }
+        .button-all--white {
+            background: #F2F5FE;
+            color: #0E192E;
+            margin-left: 3.5rem;
+        }
+    }
+    .archive-table:nth-child(2n) {
+        margin-right: 0;
+    }
+}

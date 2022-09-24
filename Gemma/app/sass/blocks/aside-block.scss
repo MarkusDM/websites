@@ -1,0 +1,50 @@
+.aside-block {
+    width: 40.9rem;
+    height: 32.8rem;
+    background: rgba(230, 231, 237, 0.5);
+    margin-bottom: 5rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        
+    }
+    &__inner:nth-child(2) {
+        border-bottom: 0.1rem solid #D7DBE8;
+        border-top: 0.1rem solid #D7DBE8;
+    }
+
+    &__product,
+    &__delivery,
+    &__sum {
+        display: flex;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 150%;
+        color: #1A1B20;
+        span:first-child {
+            margin-right: 0.1rem;
+        }
+    }
+
+    &__price {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 150%;
+        color: #143383;
+
+    }
+
+    &__price--big {
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,88 @@
+.club-main {
+    margin-bottom: 21.1rem;
+    .container {
+        width: 100%;
+        padding-left: 20rem;
+        padding-right: 3.7rem;
+        @media only screen and (max-width: 48em) {
+            padding: 0 3.8rem;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column;
+        }
+    }
+    &__left {
+        padding-top: 10rem;
+        width: 60rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+        }
+        .link-btn {
+            width: 20rem;
+            span {
+                @media only screen and (max-width: 48em) {
+                    font-size: 3.05rem;
+                }
+            }
+            &::before {
+                right: 0rem;
+                width: 4rem;
+                height: 4rem;
+                @media only screen and (max-width: 48em) {
+                    right: -10rem;
+                }
+            }
+        }
+        .link-btn-before::after {
+            @media only screen and (max-width: 48em) {
+                right: -10rem;
+            }
+        }
+    }
+    &__left-title {
+        font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 5.8rem;
+        letter-spacing: 0.02em;
+        color: #262626;
+        margin-bottom: 6rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 5.1rem;
+        }
+    }
+    &__left-text {
+        font-family: 'Akzidenz-Grotesk Pro Med Ext', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 156%;
+        color: #262626;
+        margin-bottom: 6.6rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.05rem;
+        }
+    }
+    &__right-image {
+        width: 108rem;
+        height: 56.7rem;
+        display: inline-block;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            height: 50rem;
+            margin-top: 10rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            @media only screen and (max-width: 48em) {
+                object-fit: cover;
+            }
+        }
+    }
+}

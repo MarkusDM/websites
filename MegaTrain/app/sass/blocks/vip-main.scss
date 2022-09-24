@@ -1,0 +1,202 @@
+.vip-main {
+    margin-bottom: 19.35rem;
+    .container {
+        width: 154rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            padding: 0 4rem;
+        }
+    }
+    &__block {
+        position: relative;
+        width: 154rem;
+        height: 51rem;
+        background: #FFFFFF;
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 2.2rem;
+        padding-left: 76.9rem;
+        padding-top: 6.3rem;
+        padding-right: 4.3rem;
+        padding-bottom: 5.45rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            padding-top: 6rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            height: auto;
+            padding-bottom: 0;
+        }
+    }
+    &__block-right {
+        @media only screen and (max-width: 48em) {
+            margin-bottom: 80.4rem;
+        }
+    }
+    &__block-image {
+        position: absolute;
+        width: 49.7rem;
+        height: 58rem;
+        bottom: 0;
+        left: 13.1rem;
+        z-index: 1;
+        @media only screen and (max-width: 48em) {
+            height: 80rem;
+            width: 70rem;
+            left: 0;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &__block-inner {
+        width: 18rem;
+        height: 14rem;
+        background: #FFFFFF;
+        box-shadow: 0px 177.833px 319.354px rgba(0, 30, 98, 0.04), 0px 89.0033px 159.833px rgba(0, 30, 98, 0.0304133), 0px 53.6114px 96.276px rgba(0, 30, 98, 0.0260636), 0px 34.357px 61.6987px rgba(0, 30, 98, 0.0228358), 0px 22.2674px 39.9881px rgba(0, 30, 98, 0.02), 0px 14.0171px 25.1721px rgba(0, 30, 98, 0.0171642), 0px 8.0537px 14.4629px rgba(0, 30, 98, 0.0139364), 0px 3.54464px 6.36551px rgba(0, 30, 98, 0.00958669);
+        border-radius: 2rem;
+        display: block;
+        position: absolute;
+        padding: 2rem;
+        z-index: 2;
+        left: 49rem;
+        top: 1rem;
+        @media only screen and (max-width: 48em) {
+            width: 33rem;
+            height: 24.6rem;
+            padding-top: 4rem;
+            top: initial;
+            bottom: 50rem;
+            left: 32rem;
+        }
+    }
+    &__block-inner--blue {
+        left: 8rem;
+        bottom: 8rem;
+        top: initial;
+        width: 17rem;
+        height: 13rem;
+        top: initial;
+        @media only screen and (max-width: 48em) {
+            width: 33rem;
+            height: 24.6rem;
+            padding-top: 4rem;
+            top: initial;
+            bottom: 2rem;
+            left: 5rem;
+        }
+        .vip-main__block-inner-text {
+            strong {
+                color: #3066C1;
+            }
+        }
+    }
+    &__block-inner-icon {
+        width: 4.554rem;
+        height: 4.554rem;
+        margin-bottom: 1.27rem;
+        @media only screen and (max-width: 48em) {
+            width: 8rem;
+            height: 8rem;
+        }
+    }
+    &__block-inner-text {
+        display: flex;
+        flex-direction: column;
+        strong {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.464rem;
+            line-height: 1.8rem;
+            color: #ED2139;
+            @media only screen and (max-width: 48em) {
+                font-size: 2.8rem;
+                line-height: 3.4rem;
+            }
+        }
+        span {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.36993rem;
+            line-height: 1.6rem;
+            color: #262626;
+            @media only screen and (max-width: 48em) {
+                font-size: 2.8rem;
+                line-height: 3.4rem;
+            }
+        }
+    }
+    &__block-right-text {
+        font-family: 'Akzidenz-Grotesk Pro Med Ext', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 156%;
+        color: #262626;
+        margin-bottom: 3.1rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.05rem;
+            line-height: 167%;
+            margin-bottom: 5.1rem;
+        }
+        p {
+            margin-bottom: 2.2rem;
+            @media only screen and (max-width: 48em) {
+                margin-bottom: 4rem;
+            }
+        }
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__block-right-ul {
+        margin-bottom: 3.4rem;
+        padding-right: 9rem;
+        @media only screen and (max-width: 48em) {
+            padding-right: 0;
+            margin-bottom: 5.4rem;
+        }
+        li {
+            padding-left: 6.9rem;
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.7rem;
+            line-height: 147%;
+            color: #262626;
+            margin-bottom: 2rem;
+            position: relative;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.05rem;
+                margin-bottom: 3rem;
+            }
+            &::before {
+                position: absolute;
+                content: '01';
+                font-family: 'Gilroy', sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 3rem;
+                line-height: 3.8rem;
+                color: #C4C4C4;
+                left: 0;
+                @media only screen and (max-width: 48em) {
+                    font-size: 4rem;
+                }
+            }
+        }
+        li:nth-child(2) {
+            &::before {
+                content: '02';
+            }
+        }
+        li:nth-child(3) {
+            &::before {
+                content: '03';
+            }
+        }
+    }
+}

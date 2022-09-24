@@ -1,0 +1,126 @@
+.catalog-filters {
+    display: flex;
+    flex-direction: column;
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+
+        strong {
+            font-family: 'Open Sans',sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #1A1B20;
+        }
+    }
+
+    &__clear-all {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        color: #1A1B20;
+        position: relative;
+        left: 1rem;
+        top: 0.1rem;
+    }
+
+    &__block {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 5.9rem;
+    }
+
+    &__block-toggle {
+        display: block;
+        padding-bottom: 0.6rem;
+        border-bottom: 0.1rem solid #D7DBE8;
+        margin-bottom: 5rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+
+    }
+
+
+    &__block-toggle--open {
+        transition: all 1s;
+        .catalog-filters__toggle {
+            transition: all 1s;
+            &::before {
+                transform: rotate(180deg);
+                transition: all 0.5s;
+                
+            }
+
+
+        }
+
+        .catalog-filters__bottom {
+            transition: all 1s;
+            display: block;
+        }
+    }
+
+
+    &__toggle {
+        font-family: 'Open Sans',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #1A1B20;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        &::before {
+            position: absolute;
+            content: '';
+            background-image: url(../img/icon/arrowtop.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            right: -1.3rem;
+            top: 0;
+            width: 2rem;
+            height: 1.5rem;
+            
+        }
+
+    }
+
+    &__bottom {
+        padding-top: 1.6rem;
+        padding-bottom: 1.1rem;
+        display: none;
+        
+    }
+
+    &__item {
+        margin-bottom: 2rem;
+    }
+
+    &__item:last-child {
+        margin-bottom: 1rem;
+    }
+
+}
+
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    
+  }

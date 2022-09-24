@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="./css/style.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>???</title>
+</head>
+
+<body>
+
+	<header class="header">
+    <div class="container">
+        <div class="header__wrapper">
+           <button class="header__burger">
+              <img src="./img/icon/burger.svg" alt="">
+           </button>
+           <a href="" class="header__logo">
+              <img src="./img/headerlogo.svg" alt="logo">
+           </a>
+           <!-- logo -->
+           <nav class="header__nav">
+              <div class="header__nav-wrapper">
+                  <button class="header__nav-close">
+                     <img src="./img/icon/close.svg" alt="">
+                  </button>
+                  <div class="header__nav-buttons">
+                     <button class="header__user">
+                        <img src="./img/icon/profileblue.svg" alt="basket">
+                     </button>
+                     <button class="header__basket">
+                        <img src="./img/icon/basketblue.svg" alt="Юзер">
+                        <span class="header__basket-number">2</span>
+                     </button>
+                  </div>
+              </div>
+              <div class="header__nav-search">
+                 <label for=""></label>
+                 <input type="text" placeholder="Поиск">
+              </div>
+              <ul class="header__nav-lists">
+                  <li class="header__nav-item"><a href="#">Каталог продукции</a></li>
+                  <li class="header__nav-item"><a href="#">О нас</a></li>
+                  <li class="header__nav-item"><a href="#">Бизнес</a></li>
+                  <li class="header__nav-item"><a href="#">Правила пользования</a></li>
+                  <li class="header__nav-item"><a href="#">Контакты</a></li>
+              </ul>
+              <a href="" class="header__nav-logo">
+                 <img src="./img/icon/logoblue.svg" alt="">
+              </a>
+           </nav>
+           <!-- nav -->
+           <button class="header__user modal-open">
+              <img src="./img/icon/profile.svg" alt="Юзер">
+           </button>
+           <button class="header__search">
+              <img src="./img/icon/search-normal.svg" alt="поиск">
+           </button>
+           <button class="header__basket">
+              <img src="./img/icon/basket.svg" alt="basket">
+              <span class="header__basket-number">2</span>
+           </button>
+        </div>
+        <!-- wrapper -->
+            
+    </div>
+    <div class="header__search-block">
+      <form action="" class="header__search-block-inner">
+            <label for="">
+               <input type="text">
+            </label>
+            <button class="all-btn"><span>Поиск</span></button>
+      </form>
+      <ul class="header__search-block-lists">
+         <li><a href="">Freedra 5 Steps</a><div class="header__search-block-close"></div></li>
+         <li><a href="">Freedra 5 Steps</a><div class="header__search-block-close"></div></li>
+         <li><a href="">Freedra 5 Steps</a><div class="header__search-block-close"></div></li>
+      </ul>
+    </div>
+</header>
+
+	<main>
+		<section class="crumbs">
+    <div class="container">
+        <div class="crumbs__wrapper">
+            <ul class="crumbs__navigation">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О НАС</a></li>
+            </ul>
+        </div>
+        <!-- wrapper -->
+    </div>
+</section>
+<!-- /.crumbs -->
+        <section class="cabinet">
+    <div class="container"> 
+        <div class="cabinet__title">
+            Личный кабинет
+        </div>
+        <div class="cabinet__wrapper">
+            <div class="cabinet__left">
+                <div class="cabinet-data">
+                    <div class="cabinet-data__title">
+                        Личный данные
+                    </div>
+                    <div class="cabinet-data__close"></div>
+                    <!-- title -->
+                    <form action="" class="cabinet-data__form">
+                        <div class="cabinet-data__form-inner">
+                            <label for="">ФИО</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-data__form-inner">
+                            <label for="">Дата рождения:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-data__form-inner">
+                            <label for="">Телефон:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-data__form-inner">
+                            <label for="">E-mail:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-data__form-block">
+                            <div class="cabinet-data__form-inner password">
+                                <label for="">Пароль:</label>
+                                <input type="password" id="password-input"  name="password" value="123456">
+                                <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+                            </div>
+                            <div class="cabinet-data__form-inner password">
+                                <label for="">Повторите пароль:</label>
+                                <input type="password" id="password-input__dop"  name="password" value="123456">
+                                <a href="#" class="password-control" onclick="return show_hide(this);"></a>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- form -->
+                    <button class="all-btn cabinet-data__save-btn"><span>Сохранить</span></button>
+                    <div class="cabinet-data__data">
+                        <div class="cabinet-data__data-family">
+                            <strong>ФИО:</strong>
+                            <span>Попова Ирина Юрьевна</span>
+                        </div>
+                        <div class="cabinet-data__data-date">
+                            
+                            <strong>Дата рождения:</strong>
+                            <span>20.08.1997</span>
+                        </div>
+                        <div class="cabinet-data__data-employment">
+                            <strong>Вид занятости:</strong>
+                            <span>Самозанятый</span>
+                        </div>
+                        <div class="cabinet-data__data-phone">
+                            <strong>Телефон:</strong>
+                            <span>+7 098 999 99 32</span>
+                        </div>
+                        <div class="cabinet-data__data-id">
+                            <strong>ID:</strong>
+                            <span>12345JK</span>
+                        </div>
+                        <div class="cabinet-data__data-email">
+                            <strong>Email:</strong>
+                            <span>popovairina@mail.ru</span>
+                        </div>
+                        <div class="cabinet-data__data-password password">
+                            <strong>Пароль:</strong>
+                            <span class="cabinet-data__data-password-icon">*********</span>
+                        </div>
+                    </div>
+                    <button class="all-btn cabinet-data__edit-btn"><span>Изменить</span></button>
+                    <div class="cabinet-data__attention">Данные в личном профиле не заполнены. Добавьте свои данные, чтобы была возможность выполнять заказы</div>
+                    <button class="all-btn cabinet-data__date-btn-center center"><span>добавить</span></button>
+                </div>
+                <!-- /.cabinet-date -->
+                <div class="cabinet-order">
+                    <div class="cabinet-order__title">
+                        История заказов
+                    </div>
+                    <div class="cabinet-order__data">
+                        <div class="cabinet-order__data-date">Дата</div>
+                        <div class="cabinet-order__data-sum">Сумма</div>
+                        <div class="cabinet-order__data-pv">PV</div>
+                        <div class="cabinet-order__data-delivery">Доставка</div>
+                        <div class="cabinet-order__data-delivery">Статус</div>
+                    </div>
+                    <div class="cabinet-order__wrapper">
+                        <div class="cabinet-order__block">
+                            <div class="cabinet-order__block-date"><strong class="mob">Дата</strong><span>05.04.2021</span></div>
+                            <div class="cabinet-order__block-price"><strong class="mob">Сумма</strong> <span>200$</span></div>
+                            <div class="cabinet-order__block-pv"><strong class="mob">PV</strong> <span>300</span></div>
+                            <div class="cabinet-order__block-dev"><strong class="mob">Доставка</strong> <span>Почта России/ <span></span>
+                                Самовывоз</span></div>
+                            <div class="cabinet-order__block-status">Отправлен</div>
+                        </div>
+                        <div class="cabinet-order__block">
+                            <div class="cabinet-order__block-date"><strong class="mob">Дата</strong><span>05.04.2021</span></div>
+                            <div class="cabinet-order__block-price"><strong class="mob">Сумма</strong> <span>200$</span></div>
+                            <div class="cabinet-order__block-pv"><strong class="mob">PV</strong> <span>300</span></div>
+                            <div class="cabinet-order__block-dev"><strong class="mob">Доставка</strong> <span>Почта России/ <span></span>
+                                Самовывоз</span></div>
+                            <div class="cabinet-order__block-status">Отправлен</div>
+                        </div>
+                        <div class="cabinet-order__block">
+                            <div class="cabinet-order__block-date"><strong class="mob">Дата</strong><span>05.04.2021</span></div>
+                            <div class="cabinet-order__block-price"><strong class="mob">Сумма</strong> <span>200$</span></div>
+                            <div class="cabinet-order__block-pv"><strong class="mob">PV</strong> <span>300</span></div>
+                            <div class="cabinet-order__block-dev"><strong class="mob">Доставка</strong> <span>Почта России/ <span></span>
+                                Самовывоз</span></div>
+                            <div class="cabinet-order__block-status">Отправлен</div>
+                        </div>
+                        <div class="cabinet-order__block">
+                            <div class="cabinet-order__block-date"><strong class="mob">Дата</strong><span>05.04.2021</span></div>
+                            <div class="cabinet-order__block-price"><strong class="mob">Сумма</strong> <span>200$</span></div>
+                            <div class="cabinet-order__block-pv"><strong class="mob">PV</strong> <span>300</span></div>
+                            <div class="cabinet-order__block-dev"><strong class="mob">Доставка</strong> <span>Почта России/ <span></span>
+                                Самовывоз</span></div>
+                            <div class="cabinet-order__block-status">Отправлен</div>
+                        </div>
+                        <div class="cabinet-order__block">
+                            <div class="cabinet-order__block-date"><strong class="mob">Дата</strong><span>05.04.2021</span></div>
+                            <div class="cabinet-order__block-price"><strong class="mob">Сумма</strong> <span>200$</span></div>
+                            <div class="cabinet-order__block-pv"><strong class="mob">PV</strong> <span>300</span></div>
+                            <div class="cabinet-order__block-dev"><strong class="mob">Доставка</strong> <span>Почта России/ <span></span>
+                                Самовывоз</span></div>
+                            <div class="cabinet-order__block-status">Отправлен</div>
+                        </div>
+                    </div>
+                    <button class="all-btn" id="toggle">смотреть все</button>
+                    <div class="cabinet-order__start-text">Вы пока не сделали ни одного заказа</div>
+                    <button class="all-btn center"><span>сделать заказ</span></button>
+                </div>
+            </div>
+            <div class="cabinet__right">
+                <div class="cabinet-favorites">
+                    <div class="cabinet-favorites__title">Избранное </div>
+                    <!--  -->
+                    <div class="cabinet-favorites__text-start">У Вас нет избранных товаров</div>
+                    <div class="cabinet-favorites__order">
+                        <div class="cabinet-favorites__order-text">Количество избранных товаров</div>
+                        <div class="cabinet-favorites__order-number">5</div>
+                    </div>
+                    <a href="" class="all-btn"><span>смотреть </span></a>
+                </div>
+                <!--  -->
+                <div class="cabinet-address">
+                    <div class="cabinet-address__title">Адрес доставки</div>
+                    <div class="cabinet-address__close"></div>
+                    <div class="cabinet-address__start-text">Вы не указали форму оплаты.
+                        Добавьте Вашу карту, 
+                        чтобы в дальнейшем быстрее 
+                        совершать заказы </div>
+
+                    
+                    <form action="" class="cabinet-address__form">
+                        <div class="cabinet-address__form-inner">
+                            <label for="">Город:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-address__form-inner">
+                            <label for="">Улица:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-address__form-inner">
+                            <label for="">Дом/корпус:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-address__form-inner">
+                            <label for="">Квартира:</label>
+                            <input type="text">
+                        </div>
+                    </form>
+                    <!-- form -->
+                    <button class="all-btn cabinet-address__save-btn"><span>Сохранить</span></button>
+                    <div class="cabinet-address__data">
+                        <div class="cabinet-address__data-city">
+                            <strong>Город: </strong>
+                            <span>Москва</span>
+                        </div>
+                        <div class="cabinet-address__data-street">
+                            
+                            <strong>Улица:</strong>
+                            <span>Нововиленская</span>
+                        </div>
+                        <div class="cabinet-address__data-home">
+                            <strong>Дом/корпус:</strong>
+                            <span>2А</span>
+                        </div>
+                        <div class="cabinet-address__data-city">
+                            <strong>Квартира:</strong>
+                            <span>34</span>
+                        </div>
+                    </div>
+                    <button class="all-btn cabinet-address__start-btn"><span>добавить</span></button>
+                    <button class="all-btn cabinet-address__edit-btn"><span>Изменить</span></button>
+        
+                </div>
+                <!-- address -->
+                <div class="cabinet-payment">
+                    <div class="cabinet-payment__title">Форма оплаты</div>
+                    <div class="cabinet-payment__close"></div>
+                    <div class="cabinet-payment__start-text">Вы не указали форму оплаты.
+                        Добавьте Вашу карту, 
+                        чтобы в дальнейшем быстрее 
+                        совершать заказы </div>
+                    <!-- text -->
+                    <div class="cabinet-payment__form">
+                        <div class="cabinet-payment__form-inner">
+                            <label for="">Владелец:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-payment__form-inner">
+                            <label for="">Номер карты:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-payment__form-inner">
+                            <label for="">Срок действия:</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <!-- form -->
+                    <div class="cabinet-payment__data">
+                        <div class="cabinet-payment__data-owner">
+                            <strong>Владелец:</strong>
+                            <span>POPOVA IRINA</span>
+                        </div>
+                        <div class="cabinet-payment__data-number">
+                            
+                            <strong>Номер карты:</strong>
+                            <span>2222 **** **** **45</span>
+                        </div>
+                        <div class="cabinet-payment__data-term">
+                            <strong>Срок действия:</strong>
+                            <span>07/24</span>
+                        </div>
+                        
+                    </div>
+                    <!-- data -->
+                    <button class="all-btn cabinet-payment__add-btn"><span>Добавить</span></button>
+                    <button class="all-btn cabinet-payment__save-btn"><span>сохранить</span></button>
+                    <button class="all-btn cabinet-payment__edit-btn"><span>Изменить</span></button>
+                </div>
+                <!-- payment -->
+                <div class="cabinet-bonuses">
+                    <div class="cabinet-bonuses__title">
+                        Мои бонусы
+                    </div>
+                    <div class="cabinet-bonuses__inner">
+                        <div class="cabinet-bonuses__data">
+                            <div class="cabinet-bonuses__date">22.03.22-28.03.22:</div>
+                            <div class="cabinet-bonuses__price">10 000 рублей</div>
+                        </div>
+                        <div class="cabinet-bonuses__val">
+                            <div class="progress">
+                                <progress max="100" value="0"></progress>
+                                <div class="progress-value"></div>
+                                <div class="progress-bg"><div class="progress-bar"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cabinet-bonuses__inner">
+                        <div class="cabinet-bonuses__data">
+                            <div class="cabinet-bonuses__date">22.03.22-28.03.22:</div>
+                            <div class="cabinet-bonuses__price">0</div>
+                        </div>
+                        <div class="cabinet-bonuses__val">
+                            <div class="progress">
+                                <progress max="100" value="0"></progress>
+                                <div class="progress-value"></div>
+                                <div class="progress-bg"><div class="progress-bar"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cabinet-bonuses__inner">
+                        <div class="cabinet-bonuses__data">
+                            <div class="cabinet-bonuses__date">22.03.22-28.03.22:</div>
+                            <div class="cabinet-bonuses__price">0</div>
+                        </div>
+                        <div class="cabinet-bonuses__val">
+                            <div class="progress">
+                                <progress max="100" value="50"></progress>
+                                <div class="progress-value"></div>
+                                <div class="progress-bg"><div class="progress-bar"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cabinet-bonuses__inner">
+                        <div class="cabinet-bonuses__data">
+                            <div class="cabinet-bonuses__date">22.03.22-28.03.22:</div>
+                            <div class="cabinet-bonuses__price">0</div>
+                        </div>
+                        <div class="cabinet-bonuses__val">
+                            <div class="progress">
+                                <progress max="100" value="0"></progress>
+                                <div class="progress-value"></div>
+                                <div class="progress-bg"><div class="progress-bar"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cabinet-bonuses__inner">
+                        <div class="cabinet-bonuses__data">
+                            <div class="cabinet-bonuses__date">22.03.22-28.03.22:</div>
+                            <div class="cabinet-bonuses__price">0</div>
+                        </div>
+                        <div class="cabinet-bonuses__val">
+                            <div class="progress">
+                                <progress max="100" value="0"></progress>
+                                <div class="progress-value"></div>
+                                <div class="progress-bg"><div class="progress-bar"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- bonuses -->
+                <div class="cabinet-capabilities">
+                    <div class="cabinet-capabilities__title">
+                        Возможности 
+                        сотрудничества
+                    </div>
+                    <div class="cabinet-capabilities__text">
+                        Станьте партнером Gemma и начните 
+                        получать доход уже сегодня, а так же 
+                        увеличивайте выгоду от покупок, 
+                        рекомендуя продукцию.
+                    </div>
+                    <!-- text -->
+                    <a href="" class="all-btn cabinet-capabilities__btn"><span>регистрация<br>
+                        юридического лица</span></a>
+                </div>
+                <!-- capabilities -->
+            </div>
+        </div>
+        <form action="" class="cabinet-form">
+            <div class="cabinet-form__text">
+                Напишите нам о том, что Вас интересует или оставьте заявку на обратный звонок. Мы обязательно Вам перезвоним!
+            </div>
+            <!-- text -->
+            <div class="cabinet-form__wrapper desk">
+                <div class="cabinet-form__left">
+                    <div class="cabinet-form__inner">
+                        <label for="">Имя</label>
+                        <input type="text" placeholder="Иван Петров">
+                    </div>
+                    <div class="cabinet-form__inner">
+                        <label for="">Номер телефона</label>
+                        <input type="text" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+                    </div>
+                    <div class="cabinet-form__btns">
+                        <div class="input__wrapper">
+                            <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+                            <label for="input__file" class="input__file-button">
+                               <span class="input__file-button-text">Прикрепить файл</span>
+                            </label>
+                         </div>
+                    </div>
+                    <!-- /.questions-form__btns -->
+                </div>
+                <div class="cabinet-form__right">
+                    <div class="cabinet-form__inner">
+                        <label for="">Ваш вопрос</label>
+                        <input type="text" >
+                    </div>
+                    <button class="all-btn"><span>отправить</span></button>
+                </div>
+            </div>
+            <div class="cabinet-form__wrapper mob">
+                <div class="cabinet-form__inner">
+                    <label for="">Имя</label>
+                    <input type="text" placeholder="Иван Петров">
+                </div>
+                <div class="cabinet-form__inner">
+                    <label for="">Ваш вопрос</label>
+                    <input type="text" >
+                </div>
+                <div class="cabinet-form__inner">
+                    <label for="">Номер телефона</label>
+                    <input type="text" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+                </div>
+                <button class="all-btn"><span>отправить</span></button>
+            </div>
+        </form>
+    </div>
+</section>
+       
+	</main>
+	<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+        <div class="footer__logo">
+          <img src="./img/headerlogo.svg" alt="logo">
+      </div>
+      <!-- logo -->
+      <nav class="footer__nav">
+          <ul class="footer__nav-lists">
+              <li class="footer__nav-item"><a href="#">Каталог</a></li>
+              <li class="footer__nav-item"><a href="#">О нас</a></li>
+              <li class="footer__nav-item"><a href="#">Бизнес</a></li>
+              <li class="footer__nav-item"><a href="#">Правила пользования</a></li>
+              <li class="footer__nav-item"><a href="#">Контакты</a></li>
+          </ul>
+      </nav>
+      <!-- nav -->
+      <div class="footer__socials">
+          <a href="">
+            <img src="./img/social/fc.svg" alt="fc">
+          </a>
+          <a href="">
+            <img src="./img/social/vk.svg" alt="vk">
+          </a>
+          <a href="">
+            <img src="./img/social/in.svg" alt="in">
+          </a>
+          <a href="">
+            <img src="./img/social/insta.svg" alt="in">
+          </a>
+          <a href="">
+            <img src="./img/social/twitter.svg" alt="in">
+          </a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+        <a href="" class="footer__bottom-policy">
+          Copyright © Gemma RUS LLC. All Rights Reserved.
+        </a>
+        <div class="footer__bottom-cards">
+            <img src="./img/footer/master.svg" alt="">
+            <img src="./img/footer/visa.svg" alt="">
+            <img src="./img/footer/maestro.svg" alt="">
+            <img src="./img/footer/paypal.svg" alt="">
+        </div>
+        <a href="#" class="footer__bottom-logo">
+          <img src="./img/footer/rec.svg" alt="">
+        </a>
+    </div>
+  </div>
+</footer>
+<!-- /.footer -->
+
+<div class="overlay-black js-modal-close"></div>
+<div class="modal">
+   <div class="modal__container">
+      <div class="modal__content-one">
+           <div class="modal__left">
+              <div class="modal__left-image">
+                  <img src="./img/cardbg.png" alt="">
+                  <div class="modal__left-image-close"></div>
+              </div>
+              <!-- image -->
+               <div class="modal__left-numbers desk">
+                  <div class="modal__left-numbers-one"><strong class="modal__left-numbers-one-number">01</strong> <span class="modal__left-numbers-one-text">Получение ID</span></div>
+                  <div class="modal__left-numbers-two"><strong class="modal__left-numbers-two-number">02</strong> <span class="modal__left-numbers-two-text">Регистрация</span></div>
+                  <div class="modal__left-numbers-three"><strong class="modal__left-numbers-three-number">03</strong> <span class="modal__left-numbers-three-text">Вход после 
+                    регистрации </span></div>
+               </div>
+           </div>
+           <div class="modal__right">
+                <div class="modal__right-text">
+                    Вход возможен только для зарегитрированных пользователей, имеющих персональный ID
+                </div>
+                <!--  -->
+                <ul class="modal__right-menu">
+                  <li class="modal__right-menu-btn-entry modal__right-menu-btn-entry--active">вход</li>
+                  <li class="modal__right-menu-btn-register">регистрация</li>
+                </ul>
+                <div class=" mobile-block-modal">
+                  <div class="modal__left-numbers-mobile mobile-v">
+                    <div class="modal__left-numbers-one"><strong class="modal__left-numbers-one-number">01</strong> <span class="modal__left-numbers-one-text">Получение ID</span></div>
+                    <div class="modal__left-numbers-two"><strong class="modal__left-numbers-two-number">02</strong> <span class="modal__left-numbers-two-text">Регистрация</span></div>
+                    <div class="modal__left-numbers-three"><strong class="modal__left-numbers-three-number">03</strong> <span class="modal__left-numbers-three-text">Вход после 
+                      регистрации </span></div>
+                  </div>
+               </div>
+                <div class="modal__right-entry-content">
+                    <form action="" class="modal__right-entry-form">
+                      <div class="modal__right-entry-form-inner">
+                        <label for="">ID</label>
+                        <input type="text" placeholder="ХХ-ХХХХ">
+                      </div>
+                      <div class="modal__right-entry-form-inner">
+                        <label for="">Пароль</label>
+                        <input type="text" >
+                      </div>
+                  </form>
+                  <!-- form -->
+                  <a href="" class="all-btn"><span>Войти</span></a>
+                  <a href="" class="modal__right-forgot-btn">Я забыл пароль</a>
+                </div>
+                <!-- content-entry -->
+                <div class="modal__right-register-content">
+                    <div class="modal__right-register-content-one">
+                        <div class="modal__right-register-content-one-text">
+                            <strong> Вы являетесь новым пользователем
+                              Перейдите на официальный сайт, чтобы зарегистрироваться и получить свой  персональный ID</strong>
+                              <span> Если у Вас уже есть или Вы уже зарегестрированы в качестве партнера в компании Джемма, то пропустите этот шаг</span>
+                        </div>
+                        <div class="modal__right-register-content-one-inner">
+                            <a href="" class="all-btn"><span>перейти на сайт</span></a>
+                            <button class="modal__right-register-content-one-skip">Пропустить этот шаг</button>
+                        </div>
+                    </div>
+                    <!-- one -->
+                    <div class="modal__right-register-content-two">
+                        <form action="" class="modal__right-register-content-two-form">
+                            <div class="modal__right-register-content-two-form-inner">
+                               <label for="">ID</label>
+                               <input type="text" placeholder="ХХ-ХХХХ">
+                            </div>
+                            <div class="modal__right-register-content-two-form-inner">
+                              <label for="">Ваше имя</label>
+                              <input type="text" >
+                           </div>
+                           <div class="modal__right-register-content-two-form-inner">
+                            <label for="">Дата рождения</label>
+                            <input type="text" placeholder="ХХ-ХХХХ">
+                         </div>
+                         <div class="modal__right-register-content-two-form-inner">
+                          <label for="">E-mail</label>
+                          <input type="text" placeholder="ХХ-ХХХХ">
+                       </div>
+                       <div class="modal__right-register-content-two-form-inner">
+                        <label for="">Пароль</label>
+                        <input type="text" placeholder="ХХ-ХХХХ">
+                     </div>
+                        </form>
+
+                        <div class="modal__right-register-content-two-inner">
+                            <button class="modal__right-register-content-two-back"></button>
+                            <button class="all-btn modal__right-register-content-two-register"><span>Продолжить</span></button>
+                        </div>
+                    </div>
+                    <!-- two -->
+                </div>
+                <!-- register-content -->
+           </div>
+      </div>
+   </div>
+</div>
+<!-- modal -->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="./js/catalog.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/jq-script.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>

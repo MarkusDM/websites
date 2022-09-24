@@ -1,0 +1,215 @@
+.footer {
+    border-top: 1px solid #A7A7AE;
+    padding-top: 3.4rem;
+    padding-bottom: 8.3rem;
+    
+    .container {
+        width: 100%;
+    }
+
+
+
+    &__one {
+        margin-right: 4.6rem;
+    }
+
+    &__one-logo {
+        height: 5rem;
+        width: 14.6rem;
+        display: inline-block;
+        margin-bottom: 8.1rem;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+    }
+
+    &__wrapper-top {
+        padding-bottom: 5rem;
+        display: flex;
+        padding-left: 18.6rem;
+    }
+
+    &__one-inner {
+        display: flex;
+        flex-direction: column;
+        label {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 2.4rem;
+            color: #000000;
+            margin-bottom: 2.5rem;
+        
+
+        }
+
+        input {
+            width: 35.2rem;
+            border: none;
+            border-bottom: 1px solid #2B2F36;
+            background: none;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 2.4rem;
+            color: #A7A7AE;
+        }
+    }
+
+
+
+    &__two {
+        display: flex;
+        margin-right: 29.8rem;
+        ul:first-child {
+            margin-right: 22.4rem;
+        }
+        li {
+            
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 133%;
+            color: #2B2F36;
+            margin-bottom: 3rem;
+        }
+
+        li:last-child {
+            margin-bottom: 0;
+        }
+    }
+    
+
+    &__three {
+
+    }
+
+    &__three-inner {
+        margin-bottom: 3rem;
+    }
+
+    &__three-inner:last-child {
+        margin-bottom: 0;
+    }
+
+    &__three-black {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 133%;
+        color: #2B2F36;
+        margin-bottom: 1rem;
+    }
+
+    &__three-grey {
+        font-family: 'Euclid Circular A',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 156%;
+        color: #A7A7AE;
+
+    }
+
+    &__four {
+        display: flex;
+        align-items: center;
+        margin-right: 53.58rem;
+    }
+
+    &__four-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #2B2F36;
+        margin-right: 4.3rem;
+    }
+
+    &__wrapper-bottom {
+        padding-top: 4.7rem;
+        border-top: 1px solid #A7A7AE;
+        padding-left: 18.6rem;
+        display: flex;
+    }
+
+    &__four-social {
+        display: flex;
+        align-items: center;
+
+        .fc {
+            height: 1.99rem;
+            width: 0.9rem;
+            margin-right: 4.6rem;
+        }
+
+        .you {
+            height: 1.68rem;
+            width: 2.2rem;
+            margin-right: 4.3rem;
+        }
+
+        .insta {
+            height: 2rem;
+            width: 2rem;
+            margin-right: 4.38rem;
+
+
+        }
+
+        .pe {
+            height: 1.9rem;
+            width: 1.6rem;
+            margin-right: 4.3rem;
+        }
+
+        .vk {
+            height: 1.5rem;
+            width: 2.6rem;
+            margin-right: 4.3rem;
+
+        }
+
+        .what {
+            height: 2rem;
+            width: 1.9rem;
+
+
+        }
+    }
+
+    &__five {
+
+    }
+
+    &__five-logo {
+        height: 5rem;
+        width: 17.6rem;
+        margin-bottom: 2rem;
+        display: block;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+
+    }
+
+    &__five-text {
+        font-family: 'Euclid Circular A',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 156% ;
+        text-decoration-line: underline;
+        color: #A7A7AE;
+    }
+
+ 
+
+}

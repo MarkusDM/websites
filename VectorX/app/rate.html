@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, viewport-fit=cover">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=5c510cdf-e517-4d5d-adaa-a9c0f95c611a&lang=ru_RU" type="text/javascript"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>VectorX</title>
+</head>
+
+<body>
+    <div class="bg-vector">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <nav class="header__nav">
+                        <ul class="header__menu">
+                            <li class="service-li"><a href="#" class="services-link">Услуги</a>
+                                <ul class="services">
+                                    <li><a href="">Консультационное сопровождение</a></li>
+                                    <li><a href="">Доверительное управление</a></li>
+                                    <li><a href="">Брокерское обслуживание</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu-li"><a href="#" class="submenu-link">О компании</a>
+                                <ul class="submenu">
+                                    <li><a href="">Команда</a></li>
+                                    <li><a href="">Лицензии</a></li>
+                                    <li><a href="">Партнеры</a></li>
+                                    <li><a href="">Раскрытие информации</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="#" class="header__logo">
+                            <img src="./img/icon/logo.PNG" alt="Логотип">
+                        </a>
+                        <ul class="header__menu header__menu--right ">
+                            <li class="analytics-li"><a href="#" class="analytics-link">Аналитика</a>
+                                <ul class="analytics">
+                                    <li><a href="">Рынок акций</a></li>
+                                    <li><a href="">Макропоказатели</a></li>
+                                    <li><a href="">Эксперты в СМИ</a></li>
+                                    <li><a href="">Спецпроекты</a></li>
+                                </ul>
+                            </li>
+                            <button class="header-login">
+                                <div class="header-login__image">
+                                    <img src="./img/icon/login.svg" alt="login">
+                                </div>
+                                <span>Персональный доступ</span>
+                            </button>
+                        </ul>
+                    </nav>
+                    <nav class="header__block">
+                        <div class="header-close">
+                            <img src="./img/icon/close.svg" alt="крестик">
+                        </div>
+                        <ul class="header__menu  mobile-menu">
+                            <li class="service-li"><a href="#" class="services-link">Услуги</a>
+                                <ul class="services">
+                                    <li><a href="">Консультационное сопровождение</a></li>
+                                    <li><a href="">Доверительное управление</a></li>
+                                    <li><a href="">Брокерское обслуживание</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu-li"><a href="#" class="submenu-link">О компании</a>
+                                <ul class="submenu">
+                                    <li><a href="">Команда</a></li>
+                                    <li><a href="">Лицензии</a></li>
+                                    <li><a href="">Партнеры</a></li>
+                                    <li><a href="">Раскрытие информации</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li class="analytics-li"><a href="#" class="analytics-link">Аналитика</a>
+                                <ul class="analytics">
+                                    <li><a href="">Рынок акций</a></li>
+                                    <li><a href="">Макропоказатели</a></li>
+                                    <li><a href="">Эксперты в СМИ</a></li>
+                                    <li><a href="">Спецпроекты</a></li>
+                                </ul>
+                            </li>
+                            <button class="header-login">
+                                <div class="header-login__image">
+                                    <img src="./img/icon/login.svg" alt="login">
+                                </div>
+                                <span>Персональный доступ</span>
+                            </button>
+                        </ul>
+                    </nav>
+                    <div class="menu-burger__header">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="markets">
+                <div class="container">
+                    <div class="markets__wrapper">
+                        <div class="markets-left">
+                            <div class="markets-left__title">
+                                <span>Частным клиентам</span>
+                                <strong>Глобальные рынки</strong>
+                                <p>Валютная стратегия "Глобальные рынки" позволяет инвестировать в международный рынок, оставаясь в рамках российской юрисдикции. Реализация продукта через Санкт-Петербургскую биржу позволяет получать доходность в долларах
+                                    США от вложений в ценные бумаги крупнейших мировых корпораций.</p>
+                            </div>
+                            <!-- title -->
+                            <div class="markets-left__btn">
+                                <button class="button-all button-all--big js-open-modal">
+                                <span>Инвестировать</span>
+                                <div class="button-all__image">
+                                    <img src="./img/icon/arrow.svg" alt="стрелка">
+                                </div>
+                            </button>
+                                <!-- 1 -->
+                                <button class="button-border js-open-modal">
+                                <span>Задать вопрос</span>
+                                <div class="button-border__image">
+                                    <img src="./img/icon/arrow.svg" alt="стрелка">
+                                </div>
+                            </button>
+                                <!-- 2 -->
+                            </div>
+                            <!-- btn -->
+                            <div class="markets-left__text">
+                                <div class="markets-left__block">
+                                    <p>Валюта стратегии</p>
+                                    <strong>USD</strong>
+                                </div>
+                                <div class="markets-left__block">
+                                    <p>Порог входа</p>
+                                    <strong>5000</strong>
+                                </div>
+                                <div class="markets-left__block">
+                                    <p>Целевая доходность</p>
+                                    <strong>10-15<span>%</span></strong>
+                                </div>
+                                <div class="markets-left__block">
+                                    <p>Инвестиционный горизонт
+                                    </p>
+                                    <strong>от 1 года</strong>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- left -->
+                        <div class="markets-right">
+                            <div class="markets-right__icon">
+                                <img src="./img/phone.svg" alt="телефон">
+                            </div>
+                            <div class="markets-right__image">
+                                <img src="./img/rate/world.svg" alt="земля">
+                            </div>
+                            <div class="markets-right__icon markets-right__icon--trade">
+                                <img src="./img/trade.svg" alt="рынок">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="markets-left__text markets-left__text--mobile ">
+                        <div class="markets-left__block">
+                            <p>Валюта стратегии</p>
+                            <strong>USD</strong>
+                        </div>
+                        <div class="markets-left__block">
+                            <p>Порог входа</p>
+                            <strong>5000</strong>
+                        </div>
+                        <div class="markets-left__block">
+                            <p>Целевая доходность</p>
+                            <strong>10-15<span>%</span></strong>
+                        </div>
+                        <div class="markets-left__block">
+                            <p>Инвестиционный горизонт
+                            </p>
+                            <strong>от 1 года</strong>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- markets -->
+            <section class="strategy">
+                <div class="container">
+                    <div class="strategy__wrapper">
+                        <div class="strategy-left">
+                            <div class="strategy-left__image">
+                                <img src="./img/icon/people.svg" alt="иконка человека">
+                            </div>
+                            <div class="strategy-left__text">
+                                Для кого подходит такая стратегия инвестирования?
+                            </div>
+                        </div>
+                        <div class="strategy-right">
+                            <div class="strategy-right__inner">
+                                <div class="strategy-right__image man">
+                                    <img src="./img/rate/man.png" alt="мужчина">
+                                </div>
+                                <div class="strategy-right__image woman">
+                                    <img src="./img/rate/Woman.png" alt="женщина">
+                                </div>
+                            </div>
+                            <div class="strategy-right__text">
+                                <strong>Специально разработанная стратегия</strong>
+                                <p>Для инвесторов, заинтересованных в получении повышенного дохода на мировом рынке, оставаясь в рамках российской юрисдикции.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- strategy -->
+            <section class="proposal proposal--rate">
+                <div class="container">
+                    <div class="proposal__title">
+                        <p>Укажите сумму и срок инвестирования, тогда мы сможем подобрать продукт специально для вас</p>
+                        <span>Калькулятор инвестиций</span>
+                    </div>
+                    <div class="proposal__wrapper">
+                        <div class="proposal-calculator">
+                            <div class="proposal-calculator__inner">
+                                <label class="proposal-calculator__label">
+                            Сумма инвестиций
+                        </label>
+                                <input class="proposal-calculator__input proposal-calculator__input--big" type "number">
+                                <select class="proposal-calculator__select proposal-calculator__select--rub proposal-calculator__select--rub-big"> 
+                                    <option>₽</option>
+                                    <option>$</option>
+                                 </select>
+                            </div>
+                            <!-- 1 -->
+                            <div class="proposal-calculator__inner">
+                                <label class="proposal-calculator__label">
+                            Срок инвестирования
+                        </label>
+                                <select class="proposal-calculator__select proposal-calculator__select--big">
+                                <option>1 Год</option>
+                                <option>2 Год</option>
+                                <option>3 Год</option>
+                                <option>4 Год</option>
+                            </select>
+                            </div>
+                            <!-- 2 -->
+                            <div class="proposal-calculator__inner">
+                                <label class="proposal-calculator__label">
+                                Выбор цели
+                            </label>
+                                <select class="proposal-calculator__select proposal-calculator__select--big">
+                                    <option>Покупка машины</option>
+                                    <option>Покупка квартиры</option>
+                                    <option>Покрытие расходов</option>
+                                    <option>Покупка машины</option>
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- wrapper -->
+                    <div class="proposal-blocks">
+                        <div class="proposal-blocks__left">
+                            <div class="proposal-answer">
+                                <div class="proposal-answer__text">
+                                    <span>Общий доход</span>
+                                </div>
+                                <div class="proposal-answer__evenly">
+                                    <span>953 125 руб</span>
+                                </div>
+                            </div>
+                            <!-- 1 -->
+                            <div class="proposal-answer">
+                                <div class="proposal-answer__text">
+                                    <span>Доход в месяц</span>
+                                </div>
+                                <div class="proposal-answer__evenly">
+                                    <span>26 476 руб</span>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                        </div>
+                        <div class="proposal-blocks__right">
+                            <div class="proposal__btn">
+                                <button class="button-all button-all--big js-open-modal">
+                                <span>Инвестировать</span>
+                                <div class="button-all__image">
+                                    <img src="./img/icon/arrow.svg" alt="стрелка">
+                                </div>
+                            </button>
+                                <!-- 1 -->
+                                <button class="button-border js-open-modal">
+                                <span>Задать вопрос</span>
+                                <div class="button-border__image">
+                                    <img src="./img/icon/arrow.svg" alt="стрелка">
+                                </div>
+                            </button>
+                                <!-- 2 -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- proposal-blocks -->
+                </div>
+            </section>
+            <!-- propsal -->
+            <section class="implementation">
+                <div class="container">
+                    <div class="implementation__title">
+                        <p>Начните инвестировать уже сегодня!</p>
+                        <strong>О стратегии «Глобальные рынки» </strong>
+                    </div>
+                    <div class="implementation__wrapper">
+                        <div class="implementation-left">
+                            <div class="implementation-left__title">
+                                Реализация стратегии:
+                            </div>
+                            <div class="implementation-left__inner">
+                                <div class="implementation-left__table">
+                                    <span>01</span>
+                                    <div class="implementation-left__image implementation-left__image--big implementation-left__image--none">
+                                        <img src="./img/icon/bigline.svg" alt="стрелка">
+                                    </div>
+                                    <div class="implementation-left__image implementation-left__image--small implementation-left__image--mobile">
+                                        <img src="./img/icon/small-line.svg" alt="стрелка">
+                                    </div>
+                                    <span>02</span>
+                                    <div class="implementation-left__image implementation-left__image--small">
+                                        <img src="./img/icon/small-line.svg" alt="стрелка">
+                                    </div>
+                                    <span>03</span>
+                                </div>
+                                <div class="implementation-left__text">
+                                    <p>Определение инвестиционного профиля и выбор стратегии. Подписание договора и перевод денежных средств. </p>
+                                    <p>Управление капиталом. Получение регулярной отчетности. </p>
+                                    <p> Получение результатов по итогам периода инвестирования.</p>
+                                </div>
+                            </div>
+                            <!-- inner -->
+
+                        </div>
+                        <!-- left -->
+                        <div class="implementation-right">
+                            <div class="implementation-right__text">
+                                Подбор акций мировых корпораций на основании анализа математической модели скоринга. Баланс портфеля за счет диверсификации по видам активов (акции, облигации, денежные средства) . Получение дохода в долларах благодаря реализации стратегии через Санкт-Петербургскую
+                                биржу.
+                            </div>
+                            <div class="implementation-right__text implementation-right__text--mobile">
+                                <p>Подбор акций мировых корпораций на основании анализа математической модели скоринга. Баланс портфеля за счет диверсификации по видам активов (акции, облигации, денежные средства).</p>
+                                <p>Получение дохода в долларах благодаря реализации стратегии через Санкт-Петербургскую биржу.</p>
+                            </div>
+                            <div class="implementation-right__inner">
+                                <div class="implementation-right__table">
+                                    <div class="implementation-right__image implementation-right__image--cloack">
+                                        <img src="./img/icon/cloack.png" alt="часы">
+                                    </div>
+                                    <div class="implementation-right__table-text">
+                                        <strong>Период инвестирования</strong>
+                                        <p>Инвестиционный горизонт – от 1 года.</p>
+                                    </div>
+                                </div>
+                                <!-- 1 -->
+                                <div class="implementation-right__table">
+                                    <div class="implementation-right__image implementation-right__image--castle">
+                                        <img src="./img/icon/castle.png" alt="замок">
+                                    </div>
+                                    <div class="implementation-right__table-text">
+                                        <strong>Риск-профиль</strong>
+                                        <p>Активный. Для контроля риска реализуется покупка облигаций, а также паев и акций инвестиционных фондов.</p>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="implementation-right__table">
+                                    <div class="implementation-right__image implementation-right__image--board">
+                                        <img src="./img/icon/board.png" alt="доска">
+                                    </div>
+                                    <div class="implementation-right__table-text">
+                                        <strong>Особенность стратегии</strong>
+                                        <p>Получение доходности от высоколиквидных американских ценных бумаг в российской юрисдикции.</p>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                            </div>
+                        </div>
+                        <!-- right -->
+                    </div>
+                </div>
+            </section>
+            <!-- implementation -->
+
+        </main>
+    </div>
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="contacts-left">
+                    <div class="contacts-left__title">
+                        <p>Вы точно по адресу!</p>
+                        <span>Контакты</span>
+                    </div>
+                    <ul class="contacts-left__ul">
+                        <li>
+                            <p>Адрес:</p>
+                            <span>г. Москва, ул. Кирова к1, оф.407</span>
+                        </li>
+                        <li>
+                            <p>Телефон:</p>
+                            <a href="#">8 800 444 88 33</a>
+                        </li>
+                        <li>
+                            <p>Почта:</p>
+                            <a href="#">vectorx@inbox.ru</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- left -->
+                <div class="contacts-right">
+                    <div class="contacts-right__map">
+                        <img src="./img/foncontacts.png" alt="телефон">
+                    </div>
+                    <form action="" class="contacts-form">
+                        <div class="contacts-form__text">
+                            <p>Ответим в течении часа!</p>
+                            <span>Связаться</span>
+                        </div>
+                        <div class="contacts-form__inner">
+
+                            <div class="placeholder-container">
+                                <input type="name" placeholder=" ">
+                                <label>Ваше Имя</label>
+                            </div>
+                            <div class="placeholder-container">
+                                <input type="tel" placeholder=" ">
+                                <label>Телефон</label>
+                            </div>
+                        </div>
+                        <!-- 1 -->
+                        <div class="placeholder-container placeholder-container--big">
+                            <input type="text" placeholder=" ">
+                            <label>Ваш комментарий</label>
+                        </div>
+                        <button class="button-all button-all--big js-open-modal ">
+                            <span>Оставить заявку</span>
+                            <div class="button-all__image ">
+                                <img src="./img/icon/arrow.svg " alt="стрелка ">
+                            </div>
+                        </button>
+                    </form>
+                </div>
+                <!-- right -->
+            </div>
+        </div>
+    </section>
+    <footer class="footer ">
+        <div class="container ">
+            <div class="footer__wrapper ">
+                <a class="footer__logo ">
+                    <img src="./img/icon/logo.PNG " alt="logo ">
+                </a>
+                <div class="footer__inner ">
+                    <ul>
+                        <strong>Услуги</strong>
+                        <li><a href="# ">Консультационное сопровождение</a></li>
+                        <li><a href="# ">Доверительное управление</a></li>
+                        <li><a href="# ">Брокерское обслуживание</a></li>
+                    </ul>
+                    <ul>
+                        <a href="#" class="strong-link">О компании</ф>
+                        <li><a href="# ">Команда</a></li>
+                        <li><a href="# ">Лицензии</a></li>
+                        <li><a href="# ">Партнеры</a></li>
+                        <li><a href="# ">Раскрытие информации</a></li>
+                        <li><a href="# ">Контакты</a></li>
+                    </ul>
+                    <ul>
+                        <strong>Аналитика</strong>
+                        <li><a href="# ">Рынок акций</a></li>
+                        <li><a href="# ">Макропоказатели</a></li>
+                        <li><a href="# ">Эксперты в СМИ</a></li>
+                        <li><a href="# ">Спецпроекты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__social-links ">
+                    <a href="# " class="footer__social-link ">
+                        <img src="./img/icon/telegram.svg " alt="telegram ">
+                    </a>
+                    <a href="# " class="footer__social-link ">
+                        <img src="./img/icon/Instagram.svg " alt="Instagram ">
+                    </a>
+                    <a href="# " class="footer__social-link ">
+                        <img src="./img/icon/Facebook.svg " alt="Facebook ">
+                    </a>
+                    <a href="# " class="footer__social-link ">
+                        <img src="./img/icon/youtube.svg " alt="youtube ">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+    <div class="modal js-modal-form">
+
+        <svg class="modal__cross js-modal-close" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M31.6093 0.390626C31.3593 0.140665 31.0202 0.000244141 30.6666 0.000244141C30.3131 0.000244141 29.974 0.140665 29.724 0.390626L16 14.1146L2.27596 0.390626C2.02592 0.140665 1.68684 0.000244141 1.33329 0.000244141C0.979741 0.000244141 0.640663 0.140665 0.390626 0.390626C0.140665 0.640663 0.000244141 0.979741 0.000244141 1.33329C0.000244141 1.68684 0.140665 2.02592 0.390626 2.27596L14.1146 16L0.390626 29.724C0.140665 29.974 0.000244141 30.3131 0.000244141 30.6666C0.000244141 31.0202 0.140665 31.3593 0.390626 31.6093C0.640663 31.8593 0.979741 31.9997 1.33329 31.9997C1.68684 31.9997 2.02592 31.8593 2.27596 31.6093L16 17.8853L29.724 31.6093C29.974 31.8593 30.3131 31.9997 30.6666 31.9997C31.0202 31.9997 31.3593 31.8593 31.6093 31.6093C31.8593 31.3593 31.9997 31.0202 31.9997 30.6666C31.9997 30.3131 31.8593 29.974 31.6093 29.724L17.8853 16L31.6093 2.27596C31.8593 2.02592 31.9997 1.68684 31.9997 1.33329C31.9997 0.979741 31.8593 0.640663 31.6093 0.390626Z" fill="#967873"/>
+        </svg>
+
+        <div class="modal__wrapper">
+            <div class="modal-right">
+                <div class="modal-right__image">
+                    <img src="./img/tel.png" alt="телефон">
+                </div>
+            </div>
+            <div class="modal-left">
+                <form action="" class="modal-form">
+                    <div class="modal-form__text">
+                        <p>Задать Вопрос</p>
+                        <span>Вы можете отправить заявку на получение дополнительной информации. В ближайшее время наш специалист свяжется с вами.</span>
+                    </div>
+                    <!-- 1 -->
+                    <div class="modal-form__inner">
+                        <div class="modal-form__block modal-form__block--name">
+                            <p></p>
+                            <input type="name" placeholder="Ваше Имя">
+                        </div>
+                        <!-- 1 -->
+                        <div class="modal-form__block">
+                            <p class="modal-form__label" for=" ">Ваш телефон</p>
+                            <input type="tel " placeholder="10 ">
+                        </div>
+                        <!-- 2 -->
+                        <button href="# " class="button-all button-all--big button-all--top submit-form">
+                            <span>Оставить заявку</span>
+                            <div class="button-all__image ">
+                                <img src="./img/icon/arrow.svg " alt="стрелка ">
+                            </div>
+                        </button>
+                        <!-- button -->
+                    </div>
+                    <!-- 2 -->
+                    <div class="modal-form__bottom ">
+                        Или вы можете связаться с нами сами по телефону: <a href="# ">8 800 444 88 33</a>
+                    </div>
+                    <!-- 3 -->
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 2 -->
+    <div class="modal modal--happy js-modal">
+        <svg class="modal__cross js-modal-close " width="32 " height="32 " viewBox="0 0 32 32 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+            <path d="M31.6093 0.390626C31.3593 0.140665 31.0202 0.000244141 30.6666 0.000244141C30.3131 0.000244141 29.974 0.140665 29.724 0.390626L16 14.1146L2.27596 0.390626C2.02592 0.140665 1.68684 0.000244141 1.33329 0.000244141C0.979741 0.000244141
+                                0.640663 0.140665 0.390626 0.390626C0.140665 0.640663 0.000244141 0.979741 0.000244141 1.33329C0.000244141 1.68684 0.140665 2.02592 0.390626 2.27596L14.1146 16L0.390626 29.724C0.140665 29.974 0.000244141 30.3131 0.000244141
+                                30.6666C0.000244141 31.0202 0.140665 31.3593 0.390626 31.6093C0.640663 31.8593 0.979741 31.9997 1.33329 31.9997C1.68684 31.9997 2.02592 31.8593 2.27596 31.6093L16 17.8853L29.724 31.6093C29.974 31.8593 30.3131 31.9997 30.6666
+                                31.9997C31.0202 31.9997 31.3593 31.8593 31.6093 31.6093C31.8593 31.3593 31.9997 31.0202 31.9997 30.6666C31.9997 30.3131 31.8593 29.974 31.6093 29.724L17.8853 16L31.6093 2.27596C31.8593 2.02592 31.9997 1.68684 31.9997 1.33329C31.9997
+                                0.979741 31.8593 0.640663 31.6093 0.390626Z " fill="#967873 "/>
+        </svg>
+        <div class="modal__wrapper modal__wrapper--happy ">
+            <div class="modal-happy__title">
+                <span>Спасибо!</span>
+                <strong>Ваша заявка успешно отправлена!</strong>
+                <p>Наш специалист свяжется с вами в ближайшее время</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay js-modal-overlay "></div>
+    </script>
+    <script src="./js/jquery-3.5.0.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js "></script>
+    <script src="./js/main.js "></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

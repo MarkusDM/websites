@@ -1,0 +1,389 @@
+<section class="cabinet">
+    <div class="container"> 
+        <div class="cabinet__title">
+            Личный кабинет
+        </div>
+        <div class="cabinet__wrapper">
+            <div class="cabinet__left">
+                <div class="cabinet-data">
+                    <div class="cabinet-data__title">
+                        Личный данные
+                    </div>
+                    <div class="cabinet-data__close"></div>
+                    <!-- title -->
+                    <form action="" class="cabinet-data__form">
+                        <div class="cabinet-data__form-inner">
+                            <label for="">ФИО</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-data__form-inner">
+                            <label for="">Дата рождения:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-data__form-inner">
+                            <label for="">Телефон:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-data__form-inner">
+                            <label for="">E-mail:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-data__form-block">
+                            <div class="cabinet-data__form-inner password">
+                                <label for="">Пароль:</label>
+                                <input type="password" id="password-input"  name="password" value="123456">
+                                <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+                            </div>
+                            <div class="cabinet-data__form-inner password">
+                                <label for="">Повторите пароль:</label>
+                                <input type="password" id="password-input__dop"  name="password" value="123456">
+                                <a href="#" class="password-control" onclick="return show_hide(this);"></a>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- form -->
+                    <button class="all-btn cabinet-data__save-btn"><span>Сохранить</span></button>
+                    <div class="cabinet-data__data">
+                        <div class="cabinet-data__data-family">
+                            <strong>ФИО:</strong>
+                            <span>Попова Ирина Юрьевна</span>
+                        </div>
+                        <div class="cabinet-data__data-date">
+                            
+                            <strong>Дата рождения:</strong>
+                            <span>20.08.1997</span>
+                        </div>
+                        <div class="cabinet-data__data-employment">
+                            <strong>Вид занятости:</strong>
+                            <span>Самозанятый</span>
+                        </div>
+                        <div class="cabinet-data__data-phone">
+                            <strong>Телефон:</strong>
+                            <span>+7 098 999 99 32</span>
+                        </div>
+                        <div class="cabinet-data__data-id">
+                            <strong>ID:</strong>
+                            <span>12345JK</span>
+                        </div>
+                        <div class="cabinet-data__data-email">
+                            <strong>Email:</strong>
+                            <span>popovairina@mail.ru</span>
+                        </div>
+                        <div class="cabinet-data__data-password password">
+                            <strong>Пароль:</strong>
+                            <span class="cabinet-data__data-password-icon">*********</span>
+                        </div>
+                    </div>
+                    <button class="all-btn cabinet-data__edit-btn"><span>Изменить</span></button>
+                    <div class="cabinet-data__attention">Данные в личном профиле не заполнены. Добавьте свои данные, чтобы была возможность выполнять заказы</div>
+                    <button class="all-btn cabinet-data__date-btn-center center"><span>добавить</span></button>
+                </div>
+                <!-- /.cabinet-date -->
+                <div class="cabinet-order">
+                    <div class="cabinet-order__title">
+                        История заказов
+                    </div>
+                    <div class="cabinet-order__data">
+                        <div class="cabinet-order__data-date">Дата</div>
+                        <div class="cabinet-order__data-sum">Сумма</div>
+                        <div class="cabinet-order__data-pv">PV</div>
+                        <div class="cabinet-order__data-delivery">Доставка</div>
+                        <div class="cabinet-order__data-delivery">Статус</div>
+                    </div>
+                    <div class="cabinet-order__wrapper">
+                        <div class="cabinet-order__block">
+                            <div class="cabinet-order__block-date"><strong class="mob">Дата</strong><span>05.04.2021</span></div>
+                            <div class="cabinet-order__block-price"><strong class="mob">Сумма</strong> <span>200$</span></div>
+                            <div class="cabinet-order__block-pv"><strong class="mob">PV</strong> <span>300</span></div>
+                            <div class="cabinet-order__block-dev"><strong class="mob">Доставка</strong> <span>Почта России/ <span></span>
+                                Самовывоз</span></div>
+                            <div class="cabinet-order__block-status">Отправлен</div>
+                        </div>
+                        <div class="cabinet-order__block">
+                            <div class="cabinet-order__block-date"><strong class="mob">Дата</strong><span>05.04.2021</span></div>
+                            <div class="cabinet-order__block-price"><strong class="mob">Сумма</strong> <span>200$</span></div>
+                            <div class="cabinet-order__block-pv"><strong class="mob">PV</strong> <span>300</span></div>
+                            <div class="cabinet-order__block-dev"><strong class="mob">Доставка</strong> <span>Почта России/ <span></span>
+                                Самовывоз</span></div>
+                            <div class="cabinet-order__block-status">Отправлен</div>
+                        </div>
+                        <div class="cabinet-order__block">
+                            <div class="cabinet-order__block-date"><strong class="mob">Дата</strong><span>05.04.2021</span></div>
+                            <div class="cabinet-order__block-price"><strong class="mob">Сумма</strong> <span>200$</span></div>
+                            <div class="cabinet-order__block-pv"><strong class="mob">PV</strong> <span>300</span></div>
+                            <div class="cabinet-order__block-dev"><strong class="mob">Доставка</strong> <span>Почта России/ <span></span>
+                                Самовывоз</span></div>
+                            <div class="cabinet-order__block-status">Отправлен</div>
+                        </div>
+                        <div class="cabinet-order__block">
+                            <div class="cabinet-order__block-date"><strong class="mob">Дата</strong><span>05.04.2021</span></div>
+                            <div class="cabinet-order__block-price"><strong class="mob">Сумма</strong> <span>200$</span></div>
+                            <div class="cabinet-order__block-pv"><strong class="mob">PV</strong> <span>300</span></div>
+                            <div class="cabinet-order__block-dev"><strong class="mob">Доставка</strong> <span>Почта России/ <span></span>
+                                Самовывоз</span></div>
+                            <div class="cabinet-order__block-status">Отправлен</div>
+                        </div>
+                        <div class="cabinet-order__block">
+                            <div class="cabinet-order__block-date"><strong class="mob">Дата</strong><span>05.04.2021</span></div>
+                            <div class="cabinet-order__block-price"><strong class="mob">Сумма</strong> <span>200$</span></div>
+                            <div class="cabinet-order__block-pv"><strong class="mob">PV</strong> <span>300</span></div>
+                            <div class="cabinet-order__block-dev"><strong class="mob">Доставка</strong> <span>Почта России/ <span></span>
+                                Самовывоз</span></div>
+                            <div class="cabinet-order__block-status">Отправлен</div>
+                        </div>
+                    </div>
+                    <button class="all-btn" id="toggle">смотреть все</button>
+                    <div class="cabinet-order__start-text">Вы пока не сделали ни одного заказа</div>
+                    <button class="all-btn center"><span>сделать заказ</span></button>
+                </div>
+            </div>
+            <div class="cabinet__right">
+                <div class="cabinet-favorites">
+                    <div class="cabinet-favorites__title">Избранное </div>
+                    <!--  -->
+                    <div class="cabinet-favorites__text-start">У Вас нет избранных товаров</div>
+                    <div class="cabinet-favorites__order">
+                        <div class="cabinet-favorites__order-text">Количество избранных товаров</div>
+                        <div class="cabinet-favorites__order-number">5</div>
+                    </div>
+                    <a href="" class="all-btn"><span>смотреть </span></a>
+                </div>
+                <!--  -->
+                <div class="cabinet-address">
+                    <div class="cabinet-address__title">Адрес доставки</div>
+                    <div class="cabinet-address__close"></div>
+                    <div class="cabinet-address__start-text">Вы не указали форму оплаты.
+                        Добавьте Вашу карту, 
+                        чтобы в дальнейшем быстрее 
+                        совершать заказы </div>
+
+                    
+                    <form action="" class="cabinet-address__form">
+                        <div class="cabinet-address__form-inner">
+                            <label for="">Город:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-address__form-inner">
+                            <label for="">Улица:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-address__form-inner">
+                            <label for="">Дом/корпус:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-address__form-inner">
+                            <label for="">Квартира:</label>
+                            <input type="text">
+                        </div>
+                    </form>
+                    <!-- form -->
+                    <button class="all-btn cabinet-address__save-btn"><span>Сохранить</span></button>
+                    <div class="cabinet-address__data">
+                        <div class="cabinet-address__data-city">
+                            <strong>Город: </strong>
+                            <span>Москва</span>
+                        </div>
+                        <div class="cabinet-address__data-street">
+                            
+                            <strong>Улица:</strong>
+                            <span>Нововиленская</span>
+                        </div>
+                        <div class="cabinet-address__data-home">
+                            <strong>Дом/корпус:</strong>
+                            <span>2А</span>
+                        </div>
+                        <div class="cabinet-address__data-city">
+                            <strong>Квартира:</strong>
+                            <span>34</span>
+                        </div>
+                    </div>
+                    <button class="all-btn cabinet-address__start-btn"><span>добавить</span></button>
+                    <button class="all-btn cabinet-address__edit-btn"><span>Изменить</span></button>
+        
+                </div>
+                <!-- address -->
+                <div class="cabinet-payment">
+                    <div class="cabinet-payment__title">Форма оплаты</div>
+                    <div class="cabinet-payment__close"></div>
+                    <div class="cabinet-payment__start-text">Вы не указали форму оплаты.
+                        Добавьте Вашу карту, 
+                        чтобы в дальнейшем быстрее 
+                        совершать заказы </div>
+                    <!-- text -->
+                    <div class="cabinet-payment__form">
+                        <div class="cabinet-payment__form-inner">
+                            <label for="">Владелец:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-payment__form-inner">
+                            <label for="">Номер карты:</label>
+                            <input type="text">
+                        </div>
+                        <div class="cabinet-payment__form-inner">
+                            <label for="">Срок действия:</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <!-- form -->
+                    <div class="cabinet-payment__data">
+                        <div class="cabinet-payment__data-owner">
+                            <strong>Владелец:</strong>
+                            <span>POPOVA IRINA</span>
+                        </div>
+                        <div class="cabinet-payment__data-number">
+                            
+                            <strong>Номер карты:</strong>
+                            <span>2222 **** **** **45</span>
+                        </div>
+                        <div class="cabinet-payment__data-term">
+                            <strong>Срок действия:</strong>
+                            <span>07/24</span>
+                        </div>
+                        
+                    </div>
+                    <!-- data -->
+                    <button class="all-btn cabinet-payment__add-btn"><span>Добавить</span></button>
+                    <button class="all-btn cabinet-payment__save-btn"><span>сохранить</span></button>
+                    <button class="all-btn cabinet-payment__edit-btn"><span>Изменить</span></button>
+                </div>
+                <!-- payment -->
+                <div class="cabinet-bonuses">
+                    <div class="cabinet-bonuses__title">
+                        Мои бонусы
+                    </div>
+                    <div class="cabinet-bonuses__inner">
+                        <div class="cabinet-bonuses__data">
+                            <div class="cabinet-bonuses__date">22.03.22-28.03.22:</div>
+                            <div class="cabinet-bonuses__price">10 000 рублей</div>
+                        </div>
+                        <div class="cabinet-bonuses__val">
+                            <div class="progress">
+                                <progress max="100" value="0"></progress>
+                                <div class="progress-value"></div>
+                                <div class="progress-bg"><div class="progress-bar"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cabinet-bonuses__inner">
+                        <div class="cabinet-bonuses__data">
+                            <div class="cabinet-bonuses__date">22.03.22-28.03.22:</div>
+                            <div class="cabinet-bonuses__price">0</div>
+                        </div>
+                        <div class="cabinet-bonuses__val">
+                            <div class="progress">
+                                <progress max="100" value="0"></progress>
+                                <div class="progress-value"></div>
+                                <div class="progress-bg"><div class="progress-bar"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cabinet-bonuses__inner">
+                        <div class="cabinet-bonuses__data">
+                            <div class="cabinet-bonuses__date">22.03.22-28.03.22:</div>
+                            <div class="cabinet-bonuses__price">0</div>
+                        </div>
+                        <div class="cabinet-bonuses__val">
+                            <div class="progress">
+                                <progress max="100" value="50"></progress>
+                                <div class="progress-value"></div>
+                                <div class="progress-bg"><div class="progress-bar"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cabinet-bonuses__inner">
+                        <div class="cabinet-bonuses__data">
+                            <div class="cabinet-bonuses__date">22.03.22-28.03.22:</div>
+                            <div class="cabinet-bonuses__price">0</div>
+                        </div>
+                        <div class="cabinet-bonuses__val">
+                            <div class="progress">
+                                <progress max="100" value="0"></progress>
+                                <div class="progress-value"></div>
+                                <div class="progress-bg"><div class="progress-bar"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cabinet-bonuses__inner">
+                        <div class="cabinet-bonuses__data">
+                            <div class="cabinet-bonuses__date">22.03.22-28.03.22:</div>
+                            <div class="cabinet-bonuses__price">0</div>
+                        </div>
+                        <div class="cabinet-bonuses__val">
+                            <div class="progress">
+                                <progress max="100" value="0"></progress>
+                                <div class="progress-value"></div>
+                                <div class="progress-bg"><div class="progress-bar"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- bonuses -->
+                <div class="cabinet-capabilities">
+                    <div class="cabinet-capabilities__title">
+                        Возможности 
+                        сотрудничества
+                    </div>
+                    <div class="cabinet-capabilities__text">
+                        Станьте партнером Gemma и начните 
+                        получать доход уже сегодня, а так же 
+                        увеличивайте выгоду от покупок, 
+                        рекомендуя продукцию.
+                    </div>
+                    <!-- text -->
+                    <a href="" class="all-btn cabinet-capabilities__btn"><span>регистрация<br>
+                        юридического лица</span></a>
+                </div>
+                <!-- capabilities -->
+            </div>
+        </div>
+        <form action="" class="cabinet-form">
+            <div class="cabinet-form__text">
+                Напишите нам о том, что Вас интересует или оставьте заявку на обратный звонок. Мы обязательно Вам перезвоним!
+            </div>
+            <!-- text -->
+            <div class="cabinet-form__wrapper desk">
+                <div class="cabinet-form__left">
+                    <div class="cabinet-form__inner">
+                        <label for="">Имя</label>
+                        <input type="text" placeholder="Иван Петров">
+                    </div>
+                    <div class="cabinet-form__inner">
+                        <label for="">Номер телефона</label>
+                        <input type="text" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+                    </div>
+                    <div class="cabinet-form__btns">
+                        <div class="input__wrapper">
+                            <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+                            <label for="input__file" class="input__file-button">
+                               <span class="input__file-button-text">Прикрепить файл</span>
+                            </label>
+                         </div>
+                    </div>
+                    <!-- /.questions-form__btns -->
+                </div>
+                <div class="cabinet-form__right">
+                    <div class="cabinet-form__inner">
+                        <label for="">Ваш вопрос</label>
+                        <input type="text" >
+                    </div>
+                    <button class="all-btn"><span>отправить</span></button>
+                </div>
+            </div>
+            <div class="cabinet-form__wrapper mob">
+                <div class="cabinet-form__inner">
+                    <label for="">Имя</label>
+                    <input type="text" placeholder="Иван Петров">
+                </div>
+                <div class="cabinet-form__inner">
+                    <label for="">Ваш вопрос</label>
+                    <input type="text" >
+                </div>
+                <div class="cabinet-form__inner">
+                    <label for="">Номер телефона</label>
+                    <input type="text" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+                </div>
+                <button class="all-btn"><span>отправить</span></button>
+            </div>
+        </form>
+    </div>
+</section>

@@ -1,0 +1,136 @@
+.events-detail {
+    padding-top: 10.6rem;
+    margin-bottom: 17rem;
+    .container {
+        width: 100%;
+        padding-left: 18.5rem;
+    }
+    &__block-date {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2.8rem;
+        padding-right: 18.5rem;
+    }
+
+    &__date {
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 211%;
+        text-transform: uppercase;
+        color: #2B2F36;
+    }
+
+    &__link {
+        padding-left: 5.8rem;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 184%;
+        color: #2B2F36;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 2.8rem;
+            height: 1rem;
+            background-image: url(../img/icon/prevblackarrow.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            left: 0;
+            top: 1rem;
+        }
+    }
+
+    .title {
+        &__text {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 5.8rem;
+            line-height: 8.4rem;
+            color: #2B2F36;
+            position: relative;
+            padding-left: 4.9rem;
+            margin-bottom: 4.7rem;
+            padding-top: 2rem;
+            &::before {
+                position: absolute;
+                content: '';
+                width: 3.9rem;
+                height: 4rem;
+                background-image: url(../img/icon/butterfly.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                left: 0rem;
+                top: 3rem;
+            }
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        width: 75rem;
+        margin-right: 4.6rem;
+        font-family: 'Euclid Circular A',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 156%;
+      
+
+        
+        span {
+            color: #A7A7AE;
+        }
+
+        strong {
+            color: #2B2F36;
+        }
+    }
+
+
+    &__left-mode {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        span {
+            margin-bottom: 3rem;
+        }
+        
+    }
+
+    &__left-inner {
+        display: flex;
+        justify-content: space-between;
+       
+        margin-bottom: 2.9rem;
+        padding-right: 10rem;
+    }
+
+    &__left-inner-name {
+        
+        color: #A7A7AE;
+        display: inline-block;
+        
+    }
+
+    &__left-inner-text {
+        color: #2B2F36;
+        display: inline-block;
+    }
+
+
+    &__right-image {
+        width: 93.7rem;
+        height: 58.1rem;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 2rem 0px 0px 2rem;
+
+        }
+    }
+}

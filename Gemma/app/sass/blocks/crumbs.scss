@@ -1,0 +1,42 @@
+.crumbs {
+    .container {
+        width: 100%;
+        padding-left: 19.3rem;
+    }
+
+    &__navigation {
+        display: flex;
+        padding-top: 9rem;
+        padding-bottom: 5rem;
+
+        li {
+            font-family: 'Open Sans', 'sans-serif';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            position: relative;
+            padding-right: 2.62rem;
+            margin-right: 2rem;
+            &::before {
+                position: absolute;
+                content: '';
+                width: 0.5rem;
+                height: 0.5rem;
+                right: 0;
+                background: #1A1B20;
+                border-radius: 50%;
+                top: 0.71rem
+            }
+        }
+
+        li:last-child {
+            margin-right: 0;
+            &::before {
+                display: none;
+            }
+        }
+    }
+}

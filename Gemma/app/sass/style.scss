@@ -1,0 +1,79 @@
+@import "./general/normalize";
+@import "./general/fonts";
+@import "./general/variables";
+@import "./general/main";
+@import "./general/set";
+@import "./general/elements";
+
+
+
+
+
+// --------------------------------  о компании 
+
+
+@import "./blocks/header";
+@import "./blocks/crumbs";
+@import "./blocks/about";
+@import "./blocks/sign";
+@import "./blocks/history";
+@import "./blocks/graffiti";
+@import "./blocks/philosophy";
+@import "./blocks/map";
+@import "./blocks/certificate";
+@import "./blocks/footer";
+
+
+
+// --------------------------- Главная
+
+
+@import "./blocks/home";
+@import "./blocks/best";
+@import "./blocks/product";
+@import "./blocks/philosopher";
+@import "./blocks/causes";  
+@import "./blocks/questions";
+@import "./blocks/questions-form";  
+
+
+
+// ------------------------- Карточка товара 
+
+@import "./blocks/perfume";
+@import "./blocks/similar"; 
+
+
+
+// --------------------------- каталог 
+
+@import "./blocks/best-two";
+@import "./blocks/catalog";
+@import "./blocks/catalog-filters";
+@import "./blocks/catalog-choise";
+
+
+// ------------------------- 
+
+@import "./blocks/basket";
+@import "./blocks/aside";
+@import "./blocks/formalization";
+@import "./blocks/aside-block";
+@import "./blocks/order";
+@import "./blocks/contacts";
+@import "./blocks/registration";
+@import "./blocks/favorites";
+@import "./blocks/marketing";
+@import "./blocks/level";
+@import "./blocks/plan";
+@import "./blocks/business";
+@import "./blocks/code";
+@import "./blocks/answers";
+@import "./blocks/modal";
+@import "./blocks/admin-register";
+@import "./blocks/cabinet";
+
+@import "./blocks/media";
+
+
+

@@ -1,0 +1,559 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=a37c7830-4b1f-4c14-94c1-679e662e1664
+    &lang=ru_RU" type="text/javascript"></script>
+	<link rel="stylesheet" href="./css/style.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>???</title>
+</head>
+<body>
+
+<header class="header header--black">
+    <div class="container">
+        <div class="header__wrapper">
+            <div class="header__burger">
+                <img src="./img/icon/burger.svg" alt="">
+            </div>
+            <nav class="header__nav">
+                <div class="header__nav-close">
+                    <img src="./img/icon/xxx.svg" alt="">
+                </div>
+                <ul class="header__menu">
+                    <li><a href="">Магазины</a></li>
+                    <li><a href="">Еда</a></li>
+                    <li><a href="">Развелечения</a></li>
+                    <li><a href="">Акции</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="" class="header__logo">
+                <img src="./img/header/logo.svg" alt="">
+            </a>
+            <div  class="header__geo">
+                <div class="header__geo-span">Красногорск</div>
+                <ul class="header__geo-block">
+                    <li class="header__geo-item">Москва</li>
+                    <li class="header__geo-item">Питер</li>      
+                </ul>
+            </div>
+            <div class="header__time">
+                10:00 - 22:00
+            </div>
+            <button class="header__user">
+
+            </button>
+            <button class="header__search">
+
+            </button>
+        </div>
+        
+    </div>
+    <div class="header__search-block">
+        <div class="header__nav-search">
+            <label for=""></label>
+            <input type="text" placeholder="Поиск на Июнь...">
+            <button class="header__search-close"></button>
+         </div>
+         <div class="header__search-inner">
+            <div class="header__search-inner-title">
+                Быстрые ссылки
+            </div>
+            <ul class="header__search-inner-lists">
+                <li class="header__search-inner-item"><a href="">Акции</a></li>
+                <li class="header__search-inner-item"><a href="">События</a></li>
+                
+            </ul>
+         </div>
+    </div>
+</header>
+
+<main>
+  <section class="lk">
+    <div class="container">
+      <div class="lk__inner">
+        <div class="lk__user-panel">
+          <a class="lk__user-link lk-block" href="">
+            <img class="lk__user-img" src="./images/lk/user-img.jpg" alt="user">
+
+            <div class="lk__user-wrapper">
+              <div class="lk__user-name">Елена Смирнова</div>
+              
+              <div class="lk__user-mail">smirnovah@gmail.com</div>
+            </div>
+          </a>
+          
+          <div class="lk__tabs lk-block">
+            <a href="#" class="lk__tab lk__tab--private lk__tab--active">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.1603 17.04C16.067 17.0266 15.947 17.0266 15.8403 17.04C13.4936 16.96 11.627 15.04 11.627 12.68C11.627 10.2666 13.5736 8.30664 16.0003 8.30664C18.4136 8.30664 20.3736 10.2666 20.3736 12.68C20.3603 15.04 18.507 16.96 16.1603 17.04Z"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M24.987 25.8401C22.6137 28.0134 19.467 29.3334 16.0003 29.3334C12.5337 29.3334 9.38701 28.0134 7.01367 25.8401C7.14701 24.5867 7.94701 23.3601 9.37367 22.4001C13.027 19.9734 19.0003 19.9734 22.627 22.4001C24.0537 23.3601 24.8537 24.5867 24.987 25.8401Z"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M15.9993 29.3337C23.3631 29.3337 29.3327 23.3641 29.3327 16.0003C29.3327 8.63653 23.3631 2.66699 15.9993 2.66699C8.63555 2.66699 2.66602 8.63653 2.66602 16.0003C2.66602 23.3641 8.63555 29.3337 15.9993 29.3337Z"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              
+              <div class="lk__tab-text">Личные данные</div>
+            </a>
+
+            <a href="#" class="lk__tab lk__tab--notification">
+              <svg  viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.0268 3.87988C11.6135 3.87988 8.02678 7.46655 8.02678 11.8799V15.7332C8.02678 16.5466 7.68012 17.7865 7.26678 18.4799L5.73345 21.0266C4.78678 22.5999 5.44012 24.3466 7.17345 24.9332C12.9201 26.8532 19.1201 26.8532 24.8668 24.9332C26.4801 24.3999 27.1868 22.4932 26.3068 21.0266L24.7734 18.4799C24.3734 17.7865 24.0268 16.5466 24.0268 15.7332V11.8799C24.0268 7.47988 20.4268 3.87988 16.0268 3.87988Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                <path d="M18.4939 4.26691C18.0805 4.14691 17.6539 4.05358 17.2139 4.00025C15.9339 3.84025 14.7072 3.93358 13.5605 4.26691C13.9472 3.28025 14.9072 2.58691 16.0272 2.58691C17.1472 2.58691 18.1072 3.28025 18.4939 4.26691Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20.0273 25.4131C20.0273 27.6131 18.2273 29.4131 16.0273 29.4131C14.934 29.4131 13.9207 28.9598 13.2007 28.2398C12.4807 27.5198 12.0273 26.5064 12.0273 25.4131" stroke-width="1.5" stroke-miterlimit="10"/>
+              </svg>
+
+              <div class="lk__tab-text">Уведомления</div>
+            </a>
+
+            <a href="#" class="lk__tab lk__tab--favorite">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29.3332 22.9332C29.3332 24.1332 28.9999 25.2665 28.3999 26.2265C27.2932 28.0798 25.2665 29.3332 22.9332 29.3332C20.5999 29.3332 18.5599 28.0798 17.4665 26.2265C16.8799 25.2665 16.5332 24.1332 16.5332 22.9332C16.5332 19.3999 19.3999 16.5332 22.9332 16.5332C26.4665 16.5332 29.3332 19.3999 29.3332 22.9332Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20.4395 22.9327L22.0128 24.506L25.4261 21.3594" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M29.3327 11.5862C29.3327 14.2128 28.6527 16.5328 27.586 18.5461C26.4127 17.3061 24.7594 16.5329 22.9327 16.5329C19.3994 16.5329 16.5327 19.3995 16.5327 22.9329C16.5327 24.5729 17.1594 26.0662 18.1727 27.1995C17.6794 27.4262 17.226 27.6128 16.826 27.7462C16.3727 27.9062 15.626 27.9062 15.1727 27.7462C11.306 26.4262 2.66602 20.9195 2.66602 11.5862C2.66602 7.46618 5.98602 4.13281 10.0794 4.13281C12.4927 4.13281 14.6527 5.3062 15.9993 7.1062C17.346 5.3062 19.506 4.13281 21.9193 4.13281C26.0127 4.13281 29.3327 7.46618 29.3327 11.5862Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+
+              <div class="lk__tab-text">Избранное</div>
+            </a>
+
+            <a class="lk__logout" href="#">
+              Выйти
+            </a>
+          </div>
+
+          <div class="lk__user-del lk-block">
+            <div class="lk__del-title">
+                Удаление Кабинета
+              </div>
+              
+              <div class="lk__del-text">
+                Как только ваш Личный Кабинет будет удален, вы автоматически выйдете из системы и больше не сможете войти в этот кабинет.
+              </div>
+
+              <a class="lk__del" href="#">Удалить </a>
+          </div>
+        </div>
+
+        <div class="lk__contents">
+          <div class="lk__content lk__private">
+            <div class="lk__title title">
+              <span class="title__text">Личные данные</span>
+            </div>
+
+            <div class="lk__data lk-block">
+              <div class="lk__data-title">
+                Общие данные
+              </div>
+              
+              <a href="#" class="lk__data-edit">
+                <span>Редактировать</span>
+
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15V13" stroke="#2B2F36" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M16.0418 3.02025L8.16183 10.9003C7.86183 11.2003 7.56183 11.7903 7.50183 12.2203L7.07183 15.2303C6.91183 16.3203 7.68183 17.0803 8.77183 16.9303L11.7818 16.5003C12.2018 16.4403 12.7918 16.1403 13.1018 15.8403L20.9818 7.96025C22.3418 6.60025 22.9818 5.02025 20.9818 3.02025C18.9818 1.02025 17.4018 1.66025 16.0418 3.02025Z" stroke="#2B2F36" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M14.9102 4.15039C15.5802 6.54039 17.4502 8.41039 19.8502 9.09039" stroke="#2B2F36" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+
+              <form class="lk__data-form">
+                <div class="lk__data-wrapper">
+                  <label class="lk__data-label">
+                    <div class="lk__data-subtext">
+                      Ваша фамилия
+                    </div>
+  
+                    <input class="lk__data-input" type="text" value="Смирнова" disabled>
+                  </label>
+  
+                  <label class="lk__data-label">
+                    <div class="lk__data-subtext">
+                      Ваше имя
+                    </div>
+  
+                    <input class="lk__data-input" type="text" value="Елена" disabled>
+                  </label>
+  
+                  <label class="lk__data-label">
+                    <div class="lk__data-subtext">
+                      Ваш е-mail
+                    </div>
+  
+                    <input class="lk__data-input" type="email" value="smirnovah@gmail.com" disabled>
+                  </label>
+                </div>
+
+                <button class="lk__data-save">Сохранить изменения</button>
+              </form>
+            </div>
+
+            <div class="lk__data lk-block">
+              <div class="lk__data-title">
+                Ваш пароль
+              </div>
+
+              <div class="lk__data-howlong">Обновлен неделю назад</div>
+              
+              <a href="#" class="lk__data-edit">
+                <span>Редактировать</span>
+
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15V13" stroke="#2B2F36" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M16.0418 3.02025L8.16183 10.9003C7.86183 11.2003 7.56183 11.7903 7.50183 12.2203L7.07183 15.2303C6.91183 16.3203 7.68183 17.0803 8.77183 16.9303L11.7818 16.5003C12.2018 16.4403 12.7918 16.1403 13.1018 15.8403L20.9818 7.96025C22.3418 6.60025 22.9818 5.02025 20.9818 3.02025C18.9818 1.02025 17.4018 1.66025 16.0418 3.02025Z" stroke="#2B2F36" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M14.9102 4.15039C15.5802 6.54039 17.4502 8.41039 19.8502 9.09039" stroke="#2B2F36" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+
+              <form class="lk__data-form">
+                <div class="lk__data-password">
+                  <div class="lk__data-wrapper">
+                    <label class="lk__data-label">
+                      <div class="lk__data-subtext">
+                        Старый пароль
+                      </div>
+
+                      <a href="#" class="form-lk__password-visible">
+                        <svg viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M18.7671 12.2313L12.2313 18.7671C11.3917 17.9275 10.875 16.7779 10.875 15.4992C10.875 12.9417 12.9417 10.875 15.4992 10.875C16.7779 10.875 17.9275 11.3917 18.7671 12.2313Z" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M23.0178 7.45336C20.7574 5.74836 18.174 4.81836 15.5003 4.81836C10.9407 4.81836 6.69112 7.50503 3.7332 12.155C2.5707 13.9763 2.5707 17.0375 3.7332 18.8588C4.75362 20.4604 5.94195 21.8425 7.23362 22.9534" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M10.875 25.2275C12.3475 25.8475 13.9104 26.1833 15.4992 26.1833C20.0588 26.1833 24.3083 23.4966 27.2663 18.8466C28.4288 17.0254 28.4288 13.9641 27.2663 12.1429C26.84 11.4712 26.375 10.8383 25.8971 10.2441" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M20.0341 16.4043C19.6983 18.2255 18.2129 19.711 16.3916 20.0468" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M12.2327 18.7676L2.58398 28.4163" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M28.4163 2.58398L18.7676 12.2327" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </a>
+    
+                      <input class="lk__data-input lk__data-input--active" type="password">
+                    </label>
+    
+                    <label class="lk__data-label">
+                      <div class="lk__data-subtext">
+                        Новый пароль
+                      </div>
+
+                      <a href="#" class="form-lk__password-visible">
+                        <svg viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M18.7671 12.2313L12.2313 18.7671C11.3917 17.9275 10.875 16.7779 10.875 15.4992C10.875 12.9417 12.9417 10.875 15.4992 10.875C16.7779 10.875 17.9275 11.3917 18.7671 12.2313Z" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M23.0178 7.45336C20.7574 5.74836 18.174 4.81836 15.5003 4.81836C10.9407 4.81836 6.69112 7.50503 3.7332 12.155C2.5707 13.9763 2.5707 17.0375 3.7332 18.8588C4.75362 20.4604 5.94195 21.8425 7.23362 22.9534" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M10.875 25.2275C12.3475 25.8475 13.9104 26.1833 15.4992 26.1833C20.0588 26.1833 24.3083 23.4966 27.2663 18.8466C28.4288 17.0254 28.4288 13.9641 27.2663 12.1429C26.84 11.4712 26.375 10.8383 25.8971 10.2441" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M20.0341 16.4043C19.6983 18.2255 18.2129 19.711 16.3916 20.0468" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M12.2327 18.7676L2.58398 28.4163" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M28.4163 2.58398L18.7676 12.2327" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </a>
+    
+                      <input class="lk__data-input lk__data-input--active" type="password">
+                    </label>
+    
+                    <label class="lk__data-label">
+                      <div class="lk__data-subtext">
+                        Подтверждение пароля
+                      </div>
+
+                      <a href="#" class="form-lk__password-visible">
+                        <svg viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M18.7671 12.2313L12.2313 18.7671C11.3917 17.9275 10.875 16.7779 10.875 15.4992C10.875 12.9417 12.9417 10.875 15.4992 10.875C16.7779 10.875 17.9275 11.3917 18.7671 12.2313Z" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M23.0178 7.45336C20.7574 5.74836 18.174 4.81836 15.5003 4.81836C10.9407 4.81836 6.69112 7.50503 3.7332 12.155C2.5707 13.9763 2.5707 17.0375 3.7332 18.8588C4.75362 20.4604 5.94195 21.8425 7.23362 22.9534" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M10.875 25.2275C12.3475 25.8475 13.9104 26.1833 15.4992 26.1833C20.0588 26.1833 24.3083 23.4966 27.2663 18.8466C28.4288 17.0254 28.4288 13.9641 27.2663 12.1429C26.84 11.4712 26.375 10.8383 25.8971 10.2441" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M20.0341 16.4043C19.6983 18.2255 18.2129 19.711 16.3916 20.0468" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M12.2327 18.7676L2.58398 28.4163" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M28.4163 2.58398L18.7676 12.2327" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </a>
+    
+                      <input class="lk__data-input lk__data-input--active" type="password">
+                    </label>
+                  </div>
+                </div>
+
+                <button class="lk__data-save">Сохранить изменения</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="lk__content lk__notific">
+            <div class="lk__title title">
+              <span class="title__text">Уведомления</span>
+            </div>
+
+            <ul class="lk__nav">
+              <li class="lk__nav-elem">
+                <a class="lk__nav-link lk__nav-link--active" href="#">Акции</a>
+              </li>
+
+              <li class="lk__nav-elem">
+                <a class="lk__nav-link" href="#">Распродажи</a>
+              </li>
+
+              <li class="lk__nav-elem">
+                <a class="lk__nav-link" href="#">События</a>
+              </li>
+            </ul>
+
+            <ul class="lk__notifications">
+              <li class="lk__notification">
+                <img class="lk__notification-img" src="./images/lk/lk-notification-1.jpg" alt="">
+
+                <div class="lk__notification-title">
+                    Встречаем весну с Befree
+                    Скидки до -30%
+                </div>
+
+                <div class="lk__notification-date">
+                    С 06.03.2022 по 31.04.2022
+                </div>
+              </li>
+
+              <li class="lk__notification">
+                <img class="lk__notification-img" src="./images/lk/lk-notification-2.jpg" alt="">
+
+                <div class="lk__notification-title">
+                    Скидка 25% на новую коллекцию в COLIN’S!
+                </div>
+
+                <div class="lk__notification-date">
+                    С 06.03.2022 по 31.04.2022
+                </div>
+              </li>
+
+              <li class="lk__notification">
+                <img class="lk__notification-img" src="./images/lk/lk-notification-3.jpg" alt="">
+
+                <div class="lk__notification-title">
+                    Весенние коллекции в ECCO, скидки до -30%
+                </div>
+
+                <div class="lk__notification-date">
+                    С 06.03.2022 по 31.04.2022
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="lk__content lk__favorite">
+            <div class="lk__title title">
+              <span class="title__text">Избранное</span>
+            </div>
+  
+            <ul class="lk__nav">
+              <li class="lk__nav-elem">
+                <a class="lk__nav-link lk__nav-link--active" href="#">Магазины</a>
+              </li>
+  
+              <li class="lk__nav-elem">
+                <a class="lk__nav-link" href="#">Еда</a>
+              </li>
+  
+              <li class="lk__nav-elem">
+                <a class="lk__nav-link" href="#">Развлечения</a>
+              </li>
+            </ul>
+            
+            <div class="lk__boutiques">
+              <article class="boutique">
+                  <div class="boutique__logo">
+                      <img src="./img/score/colins.svg" alt="">
+                  </div>
+                  <div class="boutique__inner">
+                      <div class="boutique__logo-mini">Colins</div>
+                      <div class="boutique__inner-block">
+                          <div class="boutique__float">1 этаж</div>
+                          <button class="boutique__heart"></button>
+                      </div>
+                  </div>
+                  <div class="boutique__text">
+                      <span class="boutique__text-time">Время работы: 10.00 - 22.00</span>
+                      <span class="boutique__text-phone">Телефон: (391) 256-85-41</span>
+                  </div>
+                  <a href="" class="boutique__link"><span>Подробнее</span></a>
+              </article>
+              
+              <article class="boutique">
+                  <div class="boutique__logo">
+                      <img src="./img/score/colins.svg" alt="">
+                  </div>
+                  <div class="boutique__inner">
+                      <div class="boutique__logo-mini">Colins</div>
+                      <div class="boutique__inner-block">
+                          <div class="boutique__float">1 этаж</div>
+                          <button class="boutique__heart"></button>
+                      </div>
+                  </div>
+                  <div class="boutique__text">
+                      <span class="boutique__text-time">Время работы: 10.00 - 22.00</span>
+                      <span class="boutique__text-phone">Телефон: (391) 256-85-41</span>
+                  </div>
+                  <a href="" class="boutique__link"><span>Подробнее</span></a>
+              </article>
+
+              <article class="boutique">
+                  <div class="boutique__logo">
+                      <img src="./img/score/colins.svg" alt="">
+                  </div>
+                  <div class="boutique__inner">
+                      <div class="boutique__logo-mini">Colins</div>
+                      <div class="boutique__inner-block">
+                          <div class="boutique__float">1 этаж</div>
+                          <button class="boutique__heart"></button>
+                      </div>
+                  </div>
+                  <div class="boutique__text">
+                      <span class="boutique__text-time">Время работы: 10.00 - 22.00</span>
+                      <span class="boutique__text-phone">Телефон: (391) 256-85-41</span>
+                  </div>
+                  <a href="" class="boutique__link"><span>Подробнее</span></a>
+              </article>
+
+              <article class="boutique">
+                  <div class="boutique__logo">
+                      <img src="./img/score/colins.svg" alt="">
+                  </div>
+                  <div class="boutique__inner">
+                      <div class="boutique__logo-mini">Colins</div>
+                      <div class="boutique__inner-block">
+                          <div class="boutique__float">1 этаж</div>
+                          <button class="boutique__heart"></button>
+                      </div>
+                  </div>
+                  <div class="boutique__text">
+                      <span class="boutique__text-time">Время работы: 10.00 - 22.00</span>
+                      <span class="boutique__text-phone">Телефон: (391) 256-85-41</span>
+                  </div>
+                  <a href="" class="boutique__link"><span>Подробнее</span></a>
+              </article>
+
+              <article class="boutique">
+                  <div class="boutique__logo">
+                      <img src="./img/score/colins.svg" alt="">
+                  </div>
+                  <div class="boutique__inner">
+                      <div class="boutique__logo-mini">Colins</div>
+                      <div class="boutique__inner-block">
+                          <div class="boutique__float">1 этаж</div>
+                          <button class="boutique__heart"></button>
+                      </div>
+                  </div>
+                  <div class="boutique__text">
+                      <span class="boutique__text-time">Время работы: 10.00 - 22.00</span>
+                      <span class="boutique__text-phone">Телефон: (391) 256-85-41</span>
+                  </div>
+                  <a href="" class="boutique__link"><span>Подробнее</span></a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+
+
+<footer class="footer">
+   <div class="container">
+     <div class="footer__wrapper-top">
+        <div class="footer__one">
+            <a href="" class="footer__one-logo">
+              <img src="./img/header/logo.svg" alt="">
+            </a>
+            <div class="footer__one-inner">
+              <label for="">Подписаться</label>
+              <input type="text" placeholder=" Ваш e-mail ">
+               <button></button>
+            </div>
+        </div>
+        <div class="footer__two">
+           <ul>
+             <li><a href="">Главная</a></li>
+             <li><a href="">О нас</a></li>
+             <li><a href="">Контакты</a></li>
+             <li><a href="">Новости</a></li>
+             <li><a href="">События ТРЦ ИЮНЬ</a></li>
+           </ul>
+           <ul>
+            <li><a href="">Магазины</a></li>
+            <li><a href="">Еда</a></li>
+            <li><a href="">Развлечения</a></li>
+            <li><a href="">Акции</a></li>
+           </ul>
+        </div>
+        <div class="footer__three">
+            <div class="footer__three-inner">
+                <div class="footer__three-black">Адрес в г. Красноярск</div>
+                <div class="footer__three-grey"> ул. Партизана Железняка, д. 23</div>
+            </div>
+            <div class="footer__three-inner">
+                <div class="footer__three-black">Время работы</div>
+                <div class="footer__three-grey">10:00 - 22:00</div>
+           </div>
+           <div class="footer__three-inner">
+              <div class="footer__three-black">Наша почта</div>
+              <div class="footer__three-grey">oprohorova@june.ru</div>
+          </div>
+          <div class="footer__three-inner">
+            <div class="footer__three-black">Телефоны по вопросам аренды помещений</div>
+            <div class="footer__three-grey"> +7 495 543-4403, +7 495 232-0034</div>
+          </div>
+          <div class="footer__three-inner">
+            <div class="footer__three-black">По вопросам размещения рекламы</div>
+            <div class="footer__three-grey">+7 (495) 543-4403, +7 (391) 234-3464</div>
+          </div>
+        </div>
+     </div>
+     <div class="footer__wrapper-bottom">
+        <div class="footer__four">
+            <div class="footer__four-text">© 2022 Группа компаний “РЕГИОНЫ”</div>
+            <div class="footer__four-social">
+                 <a href="" class="fc">
+                   <img src="./img/footer/fc.svg" alt="">
+                 </a>
+                 <a href="" class="you">
+                  <img src="./img/footer/youtube.svg" alt="">
+                </a>
+                <a href="" class="insta">
+                  <img src="./img/footer/insta.svg" alt="">
+                </a>
+                <a href="" class="pe">
+                  <img src="./img/footer/pe.svg" alt="">
+                </a>
+                <a href="" class="vk">
+                  <img src="./img/footer/vk.svg" alt="">
+                </a>
+                <a href="" class="what">
+                  <img src="./img/footer/whatt.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="footer__five">
+            <a href="" class="footer__five-logo">
+              <img src="./img/footer/rec.svg" alt="">
+            </a>
+            <a href="" class="footer__five-text">Политика конфиденциальности</a>
+        </div>
+     </div>
+   </div>
+</footer>
+<!-- /.footer -->
+<div class="overlay js-modal-overlay "></div>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+<script src="./js/swiper-bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</script>
+<script src="./js/lk.js"></script>
+<script src="./js/catalog.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/map.js"></script>
+<script src="./js/jq-script.js"></script>
+
+  </script>
+
+</body>
+
+</html>

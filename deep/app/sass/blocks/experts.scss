@@ -1,0 +1,387 @@
+.experts {
+    overflow: hidden;
+    position: relative;
+    &::before {
+        position: absolute;
+        content:'';
+        width: 21.7rem;
+        height: 21.7rem;
+        background: linear-gradient(173.84deg, rgba(49, 186, 194, 0.7) 32.25%, #1347E1 70.94%);
+        filter: blur(121.913px);
+        animation: shadow 1s infinite alternate;
+        top: 32rem;
+        left: -6rem;
+        z-index: 1;
+
+    }
+
+   
+    @keyframes shadow {
+        from {
+          box-shadow: 0 0 3.5rem 1rem #31BAC2 ;
+        }
+        to {
+          box-shadow: 0 0 5rem 2rem #1347E1;
+        }
+    }
+
+
+    .container {
+        width: 100%;
+        padding-left: 12.6rem;
+        margin-bottom: 24.6rem;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__left-block {
+        display: flex;
+        margin-bottom: 9.6rem;
+        padding-top: 43.5rem;
+        padding-left: 3rem;
+    }
+
+    &__left {
+        width: 81rem;
+    }
+
+    &__right {
+        width: 99rem;
+        padding-top: 24rem;
+    }
+
+    .pagination-slider {
+        position: relative;
+        left: 9rem;
+        top: 3.4rem;
+    }
+
+    &__left-block-inner-table {
+        width: 23.8rem;
+        height: 10.6rem;
+        background: rgba(85, 85, 85, 0.05);
+        border: 1.3px solid #FFFFFF;
+        backdrop-filter: blur(100px);
+        border-radius: 100rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        font-family: 'Akzidenz-Grotesk Pro',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 6.5rem;
+        line-height: 140%;
+        margin-bottom: 2.9rem;
+      
+    }
+
+    &__left-block-inner-text {
+        width: 27rem;
+        position: relative;
+        left: 0.3rem;
+        padding-left: -0.9rem;
+        font-family: 'Inter',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 162%;
+        text-transform: uppercase;
+    }
+    
+
+    &__left-title {
+        display: flex;
+        padding-left: 3.5rem;
+        p {
+            display: block;
+            width: 25.6rem;
+            font-family: 'Inter',sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.6rem;
+            line-height: 156% ;
+            margin-right: 7.2rem;
+
+
+        }
+
+
+
+    }
+
+    &__left-title-big {
+        width: 80.9rem;
+        display: block;
+        font-family: 'Akzidenz-Grotesk Pro',sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 6.9rem;
+        line-height: 122%;
+        text-transform: uppercase;
+        position: absolute;
+        left: 49rem;
+        bottom: -14.2rem;
+        span {
+            font-weight: 500;
+        }
+    }
+
+    &__right-swiper {
+        overflow: hidden;
+        width: 120rem;
+        
+    }
+
+
+    &__right-swiper-wrapper {
+        display: flex;
+    }
+
+
+
+
+    &__right-slide {
+        min-width: 33.6rem;
+        max-width: 33.6rem;
+        min-height: 51.1rem;
+        max-height: 51.1rem;
+        margin-right: 5.2rem;
+        cursor: pointer;
+        position: relative;
+        
+    }
+
+     .swiper-slide-active {
+        &::before {
+            position: absolute;
+            content: '';
+            background-image: url(../img/svet.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 17.386rem;
+            height: 14.819rem;
+            z-index: 2;
+            bottom: -2rem;
+        }
+    }
+
+    &__right-slide-content {
+        background: rgba(85, 85, 85, 0.03);
+        border: 1.3px solid #F5F5F5;
+        backdrop-filter: blur(80px);
+        border-radius: 100rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__right-slide-content {
+        padding-left: 4.5rem;
+        padding-right: 4.5rem;
+        padding-top: 9.4rem;
+
+        strong {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.6rem;
+            line-height: 156% ;
+            display: block;
+            margin-bottom: 2.9rem;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.5rem;
+            line-height: 167%;
+            margin-bottom: 2rem;
+        }
+    }
+
+
+    .desk {
+
+    }
+
+    .mob {
+        display: none;
+    }
+}
+
+
+.new {
+    padding-top: 11rem;
+    .container {
+        padding-left: 15.6rem;
+        padding-right: 14rem;
+    }
+
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        h2 {
+            font-family: 'Akzidenz-Grotesk Pro',sans-serif;
+            font-size: 6.9rem;
+            font-weight: 300;
+            line-height: 8.4rem;
+            letter-spacing: 0em;
+            text-align: left;
+            text-transform: uppercase;
+
+           span {
+            font-weight: 500;
+            padding-left: 2rem;
+           }
+
+        }
+
+        .link {
+            left: -2rem;
+            top: 3rem;
+        }
+    }
+
+    &__swiper {
+        overflow: hidden;
+        padding-top: 7.1rem;
+        margin-bottom: 1.2rem;
+        width: 167rem;
+        padding-bottom: 4rem;
+        .swiper-slide-active {
+            &::before {
+                display: none;
+            }
+        }
+    }
+
+    &__swiper-wrapper {
+        display: flex;
+        
+    }
+
+    &__slide {
+        min-width: 35.1rem;
+        min-height: 49.2rem;
+        max-width: 35.1rem;
+        max-height: 49.2rem;
+        position: relative;
+        margin-right: 6.7rem;
+
+        &:hover {
+            .grey {
+                box-shadow: 4px 4px 14px 1px  rgba(60, 60, 65, 0.9);
+            }
+
+
+            .red {
+                box-shadow: 4px 4px 14px 1px rgba(215, 57, 37, 0.9);
+            }
+
+            .brown {
+                box-shadow: 4px 4px 14px 1px rgba(215, 210, 117, 0.9);
+            }
+
+            .green {
+                box-shadow: 4px 4px 14px 1px rgba(34, 255, 149, 0.9) ;
+            }
+
+            .blue {
+                box-shadow: 4px 4px 14px 1px rgba(34, 189, 255, 0.9);
+            }
+        }
+       
+        .grey {
+            background: linear-gradient(181.58deg, rgba(60, 60, 65, 0.9) 68.02%, rgba(34, 189, 255, 0.9) 209.57%);
+        }
+
+        .green {
+            background: linear-gradient(181.58deg, rgba(17, 17, 18, 0.9) 68.02%, rgba(34, 255, 149, 0.9) 209.57%);
+            border: 1.3px solid #FFFFFF;
+        }
+
+        .blue {
+            background: linear-gradient(181.58deg, rgba(17, 17, 18, 0.9) 68.02%, rgba(34, 189, 255, 0.9) 209.57%);
+            border: 1.3px solid #FFFFFF;
+        }
+    }
+
+    &__slide-content {
+        width: 31.3rem;
+        height: 49.2rem;
+        border-radius: 100rem;
+        backdrop-filter: blur(100px);
+        padding-left: 6.5rem;
+        padding-right: 6rem;
+        padding-top: 3.9rem;
+        margin-left: auto;
+    }
+
+    &__slide-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 7.5rem;
+        height: 12.3rem;
+        background: linear-gradient(159.33deg, rgba(43, 231, 152, 0.85) -8.27%, #4785FF 60.95%), #426AFE;
+        border-radius: 10.3rem;
+        position: absolute;
+        left: 0rem;
+        top: 18rem;
+        z-index: 2;
+
+        img {
+            width: 2.4rem;
+            height: 2.4rem;
+        }
+    }
+
+    &__slide-content-image {
+        width: 18rem;
+        height: 31rem;
+        display: block;
+        margin-bottom: 2.9rem;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__slide-content-text {
+        
+    }
+
+    &__slide-content-text-name {
+        font-family: 'Akzidenz-Grotesk Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 133% ;
+        text-align: center;
+        display: block;
+        text-transform: uppercase;
+        margin-bottom: 0.3rem;
+    }
+
+    &__slide-content-text-sku {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 156% ;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .pagination-slider {
+        display: flex;
+        justify-content: center;
+        left: -1rem;
+    }
+
+
+}

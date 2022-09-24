@@ -1,0 +1,119 @@
+.header {
+    position: absolute;
+    left: 21.1rem;
+    top: 1rem;
+    z-index: 2;
+    .container {
+        width: 149rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav {
+        position: relative;
+        right: 1.3rem;
+        top: 0.2rem;
+    }
+    &__block {
+        display: flex;
+        align-items: center;
+    }
+    &__coat {
+        width: 7.8rem;
+        height: 8.4rem;
+        display: inline-block;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &__logo {
+        width: 13.8rem;
+        height: 10.7rem;
+        display: inline-block;
+    }
+    &__menu {
+        width: 43.2rem;
+        display: flex;
+        justify-content: space-between;
+        li {
+            font-family: 'Euclid Circular A', 'sans-serif';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+            color: #0E192E;
+        }
+    }
+    .header-cabinet {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 24.4rem;
+        height: 6.2rem;
+        left: 5rem;
+        top: 0.5rem;
+        &__image {
+            width: 3.3rem;
+            height: 3.3rem;
+            display: inline-block;
+            margin-right: 1.9rem;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        &__text {
+            font-family: 'Euclid Circular A', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.header--two {
+    left: 10rem;
+    top: 2.5rem;
+    .header__nav {
+        position: relative;
+        right: 0;
+        left: 12.1rem;
+        top: 0.2rem;
+    }
+    .header-cabinet {
+        left: 22.5rem;
+        top: 0rem;
+        background: #FFFFFF;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &__text {
+            color: #0E192E;
+        }
+    }
+}
+
+.header--three {
+    .header-cabinet {
+        left: 1rem;
+        top: 1rem;
+        background: #FFFFFF;
+        border-radius: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &__text {
+            color: #0E192E;
+        }
+    }
+}
+
+.white {
+    background: #FFFFFF;
+}

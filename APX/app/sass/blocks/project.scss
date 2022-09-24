@@ -1,0 +1,166 @@
+.project {
+    padding-top: 8.8rem;
+    .container {
+        width: 100%;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 8.2rem;
+        span {
+            font-size: 2rem;
+            line-height: 125%;
+            text-transform: uppercase;
+            margin-bottom: 3rem;
+        }
+
+        strong {
+            font-size: 10.4rem;
+            line-height: 110%;
+            color: #1B1E1F;
+            margin-left: -1rem;
+           
+        }
+    }
+
+    &__lists {
+        display: flex;
+        margin-bottom: 9.5rem;
+    }
+
+    &__item {
+        display: inline-block;
+        font-size: 1.8rem;
+        line-height: 139%;
+        padding-bottom: 1rem;
+        margin-right: 4rem;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .active-item {
+        &::before {
+            content:'';
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 1px;
+            background: #000000;
+        }
+    }
+
+    &__item:last-child {
+        margin-right: 0;
+    }
+
+    &__wrapper {
+       display: none;
+        flex-wrap: wrap;
+    }
+
+    .active-block {
+        display: flex;
+    }
+
+    &__table {
+        width: 38.646rem;
+        display: inline-block;
+        margin-right: 5.1rem;
+        margin-bottom: 10rem;
+        &:hover {
+            
+            .project__table-inner {
+                transition: all 0.5s ;
+                border-bottom: 1px solid #EB101D;
+            }
+
+            .project__table-geo {
+                color: #EB101D;
+                transition: all 0.5s ;
+            }
+        }
+       
+    }
+
+   
+
+    &__table:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    &__table:nth-last-child(-n + 4) {
+        margin-bottom: 0;
+    }
+
+    &__table-image {
+        width: 38.646rem;
+        height: 40.125rem;
+        display: block;
+        margin-bottom: 2.962rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__table-name {
+        font-size: 2rem;
+        line-height: 125%;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 2.1rem;
+        text-transform: uppercase;
+    }
+
+    &__table-inner {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2.615rem;
+        border-bottom: 1px solid #000;
+
+        font-size: 1.8rem;
+        line-height: 139%;
+
+        span {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__wrapper-block {
+        display: flex;
+    }
+
+    &__block-title {
+        display: flex;
+        justify-content: space-between;
+        
+        h2 {
+            font-size: 10.5rem;
+            line-height: 110%;
+            margin-bottom: 5.6rem;
+        }
+
+        .all-btn {
+            margin-top: 5rem;
+        }
+    }
+
+    &__top {
+        display: none;  
+    }
+
+    &__table-geo {
+        font-size: 1.8rem;
+        line-height: 135%;
+        color: #1B1E1F;
+        font-weight: 300;
+
+    }
+
+    .mob {
+        display: none;
+    }
+}

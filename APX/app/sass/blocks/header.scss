@@ -1,0 +1,95 @@
+.header {
+   
+    padding-top: 3.6rem;
+    .container {
+        width: 100%;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    &__wrapper {
+        display: flex;
+      
+        padding-bottom: 2.4rem;
+        border-bottom: 1px solid #000000;
+
+    }
+
+    &__logo {
+        font-family: 'Helvetica',sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 2rem;
+        line-height: 2.3rem;
+        display: inline-block;
+        /* identical to box height */
+
+        text-transform: uppercase;
+        margin-right: 16.6rem;
+        color: #1B1E1F;
+    }
+
+    &__nav-lists {
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    &__nav-item {
+        font-size: 1.8rem;
+        line-height: 139% ;
+       margin-right: 3.4rem;
+       padding-bottom: 1rem;
+       position: relative;
+       &::after {
+        position: absolute;
+        content: '';
+        width: 0%;
+        height: 0.1rem;
+        background: #1B1E1F;
+        left: 0;
+        bottom: 0;
+        transition: width 0.4s ease-in-out;
+    }
+    &:hover {
+        &::after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 0.1rem;
+            background: #1B1E1F;
+            left: 0;
+            bottom: 0;
+            transition: width 0.4s ease-in-out;
+        }
+    }
+
+    }
+    &__nav-item :last-child {
+        margin-right: 0;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        margin-left:   auto;
+        font-size: 1.8rem;
+        line-height: 139%;
+        a:first-child {
+            margin-right:  7.2rem;
+        }
+
+        a {
+            display: inline-block;
+        }
+    }
+
+    &__burger {
+        display: none;
+    }
+
+    &__close {
+        display: none;
+    }
+}

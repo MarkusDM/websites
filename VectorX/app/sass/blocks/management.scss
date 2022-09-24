@@ -1,0 +1,141 @@
+.management {
+    overflow: hidden;
+    margin-top: 6.5rem;
+    margin-bottom: 12rem;
+    .container {
+        width: 145.8rem;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            width: 100%;
+            padding: 0 3.94rem;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            flex-direction: column;
+        }
+    }
+    .management-right {
+        &__image {
+            width: 65rem;
+            height: 60.7rem;
+            margin-top: -2rem;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                width: 77rem;
+                height: 62.7rem;
+                margin-top: -5rem;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .management-left {
+        padding-top: 0rem;
+        padding-left: 6rem;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            padding-left: 0;
+        }
+        &__title {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 4.4rem;
+            span {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 3rem;
+                color: #333333;
+                padding-left: 8.7rem;
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin-bottom: 2.8rem;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    font-size: 2.9rem;
+                    line-height: 1.94rem;
+                    padding-left: 4rem;
+                    display: none;
+                }
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 6.5rem;
+                    height: 0.1rem;
+                    display: inline-block;
+                    background: #333333;
+                    left: 0;
+                    @media only screen and (min-width: 20em) and (max-width: 48em) {
+                        width: 3.6rem;
+                        left: -0.7rem;
+                        top: 0.12rem;
+                    }
+                }
+            }
+            strong {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 6.8rem;
+                line-height: 6.5rem;
+                color: #333333;
+                transform: rotate(0.22deg);
+                display: block;
+                margin-bottom: 3.66rem;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    font-size: 5.313rem;
+                    display: none;
+                }
+            }
+            p {
+                width: 61.2rem;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 150%;
+                color: #595959;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    font-size: 2.9rem;
+                    line-height: 150%;
+                }
+            }
+        }
+        &__title--mobile {
+            display: none;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                display: flex;
+                flex-direction: column;
+                p {
+                    display: none;
+                }
+                span {
+                    display: flex;
+                    align-items: center;
+                }
+                strong {
+                    display: inline-block;
+                    padding-right: 9rem;
+                }
+            }
+        }
+        &__btn {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12.4rem;
+            margin-top: 11rem;
+            .button-all {
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    height: 11rem;
+                    width: 38.96rem;
+                    span {
+                        font-size: 2.9rem;
+                    }
+                }
+            }
+            .button-border {
+                margin-left: 3rem;
+            }
+        }
+    }
+}

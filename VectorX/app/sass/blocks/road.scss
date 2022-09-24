@@ -1,0 +1,175 @@
+.road {
+    margin-bottom: 3rem;
+    position: relative;
+    @media only screen and (min-width: 20em) and (max-width: 48em) {
+        margin-bottom: 23.5rem;
+    }
+    .container {
+        width: 143.9rem;
+        margin-left: 20.5rem;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            width: 100%;
+            padding: 0 2.94rem;
+            margin-left: 0;
+        }
+    }
+    &__wrapper {
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            padding-top: 9rem;
+        }
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            width: 100%;
+        }
+    }
+    &__inner--top {
+        margin-top: -1.3rem;
+        margin-bottom: 7.5rem;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            margin-top: 5.9rem;
+            margin-bottom: 3rem;
+            padding-top: 0.9rem;
+        }
+    }
+    &__inner--down {
+        margin-top: -6rem;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            margin-top: 0rem;
+            padding-top: 4rem;
+        }
+    }
+    &__inner--center {
+        margin-top: -27rem;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            margin-top: 0rem;
+        }
+    }
+    &__text {
+        margin-bottom: 16rem;
+        padding-left: 3rem;
+        padding-top: 1rem;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            width: auto;
+            padding-left: 0;
+        }
+        span {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 7.5rem;
+            line-height: 8.5rem;
+            color: #333333;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                font-size: 4.137rem;
+                line-height: 3.92rem;
+            }
+        }
+        p {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            color: #333333;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                font-size: 2.9rem;
+                line-height: 2.54rem;
+                padding-left: 0.5rem;
+                padding-top: 1rem;
+            }
+        }
+    }
+    &__text--bottom {
+        margin-bottom: 37.5rem;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            margin-bottom: 130.99rem;
+            padding-top: 3rem;
+            margin-bottom: 0;
+        }
+    }
+    &__list {
+        width: 108rem;
+        padding-left: 4rem;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            width: 68%;
+            margin-right: 4rem;
+            margin-top: -2rem;
+            display: inline-block;
+        }
+        ul {
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                list-style-type: disc;
+                list-style-position: inside;
+            }
+        }
+        li {
+            font-size: 1.8rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 2.5rem;
+            margin-bottom: 2.5rem;
+            list-style-type: disc;
+            list-style-position: inside;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                margin-bottom: 6rem;
+                font-size: 2.8rem;
+                line-height: 4.5rem;
+            }
+        }
+        li:first-child {
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                background-image: url(../img/icon/pointer.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 16rem;
+                height: 4rem;
+                left: -17.6rem;
+                top: -0.6rem;
+                z-index: 2;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    width: 7rem;
+                    height: 3.8rem;
+                    left: -12rem;
+                    top: 0rem;
+                    background-image: url(../img/icon/pointermobile.svg);
+                }
+            }
+        }
+        p {
+            display: inline-block;
+            font-size: 1.8rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 2.5rem;
+            margin-bottom: 2rem;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                display: inline-block;
+                font-size: 4.1rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 3.5rem;
+                margin-bottom: 4rem;
+            }
+        }
+    }
+    &__line {
+        position: absolute;
+        height: 100%;
+        top: -23rem;
+        left: 44.7rem;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            left: 15.2rem;
+            top: 163rem;
+            height: 433rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

@@ -1,0 +1,279 @@
+.branded {
+    margin-bottom: 16rem;
+    @media only screen and (max-width: 48em) {
+        margin-top: -6.7rem;
+        margin-bottom: 36rem;
+    }
+    .container {
+        width: 100%;
+        padding-left: 18.9rem;
+        @media only screen and (max-width: 48em) {
+            padding: 0 4rem;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        @media only screen and (max-width: 48em) {
+            margin-bottom: 5.9rem;
+        }
+    }
+    &__title {
+        font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 5.8rem;
+        letter-spacing: 0.02em;
+        color: #262626;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        span {
+            @media only screen and (max-width: 48em) {
+                margin-right: 2rem;
+            }
+        }
+        @media only screen and (max-width: 48em) {
+            font-size: 5.1rem;
+            flex-direction: initial;
+            width: 100%;
+            margin-bottom: 7rem;
+        }
+    }
+    &__text {
+        font-family: 'Akzidenz-Grotesk Pro Med Ext', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 156%;
+        color: #262626;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.05rem;
+            line-height: 5rem;
+        }
+    }
+    .all-btn--mobile {
+        display: none;
+        span {
+            @media only screen and (max-width: 48em) {
+                font-size: 3.1rem;
+            }
+        }
+        &::before {
+            @media only screen and (max-width: 48em) {
+                background: none;
+                background-image: url(../img/icon/arrowwhite.svg);
+                background-repeat: no-repeat;
+                width: 2rem;
+                height: 2rem;
+                background-size: 100% 100%;
+                top: 3.3rem;
+                right: 3.1rem;
+            }
+        }
+        @media only screen and (max-width: 48em) {
+            display: flex;
+            width: 51.7rem;
+            height: 8.7rem;
+            padding-left: 4rem;
+            padding-top: 3rem;
+        }
+    }
+    &__box {
+        width: 35.2rem;
+        height: 41.9rem;
+        position: relative;
+        background: #FFFFFF;
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 2.2rem;
+        padding: 3rem;
+        padding-right: 1rem;
+        margin-bottom: 4.7rem;
+        margin-right: 4.4rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            margin-right: 0;
+            height: 76.5rem;
+            border-radius: 4rem;
+            padding-left: 6rem;
+            padding-top: 5rem;
+            margin-bottom: 5.2rem;
+        }
+        .all-btn {
+            width: 27.7rem;
+            height: 4.7rem;
+            margin-top: 11rem;
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+            position: relative;
+            top: -0.6rem;
+            @media only screen and (max-width: 48em) {
+                display: none;
+            }
+            span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1.6rem;
+                line-height: 2.6rem;
+                color: #FFFFFF;
+                position: relative;
+                top: -0.8rem;
+                left: -1.1rem;
+            }
+            &::before {
+                background: none;
+                background-image: url(../img/icon/arrowwhite.svg);
+                background-repeat: no-repeat;
+                width: 1.5rem;
+                height: 1.5rem;
+                background-size: 1.2rem 1.2rem;
+                right: 1.9rem;
+                top: 1.6rem;
+            }
+        }
+        .link-btn {
+            position: absolute;
+            width: 80%;
+            bottom: 4rem;
+            display: flex;
+            align-items: center;
+            @media only screen and (max-width: 48em) {
+                bottom: 7.6rem;
+            }
+            span {
+                @media only screen and (max-width: 48em) {
+                    font-size: 3.05rem;
+                }
+            }
+            &::before {
+                width: 3rem;
+                height: 3rem;
+                right: -0.9rem;
+                top: -0.2rem;
+                @media only screen and (max-width: 48em) {
+                    width: 5rem;
+                    height: 5rem;
+                    right: -1.5rem;
+                    top: -1.4rem;
+                }
+            }
+        }
+        .link-btn-before {
+            &::after {
+                right: -1.5rem;
+                top: -0.8rem;
+                @media only screen and (max-width: 48em) {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    background-size: 100% 100%;
+                    top: 0.2rem;
+                    right: 0.2rem;
+                }
+            }
+        }
+    }
+    &__box:first-child {
+        background: none;
+        border: none;
+        box-shadow: none;
+        width: 35.2rem;
+        padding: 0;
+        margin-right: 4.4rem;
+        height: 41.9rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            height: auto;
+            margin-right: 0;
+            margin-bottom: 9rem;
+        }
+    }
+    &__box:nth-child(4n) {
+        margin-right: 0;
+    }
+    &__box-title {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 3.1rem;
+        color: #262626;
+        margin-bottom: 1rem;
+        height: 6.2rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 4.1rem;
+            line-height: 5rem;
+            margin-bottom: 7.6rem;
+        }
+    }
+    &__box-title--big {
+        height: auto;
+    }
+    &__box-blue {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        color: #3066C1;
+        margin-bottom: 1.4rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.3rem;
+            margin-bottom: 5.3rem;
+        }
+    }
+    &__box-icon {
+        position: absolute;
+        width: 5.6rem;
+        height: 5.6rem;
+        background: #FFFFFF;
+        box-shadow: 0px 21px 50px rgba(0, 30, 98, 0.1);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        right: 7rem;
+        top: 11rem;
+        @media only screen and (max-width: 48em) {
+            width: 9.1rem;
+            height: 9.1rem;
+            top: 21.5rem;
+            left: 47.5rem;
+        }
+        img {
+            height: 2.9rem;
+            width: 2.9rem;
+            @media only screen and (max-width: 48em) {
+                width: 7rem;
+                height: 7rem;
+                position: relative;
+            }
+        }
+    }
+    &__box-image {
+        width: 29.2rem;
+        height: 19.1rem;
+        filter: drop-shadow(5px 22.3332px 50px rgba(39, 40, 49, 0.29));
+        border-radius: 3rem;
+        margin-bottom: 3rem;
+        @media only screen and (max-width: 48em) {
+            width: 56rem;
+            height: 33.4rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: drop-shadow(5px 22.3332px 50px rgba(39, 40, 49, 0.29));
+            border-radius: 3rem;
+            @media only screen and (max-width: 48em) {
+                object-fit: cover;
+                border-radius: 6rem;
+            }
+        }
+    }
+    &__block {
+        width: 35.2rem;
+        margin-right: 3.7rem;
+    }
+}

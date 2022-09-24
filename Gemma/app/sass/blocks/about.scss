@@ -1,0 +1,223 @@
+.about {
+    margin-bottom: 19rem;
+    .container {
+        width: 155.24rem;
+    }
+
+    .title {
+        margin-bottom: 8.8rem;
+        display: flex;
+        
+        align-items: center;
+    }
+
+    &__wrapper {
+        display: flex;
+        margin-bottom: 15rem;
+        
+    }
+
+    &__quotes {
+        position: relative;
+        width: 76rem;
+        height: 46.6rem;
+        background: #E6E7ED;
+        padding-bottom: 6.3rem;
+        padding-top: 5.1rem;
+        padding-left: 5rem;
+        display: flex;
+        margin-bottom: 5.3rem;
+    }
+    &__left {
+        margin-right: 8.6rem;
+    }
+    &__quotes-text-icon {
+        width: 3.37rem;
+        height: 3.37rem;
+        margin-bottom: 12rem;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &__quotes-text-strong {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 3.4rem;
+        color: #1A1B20;
+        margin-bottom: 4.9rem;
+
+    }
+
+    &__quotes-text-name {
+        width: 21.4rem;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 2.3rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #1A1B20;
+
+    }
+
+    &__quotes-image {
+        position: absolute;
+        width: 31.61rem;
+        height: 51.1rem;
+        bottom: 0;
+        right: 2.6rem;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+
+    &__left-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 156%;
+        color: #1A1B20;
+        width: 75.2rem;
+        padding-left: 0.6rem;
+        p {
+            margin-bottom: 2.6rem;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__right-strong {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.4rem;
+        line-height: 146%;
+        color: #1A1B20;
+        padding-top: 4.1rem;
+        width: 62.9rem;
+        margin-bottom: 3rem;
+    }
+
+    &__right-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 156%;
+        color: #1A1B20;
+        width: 64.5rem;
+        margin-bottom: 5.3rem;
+
+        p {
+            margin-bottom: 2rem;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__right-text--two {
+        width: 69rem;
+        margin-bottom: 6.5rem;
+
+    }
+
+    &__right-block {
+        display: flex;
+        margin-bottom: 2.3rem;
+        position: relative;
+    }
+    &__right-inner {
+        display: flex;
+        flex-direction: column;
+        margin-right: 8.8rem;
+
+        strong {
+            font-family: 'Open Sans',sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.7rem;
+            line-height: 2.3rem;
+            color: #1A1B20;
+            margin-bottom: 1.3rem;
+        }
+
+        span {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.9rem;
+            line-height: 3.5rem;
+            color: #143383;
+        }
+    }
+    &__right-inner:last-child {
+        margin-right: 0;
+    }
+    &__right-text:last-child {
+        margin-bottom: 0;
+    }
+
+    &__right-svg {
+        width: 12.8rem;
+        height: 12.8rem;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        bottom: -3rem
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.4rem;
+        line-height: 146%;
+        text-align: center;
+        color: #1A1B20;
+        width: 104rem;
+        margin: 0 auto;
+        strong {
+            margin-bottom: 4rem;
+        }
+
+        strong:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__right-text--end {
+        width: 70rem;
+        p {
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+
+.about--two {
+    margin-bottom: 10rem;
+    .title {
+        justify-content: space-between;
+    }
+
+    .container {
+        width: 154rem;
+    }
+
+    .mobile {
+        display: none;
+    }
+}

@@ -1,0 +1,29 @@
+.catalog-choice {
+    // display: none;
+    flex-wrap: wrap;
+    &__item {
+        margin-right: 1rem;
+        background: #D7DBE8;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        color: #1A1B20;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+        margin-bottom: 1rem;
+
+        svg {
+            width: 1.2rem;
+            height: 1.2rem;
+            margin-right: 2.1rem;
+            position: relative;
+            top: 0.1rem;
+            pointer-events: none;
+        }
+    }
+
+    
+}

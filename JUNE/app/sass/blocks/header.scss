@@ -1,0 +1,332 @@
+.header {
+    position: absolute;
+    left: 18.7rem;
+    z-index: 12;
+    
+    .container {
+        width: 154.8rem;
+    }
+    &__wrapper {
+        display: flex;
+        padding-bottom: 2.2rem;
+        border-bottom: 0.15rem solid rgba(255, 255, 255, 0.3);
+    }
+
+
+    &__burger {
+        display: none;
+    }
+
+    &__nav {
+        padding-top: 2.9rem;
+        margin-right: 22.3rem;
+    }
+
+    &__menu {
+        display: flex;
+        li {
+
+            font-size: 1.8rem;
+            line-height: 133%;
+            color: #FFFFFF;
+            margin-right: 3.2rem;
+            display: inline-block;
+            position: relative;
+            &::after {
+                position: absolute;
+                content: '';
+                width: 0%;
+                height: 0.2rem;
+                background: #fff;
+                left: 0;
+                bottom: 0;
+                transition: width 0.4s ease-in-out;
+            }
+            &:hover {
+                &::after {
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 0.2rem;
+                    background: #fff;
+                    left: 0;
+                    bottom: 0;
+                    transition: width 0.4s ease-in-out;
+                }
+            }
+        }
+    
+        li:last-child {
+            margin-right: 0;
+        }
+      
+    }
+
+    &__logo {
+        width: 14.6rem;
+        height: 5rem;
+        display: inline-block;
+        margin-right: 26.8rem;
+        margin-top: 0.7rem;
+    }
+
+    &__geo {
+        font-size: 1.8rem;
+        line-height: 133%;
+        color: #FFFFFF;
+        text-decoration-line: underline;
+        padding-top: 2.9rem;
+        display: inline-block;
+        padding-left: 2.5rem;
+        position: relative;
+        margin-right: 6.5rem;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 1.34rem;
+            height: 1.638rem;
+            left: 0;
+            background-image: url(../img/icon/geo.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+
+    &__geo-span {
+        cursor: pointer;
+    }
+
+    &__geo-item {
+        font-size: 1.8rem;
+        line-height: 133%;
+        color: #35353E;
+        display: block;
+        margin-bottom: 2rem;
+        cursor: pointer;
+    }
+    &__geo-block {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 4rem;
+        padding-bottom: 1rem;
+        background: #FFFFFF;
+        position: absolute;
+        border-radius: 2rem;
+        left: 0;
+        margin-top: 2rem;
+        opacity: 0;
+        transition: all 0.4s;
+        &::before {
+            position: absolute;
+            content:'';
+            width: 0; 
+            height: 0;
+            top: -1rem;
+            border-left: 0.7rem solid transparent;
+            border-right: 0.7rem solid transparent;
+            border-bottom: 1.4rem solid #FFFFFF;
+        }
+    }
+
+    &__geo-block--active {
+        opacity: 1;
+    }
+
+    &__time {
+        
+        font-size: 1.8rem;
+        line-height: 133%;
+        padding-top: 2.9rem;
+        color: #FFFFFF;
+        margin-right: 6.8rem;
+        cursor: pointer;
+    }
+
+
+    &__user {
+        width: 2.5rem;
+        height: 2.5rem;
+        background-image: url(../img/icon/user.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: 2.8rem;
+        margin-right: 2rem;
+    }
+
+    &__search {
+        margin-top: 2.5rem;
+        width: 2.8rem;
+        height: 2.8rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url(../img/icon/search.svg);
+    }
+
+    &__search-block {
+        width: 122%;
+        background: #fff;
+        position: fixed;
+        left: -19rem;
+        z-index: 20;
+        top: 0;
+        padding-top: 4.8rem;
+        padding-bottom: 4.6rem;
+        margin: 0 auto;
+        box-shadow: 2rem -1rem 6.2rem rgba(92, 93, 100, 0.2);
+        display: none;
+        
+    }
+
+    &__nav-search {
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        input {
+            font-family: 'Euclid Circular A',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 156%;
+            color: #A7A7AE;
+            width: 40rem;
+            border: none;
+            background: none;
+            padding-left: 4.3rem;
+        }
+
+        label {
+            background-image: url(../img/icon/searchgrey.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 2.8rem;
+            height: 2.8rem;
+            left: 0;
+            top: -2rem;
+        }
+        
+    }
+
+    &__search-inner {
+        width: 71.1rem;
+        background: #FFFFFF;
+        border-radius: 0px 0px 2rem 2rem;
+        position: absolute;
+        z-index: 12;
+        margin: 0 auto;
+        padding-top: 2.1rem;
+        margin-top: 4.5rem;
+        left: 80rem;
+        padding-left: 4rem;
+        padding-bottom: 2.1rem;
+        
+    }
+
+
+    &__search-inner-title {
+        font-family: 'Euclid Circular A',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 156%;
+        color: #A7A7AE;
+        margin-bottom: 1rem;
+    }
+
+    &__search-inner-lists {
+        padding-left: 1rem;
+    }
+
+    &__search-inner-item {
+        font-family: 'Euclid Circular A',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 156% ;
+        color: #2B2F36;
+        margin-bottom: 0.5rem;
+    }
+
+    &__search-close {
+        background-image: url(../img/icon/xxx.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 1.1rem;
+        height: 1.1rem;
+        position: relative;
+        top: 0.8rem;
+    }
+
+    &__nav-close {
+        display: none;
+    }
+
+
+
+
+  
+   
+}
+
+
+.header--black {
+    &__user {
+       
+        background-image: url(../img/icon/user.svg);
+        
+    }
+
+    &__search {
+        
+        background-image: url(../img/icon/search.svg);
+    }
+
+
+    .header__menu {
+        display: flex;
+        li {
+
+            font-size: 1.8rem;
+            line-height: 133%;
+            color: #35353E;
+            margin-right: 3.2rem;
+            display: inline-block;
+        }
+    
+        li:last-child {
+            margin-right: 0;
+        }
+      
+    }
+
+    .header__geo,
+    .header__time {
+        color: #35353E;
+    }
+
+    .header__geo {
+        &::before {
+            background-image: url(../img/black/geo.svg);
+        }
+    }
+
+    .header__user {
+        background-image: url(../img/black/user.svg);
+    }
+
+    .header__search {
+        background-image: url(../img/black/search.svg);
+    }
+
+    .header__wrapper {
+        border-bottom: 1.5px solid #A7A7AE;
+
+    }
+
+    .header__burger {
+        background-image: url(../img/icon/burgerblack.svg);
+    }
+}
+
+
+

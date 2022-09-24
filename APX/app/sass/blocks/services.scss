@@ -1,0 +1,57 @@
+.services {
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+    .container {
+        width: 100%;
+    }
+
+    &__title {
+        padding-left: 9.1rem;
+        font-size: 10.5rem;
+        line-height: 110%;
+        margin-bottom: 5.2rem;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    &__table {
+        width: 38.6rem;
+        height: 45.4rem;
+        border: 1px solid #000000;
+        padding-top: 3.1rem;
+        padding-left: 3.1rem;
+        padding-right: 3rem;
+        padding-bottom: 2.7rem;
+    }
+
+    &__table-image {
+        width: 32.5rem;
+        height: 31rem;
+        margin-bottom: 3.6rem;
+    }
+
+    &__table-link {
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 125% ;
+        text-transform: uppercase;
+        width: 100%;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 5.2rem;
+            height: 1rem;
+            right: 0;
+            background-image: url(../img/icon/arrownext.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            top: 2rem;
+        }
+    }
+}

@@ -1,0 +1,226 @@
+.vector {
+    margin-bottom: 7rem;
+    overflow: hidden;
+    @media only screen and (min-width: 20em) and (max-width: 48em) {
+        overflow: hidden;
+        margin-bottom: 57rem;
+    }
+    .container {
+        width: 100%;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            width: 100%;
+            padding: 0;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .vector-left {
+        display: flex;
+        width: 40%;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            width: 37%;
+        }
+        &__image {
+            margin-top: 16rem;
+            width: 74.1rem;
+            height: 68.8rem;
+            display: inline-block;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                display: inline-block;
+                width: 37.1rem;
+                height: 36.8rem;
+                position: absolute;
+                margin-top: 60rem;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .vector-center {
+        width: 18%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            width: 32%;
+        }
+        &__text {
+            margin-bottom: 4rem;
+            padding-top: 3rem;
+            width: 36rem;
+            position: relative;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                width: 23rem;
+                padding-top: 0rem;
+            }
+            strong {
+                font-family: 'URW Geometric Extended', sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24rem;
+                line-height: 18rem;
+                color: #FDFFFF;
+                position: relative;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    font-size: 12.76rem;
+                    line-height: 16.47rem;
+                }
+            }
+            span {
+                font-family: 'URW Geometric Extended', sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 7rem;
+                line-height: 9.8rem;
+                text-align: center;
+                color: #FFFFFF;
+                position: absolute;
+                top: 5rem;
+                right: 3rem;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    font-size: 4.9rem;
+                    line-height: 6.49rem;
+                    right: 3rem;
+                    top: 3rem;
+                }
+            }
+            p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 2rem;
+                color: #333333;
+                width: 9.2rem;
+                position: absolute;
+                top: 13.5rem;
+                left: 27rem;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    font-size: 2.3rem;
+                    line-height: 130%;
+                    top: 8rem;
+                    left: 15rem;
+                    font-weight: 500;
+                }
+            }
+        }
+        &__title {
+            width: 84.6rem;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 5rem;
+            line-height: 5.5rem;
+            text-align: center;
+            color: #333333;
+            margin-bottom: 4.7rem;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                width: 68.81rem;
+                font-size: 5.31rem;
+                line-height: 120%;
+                position: relative;
+                left: -2rem;
+                top: -5rem;
+                margin-bottom: -5.3rem;
+            }
+            span {
+                display: inline-block;
+                margin-bottom: 3.3rem;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    font-size: 4.8rem;
+                    margin-bottom: 1.3rem;
+                }
+            }
+            p {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 1.8rem;
+                line-height: 160%;
+                text-align: center;
+                color: #333333;
+                width: 42.8rem;
+                margin: 0 auto;
+                display: flex;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 4.86rem;
+                    font-size: 2.6rem;
+                    line-height: 3.8rem;
+                    padding-top: 1rem;
+                    width: 62rem;
+                }
+            }
+        }
+        .button-all {
+            padding-left: 0rem;
+            border: 0.5rem solid rgba(0, 0, 0, 0.1);
+            background-clip: border-box;
+            background-clip: padding-box;
+            background-clip: content-box;
+            &:hover {
+                border: 0rem solid #81F55A;
+            }
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                width: 35rem;
+                height: 11rem;
+                font-size: 0.351rem;
+                margin-left: -4rem;
+                padding-left: 0rem;
+                padding-bottom: 0rem;
+                background-clip: border-box;
+                background-clip: padding-box;
+                background-clip: content-box;
+                span {
+                    font-size: 2.8rem;
+                    font-weight: 500;
+                }
+            }
+            &__image {
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    position: relative;
+                    z-index: 0;
+                    right: 2rem;
+                    top: 0rem;
+                }
+            }
+        }
+    }
+    .vector-right {
+        display: flex;
+        width: 40%;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            width: 31%
+        }
+        &__image {
+            margin-top: 11rem;
+            height: 67rem;
+            width: 72.7rem;
+            position: relative;
+            right: -4rem;
+            display: inline-block;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                display: inline-block;
+                margin-top: 59rem;
+                height: 35rem;
+                width: 38.7rem;
+                position: absolute;
+                right: 0rem;
+                margin-bottom: 21rem;
+                overflow: hidden;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                overflow: hidden;
+            }
+        }
+    }
+}

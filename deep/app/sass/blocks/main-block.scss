@@ -1,0 +1,246 @@
+.main-block {
+    position: relative;
+    overflow: hidden;
+    &::before {
+        position: absolute;
+        content:'';
+        width: 27.7rem;
+        height: 25.7rem;
+        background: linear-gradient(173.84deg, rgba(49, 186, 194, 0.7) 32.25%, #1347E1 70.94%);
+        filter: blur(121.913px);
+        animation: shadow 1s infinite alternate;
+        top: 35rem;
+        left: -6rem;
+        z-index: 1;
+
+    }
+
+    &::after {
+        position: absolute;
+        content:'';
+        width: 27.7rem;
+        height: 25.7rem;
+        background: linear-gradient(173.84deg, rgba(49, 186, 194, 0.7) 32.25%, #1347E1 70.94%);
+        filter: blur(121.913px);
+        animation: shadow 1s infinite alternate;
+        top: 35rem;
+        right: -6rem;
+        z-index: 1;
+    }
+
+    @keyframes shadow {
+        from {
+          box-shadow: 0 0 5.5rem 1rem #31BAC2 ;
+        }
+        to {
+          box-shadow: 0 0 9rem 2rem #1347E1;
+        }
+      }
+
+
+    .container {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
+
+    &__title {
+        margin: 0 auto;
+        font-family: 'Akzidenz-Grotesk Pro',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 6.9rem;
+        line-height: 168%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-shadow: 0px 0.5rem 1.4rem #4C8BFF;
+        display: block;
+        position: relative;
+        left: -1rem;
+    }
+
+    &__text {
+        width: 37.5rem;
+        height: 14.5rem;
+        display: block;
+        margin-bottom: 21.5rem;
+        margin-left: 52.9rem;
+        position: relative;
+        top: 2rem
+    }
+
+    &__inner {
+        display: flex;
+    }
+
+    &__table {
+        width: 34.7rem;
+        height: 16.6rem;
+        background: #212123;
+        border: 1.3px solid #FFFFFF;
+        backdrop-filter: blur(27px);
+        border-radius: 90rem;
+        display: block;
+        padding-left: 4.7rem;
+        padding-top: 3.9rem;
+        overflow: hidden;
+        position: relative;
+        margin-left: 16.2rem;
+    }
+
+    &__table-text {
+        font-family: 'Akzidenz-Grotesk Pro',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 133%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 1.4rem;
+        padding-right: 4rem;
+    }
+
+    &__table-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__table-star{
+        width: 6.997rem;
+        height: 5.397rem;
+        display: inline-block;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__table-btn {
+        width: 17.6rem;
+        height: 6.5rem;
+        background: linear-gradient(97.84deg, rgba(43, 231, 152, 0.85) -7.13%, rgba(73, 27, 255, 0.85) 106.79%);
+        border: 1.3px solid #FFFFFF;
+        border-radius: 1rem;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        padding-left: 2.6rem;
+        padding-top: 2.2rem;
+        position: absolute;
+        bottom: -0.2rem;
+        right: 0;
+        border-bottom-left-radius: 0;
+       
+    }
+
+    &__image {
+        width: 68rem;
+        height: 65rem;
+        margin-left: 79rem;
+        margin-top: -55rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__swiper {
+        overflow: hidden;
+        max-width: 100%;
+       
+    }
+
+    &__swiper-slide {
+        padding-top: 12.3rem;
+        min-width: 100%;
+        
+    }
+
+    &__swiper-slide-content-wrapper {
+        display: flex;
+    }
+
+   
+
+    &__swiper-wrapper {
+        display: flex;
+    }
+
+    &__circle {
+        width: 14.8rem;
+        height: 14.8rem;
+        display: block;
+        margin-bottom: 29.4rem;
+        position: relative;
+        left: 14.3rem;
+        top: -0.4rem;
+       
+       img {
+            width: 100%;
+            height: 100%;
+       }
+    }
+
+    &__bullets {
+        
+    }
+
+    &__deep-word {
+        font-family: 'Akzidenz-Grotesk Pro',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 6.9rem;
+        line-height: 122% ;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 13.5rem;
+        margin-top: 5rem;
+        margin-left: 41.8rem;
+        span {
+            font-weight: 500;
+            
+        }
+    }
+
+
+    .pagination-slider {
+        position: absolute;
+        right: 15.4rem;
+        bottom: 15.4rem;
+    }
+
+    &__swiper-slide--line {
+        background-image: url(../img/deep-line.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 49%;
+
+
+        .main-block__circle {
+            width: 14.8rem;
+            height: 14.8rem;
+            display: block;
+            margin-bottom: 29.4rem;
+            position: relative;
+            left: 156.3rem;
+            top: 27.6rem;
+            position: absolute;
+        }
+    }
+
+    .desk {
+        display: block;
+    }
+
+    .mob {
+        display: none;
+    }
+}

@@ -1,0 +1,150 @@
+.level {
+    margin-bottom: 18.3rem;
+   
+    @media only screen and (max-width: 48em) {
+        margin-bottom: 31.3rem;
+    }
+    .container {
+        width: 153.7rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            padding: 0 4rem;
+        }
+        .link-btn {
+            width: 19rem;
+            top: -2rem;
+            @media only screen and (max-width: 48em) {
+                width: 30rem;
+            }
+            &::before {
+                right: 3rem;
+                width: 3rem;
+                height: 3rem;
+                @media only screen and (max-width: 48em) {
+                    width: 5rem;
+                    height: 5rem;
+                }
+            }
+            span {
+                @media only screen and (max-width: 48em) {
+                    font-size: 3.05rem;
+                }
+            }
+        }
+        .link-btn-before::after {
+            background-image: url(../img/arrowdown.svg);
+            right: 2.48rem;
+            @media only screen and (max-width: 48em) {
+                background-size: 2rem 2rem;
+                right: 3.5rem;
+            }
+        }
+    }
+    &__title {
+        font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 5.8rem;
+        letter-spacing: 0.02em;
+        margin-bottom: 8.2rem;
+        color: #262626;
+        @media only screen and (max-width: 48em) {
+            font-size: 5rem;
+            line-height: 6.6rem;
+            margin-bottom: 13rem;
+        }
+    }
+    &__swiper {
+        padding-top: 8.2rem;
+    }
+    &__swiper-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column;
+        }
+    }
+    &__slide {
+        position: relative;
+        margin-right: 3.9rem;
+        margin-bottom: 6.2rem;
+        @media only screen and (max-width: 48em) {
+            margin-right: 0;
+            margin-bottom: 11.2rem;
+        }
+    }
+    &__slide:nth-child(3n) {
+        margin-right: 0;
+    }
+    &__content {
+        height: 29.5rem;
+        width: 48.6rem;
+        border-radius: 2.2rem;
+        background: linear-gradient(109.7deg, #FFFFFF -1.05%, rgba(255, 255, 255, 0.85) 106.08%);
+        padding-top: 12.4rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 5rem;
+        box-shadow: 0.4rem 0.4rem 0.8rem 0px rgba(34, 60, 80, 0.2);
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            height: 34rem;
+            border-radius: 4.4rem;
+            padding-top: 7rem;
+            padding-bottom: 7.8rem;
+            padding-left: 5.8rem;
+            padding-right: 2.7rem;
+        }
+    }
+    &__icon {
+        width: 10.5rem;
+        height: 10.5rem;
+        position: absolute;
+        top: -2rem;
+        left: 4.7rem;
+        z-index: 2;
+        @media only screen and (max-width: 48em) {
+            width: 8.5rem;
+            height: 8.5rem;
+            left: 8rem;
+            top: -4.7rem
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &__content-title {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 3.1rem;
+        color: #262626;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.7rem;
+            line-height: 4.8rem;
+            margin-bottom: 2rem;
+        }
+    }
+    &__slide--none {
+        @media only screen and (max-width: 48em) {
+            display: none;
+        }
+    }
+    &__content-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        color: #262626;
+        @media only screen and (max-width: 48em) {
+            font-size: 3rem;
+            line-height: 4.4rem;
+        }
+    }
+}

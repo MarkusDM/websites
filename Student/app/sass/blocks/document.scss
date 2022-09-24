@@ -1,0 +1,124 @@
+.document {
+    padding-top: 19rem;
+    padding-bottom: 14.2rem;
+    .container {
+        width: 150.3rem;
+    }
+    &__category {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 8rem;
+        span {
+            font-family: 'Euclid Circular A', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.4rem;
+            line-height: 1.8rem;
+            color: #ADB2C4;
+        }
+    }
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 6.9rem;
+        h2 {
+            font-family: 'Akrobat', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 5rem;
+            line-height: 120%;
+            color: #0E192E;
+        }
+    }
+    &__title-text {
+        font-family: 'Euclid Circular A', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.8rem;
+        line-height: 144%;
+        text-align: right;
+        width: 61.5rem;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 7.7rem;
+        border-top: 0.2rem solid rgba(174, 185, 206, 0.3);
+    }
+    &__left {
+        width: 45.3rem;
+    }
+    &__sidebar {
+        width: 100%;
+    }
+    &__menu {
+        display: inline-block;
+    }
+    &__item {
+        font-family: 'Euclid Circular A', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.9rem;
+        line-height: 108%;
+        color: #0E192E;
+        margin-bottom: 4rem;
+        cursor: pointer;
+    }
+    &__item .active {
+        font-weight: bold;
+        font-size: 2.4rem;
+    }
+    &__item:last-child {
+        margin-bottom: 0;
+    }
+    &__tables {
+        display: none;
+        flex-wrap: wrap;
+    }
+    .active {
+        display: flex;
+        font-weight: bold;
+    }
+    &__right {
+        width: 94.6rem;
+    }
+    &__table {
+        background-image: url(../img/bggtable.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-radius: 3.5rem;
+        width: 45.3rem;
+        height: 39.2rem;
+        display: block;
+        position: relative;
+        margin-right: 4rem;
+        padding-top: 4.5rem;
+        padding-left: 4.1rem;
+        padding-right: 2.7rem;
+        margin-bottom: 4rem;
+    }
+    &__table-title {
+        font-family: 'Euclid Circular A', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 150%;
+        color: #000000;
+        margin-bottom: 9.9rem;
+    }
+    &__table-icon {
+        width: 7.4rem;
+        display: inline-block;
+        height: 7.4rem;
+    }
+    &__table:nth-child(2n) {
+        margin-right: 0;
+    }
+    &__table-image {
+        width: 21.5rem;
+        display: inline-block;
+        position: absolute;
+        bottom: -0.1rem;
+        right: 5rem;
+    }
+}

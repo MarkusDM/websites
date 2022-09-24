@@ -1,0 +1,57 @@
+.best-two {
+    background: rgba(230, 231, 237, 0.5);
+    padding-top: 14.1rem;
+    padding-bottom: 14.1rem;
+    margin-bottom: -11.7rem;
+    .container {
+        width: 154rem;
+    }
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 7.1rem;
+    }
+
+    &__swiper {
+        overflow: hidden;
+        width: 154rem;
+    }
+
+    &__swiper-wrapper {
+        display: flex;
+        
+        
+        flex-shrink: 1;
+    }
+
+    &__slide {
+        display: inline-block;
+        max-width: 33.8rem;
+       
+        
+    }
+
+
+    &__arrows {
+        display: flex;
+    }
+
+    &__prev,
+    &__next {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 3.5rem;
+        height: 2rem;
+        cursor: pointer;
+    }
+
+    &__prev {
+        background-image: url(../img/icon/arrowprev.svg);
+        margin-right: 1.5rem;
+    }
+    &__next {
+        background-image: url(../img/icon/arrownext.svg);
+    }
+}

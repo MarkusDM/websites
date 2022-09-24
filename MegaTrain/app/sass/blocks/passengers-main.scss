@@ -1,0 +1,287 @@
+.passengers-main {
+    margin-bottom: 10.5rem;
+    @media only screen and (max-width: 48em) {
+        margin-bottom: 29.5rem;
+        overflow: hidden;
+    }
+    .container {
+        width: 154rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            padding: 0 4rem;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        margin-bottom: 11.6rem;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column;
+            margin-bottom: 7.6rem;
+        }
+    }
+    &__wrapper:last-child {
+        @media only screen and (max-width: 48em) {
+            flex-direction: column-reverse;
+        }
+    }
+    &__wrapper:last-child {
+        margin-bottom: 0;
+        .passengers-main__right-block {
+            margin-right: 6.6rem;
+            @media only screen and (max-width: 48em) {
+                margin-right: 5rem;
+            }
+        }
+    }
+    &__left {
+        width: 73rem;
+        margin-right: 6.9rem;
+        padding-top: 1rem;
+        @media only screen and (max-width: 48em) {
+            margin-right: 0;
+            width: 100%;
+        }
+    }
+    &__left-title {
+        font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 5.8rem;
+        letter-spacing: 0.02em;
+        padding-right: 2rem;
+        color: #262626;
+        margin-bottom: 6.5rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 5.1rem;
+            line-height: 124%;
+            padding-right: 22rem;
+            margin-bottom: 8.5rem;
+            padding-top: 1.5rem;
+        }
+    }
+    &__left-ul {
+        font-family: 'Gilroy', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.7rem;
+        line-height: 147%;
+        color: #262626;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.05rem;
+            line-height: 126%;
+            color: #262626;
+            padding-right: 1rem;
+        }
+        li {
+            margin-bottom: 1.4rem;
+            @media only screen and (max-width: 48em) {
+                margin-bottom: 4rem;
+            }
+        }
+    }
+    &__right {
+        display: flex;
+        padding-top: 2rem;
+    }
+    &__right-block {
+        margin-right: 4.6rem;
+    }
+    &__right-block:last-child {
+        margin-right: 0;
+      
+        
+    }
+    &__box-small {
+        width: 27.4rem;
+        height: 11.4rem;
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 2.2rem;
+        margin-bottom: 18.8rem;
+        padding-top: 4.5rem;
+        padding-bottom: 2.5rem;
+        padding-left: 3rem;
+        padding-right: 4rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    &__box-small--top {
+        top: 12rem;
+        height: 11rem;
+        left: 6.2rem;
+        @media only screen and (max-width: 48em) {
+            top: 12rem;
+            /* height: 11rem; */
+            padding-left: 3.4rem;
+            left: 0.2rem;
+            width: 34rem;
+            border-radius: 5rem;
+            height: 20rem;
+            padding-right: 0;
+            padding-top: 0;
+            margin-bottom: 17.8rem;
+
+        }
+    }
+    
+    &__box-small--bottom {
+        width: 34rem;
+        height: 10.453rem;
+        padding-left: 4.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-right: 6.2rem;
+        @media only screen and (max-width: 48em) {
+            width: 34rem;
+            height: 23.453rem;
+            padding-left: 4.5rem;
+            padding-top: 1rem;
+            padding-bottom: 2.5rem;
+            padding-right: 6.2rem;
+            top: 8rem;
+            padding-left: 3rem;
+            padding-right: 0;
+            right: 4.4rem;
+            border-radius: 4rem;
+        }
+        .passengers-main__box-small-image {
+            @media only screen and (max-width: 48em) {
+                width: 8rem;
+                height: 7rem;
+                margin-right: 2rem;
+            }
+        }
+    }
+    &__box-small--right {
+        @media only screen and (max-width: 48em) {
+            right: 0;
+            top: 12rem;
+        }
+    }
+    &__box-big--right {
+        @media only screen and (max-width: 48em) {
+            right: 0;
+            top: 16rem;
+            position: relative;
+        }
+    }
+    &__box-small--down {
+        left: 5rem;
+        top: 5.5rem;
+        @media only screen and (max-width: 48em) {
+            top: 16rem;
+            /* height: 11rem; */
+            padding-left: 3.4rem;
+            left: 0rem;
+            width: 34rem;
+            border-radius: 5rem;
+            height: 20rem;
+            padding-right: 0;
+            padding-top: 0;
+            margin-bottom: 14.8rem;
+        }
+    }
+    &__box-big--down {
+        position: relative;
+        top: -7rem;
+        left: -1rem;
+        @media only screen and (max-width: 48em) {
+            top: 16rem;
+            top: 4rem;
+            left: 4.1rem;
+        }
+    }
+    &__left--bottom {
+        width: 74rem;
+        margin-right: 0;
+    }
+    &__box-small-icon {
+        width: 5.5rem;
+        height: 5.5rem;
+        position: absolute;
+        top: -3rem;
+        right: 2.8rem;
+        @media only screen and (max-width: 48em) {
+            width: 8rem;
+            height: 8rem;
+            position: absolute;
+            top: -6rem;
+            right: 2.3rem;
+        }
+    }
+    &__box-small-icon--bot {
+        bottom: -4.5rem;
+        top: initial;
+        right: inherit;
+    
+    }
+    &__box-small-image {
+        width: 4.2rem;
+        height: 4.2rem;
+        margin-right: 1.8rem;
+        @media only screen and (max-width: 48em) {
+            width: 7rem;
+            height: 5rem;
+            position: relative;
+            right: -0.4rem;
+            top: 0.5rem;
+        }
+    }
+    &__box-small-text {
+        display: flex;
+        flex-direction: column;
+        @media only screen and (max-width: 48em) {
+            position: relative;
+        }
+        strong {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            color: #3066C1;
+            @media only screen and (max-width: 48em) {
+                font-size: 3rem;
+                line-height: 4rem;
+                padding-top: 1rem;
+            }
+        }
+        span {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.6rem;
+            line-height: 1.9rem;
+            color: #262626;
+            @media only screen and (max-width: 48em) {
+                font-size: 3rem;
+                line-height: 3.8rem;
+                padding-right: 4rem;
+            }
+        }
+    }
+    &__box-big {
+        background: rgba(255, 255, 255, 0.7);
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 2.2rem;
+        padding: 1.876rem;
+        width: 34rem;
+        margin-bottom: 5.863rem;
+        @media only screen and (max-width: 48em) {
+            border-radius: 4.2rem;
+            padding: 1.876rem;
+            width: 30rem;
+            height: 28rem;
+            margin-bottom: 10rem;
+            img {
+                border-radius: 3rem;
+            }
+        }
+    }
+    &__box-big--top {
+        @media only screen and (max-width: 48em) {
+            top: 11rem;
+            position: relative;
+        }
+    }
+}

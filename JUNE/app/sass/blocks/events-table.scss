@@ -1,0 +1,176 @@
+.events-table {
+        display: flex;
+        width: 91.5rem;
+        height: 31.9rem;
+        background: #FFFFFF;
+        box-shadow: 1.5rem 2rem 7rem rgba(92, 93, 100, 0.03);
+        border-radius: 2rem;
+        padding-top: 3.1rem;
+        padding-left: 3.1rem;
+
+        &__image {
+            width: 66rem;
+            height: 25.6rem;
+     
+        
+            margin-right: 3.8rem;
+
+            img {
+                border-radius: 1.5rem;
+            }
+        }
+
+
+        &__title {
+            font-weight: 700;
+            font-size: 2.5rem;
+            line-height: 152% ;
+            color: #2B2F36;
+            padding-bottom: 2.1rem;
+            border-bottom: 1px solid #DDDFE7;
+            margin-bottom: 1.8rem;
+            margin-top: 3rem;
+        }
+
+        &__text {
+            font-family: 'Euclid Circular A',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 156%;
+            color: #A7A7AE;
+            padding-bottom: 2.1rem;
+            border-bottom: 1px solid #DDDFE7;
+            margin-bottom: 4.2rem;
+       
+        
+        }
+
+
+        &__link {
+            width: 100%;
+            position: relative;
+            display: inline-block;
+            &::after {
+                position: absolute;
+                content: '';
+                width: 3rem;
+                height: 2rem;
+                background-image: url(../img/icon/arrowblack.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                top: 2rem;
+                right: 1.9rem;
+            }
+            &::before {
+                position: absolute;
+                content: '';
+                width: 8.5rem;
+                height: 8.5rem;
+                border-radius: 2rem;
+                border-top-right-radius: 0.2rem;
+                border-bottom-left-radius: 0.2rem;
+                right: -1rem;
+                top: -1rem;
+                background: #F0F0F2;
+                
+            }
+            span {
+                font-weight: 700;
+                font-size: 2rem;
+                line-height: 184%;
+                color: #FC5945;
+            }
+        }
+}
+
+.events-table-big {
+    width: 58.5rem;
+    height: 68.3rem;
+    background: #FFFFFF;
+    box-shadow: 1.5rem 2rem 7rem rgba(92, 93, 100, 0.03);
+    border-radius: 2rem;
+    padding-top: 3.1rem;
+    padding-left: 3.2rem;
+    padding-right: 3rem;
+    display: block;
+
+
+    .mob {
+        display: none;
+    }
+   
+    &__image {
+        width: 100%;
+        height: 27.8rem;
+        margin-bottom: 4.1rem;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 1.5rem;
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 152% ;
+        color: #2B2F36;
+        padding-bottom: 2.1rem;
+        border-bottom: 1px solid #DDDFE7;
+        margin-bottom: 1.9rem;
+        padding-left: 1.4rem;
+
+    }
+
+    &__text {
+        font-family: 'Euclid Circular A',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 156%;
+        color: #A7A7AE;
+        padding-bottom: 2.7rem;
+        border-bottom: 1px solid #DDDFE7;
+        margin-bottom: 6.9rem;
+       width: 100%;
+       padding-right: 4rem;
+       padding-left: 1.5rem;
+    }
+
+    &__link {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        padding-left: 2rem;
+        &::after {
+            position: absolute;
+            content: '';
+            width: 4.5rem;
+            height: 2rem;
+            
+            background-image: url(../img/icon/arrowblack.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            right: -0.6rem;
+            top: 1.6rem;
+        }
+        &::before {
+            position: absolute;
+            content: '';
+            width: 11.8rem;
+            height: 12.7rem;
+            border-top-left-radius: 2rem;
+            right: -5rem;
+            top: -2.7rem;
+            background: #f0f0f2;
+            
+        }
+        span {
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 184%;
+            color: #FC5945;
+        }
+    }
+}

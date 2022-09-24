@@ -1,0 +1,209 @@
+.catalog-main {
+    overflow: hidden;
+    position: relative;
+    &::before {
+        position: absolute;
+        content:'';
+        width: 27.7rem;
+        height: 25.7rem;
+        background: linear-gradient(173.84deg, rgba(49, 186, 194, 0.7) 32.25%, #1347E1 70.94%);
+        filter: blur(121.913px);
+        animation: shadow 1s infinite alternate;
+        top: 35rem;
+        left: -6rem;
+        z-index: 1;
+
+    }
+
+    &::after {
+        position: absolute;
+        content:'';
+        width: 27.7rem;
+        height: 25.7rem;
+        background: linear-gradient(173.84deg, rgba(49, 186, 194, 0.7) 32.25%, #1347E1 70.94%);
+        filter: blur(121.913px);
+        animation: shadow 1s infinite alternate;
+        top: 50rem;
+        right: -6rem;
+        z-index: 1;
+    }
+
+    @keyframes shadow {
+        from {
+          box-shadow: 0 0 5.5rem 1rem #31BAC2 ;
+        }
+        to {
+          box-shadow: 0 0 9rem 2rem #1347E1;
+        }
+      }
+    .container {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__logo-block {
+        display: flex;
+        flex-direction: column;
+        margin-right: 8.9rem;
+        padding-top: 16rem;
+    }
+
+    &__swiper {
+        padding-top: 11.6rem;
+        margin-right: 4.55rem;
+        overflow: hidden;
+    }
+    &__swiper-slide {
+        min-width: 100%;
+    }
+
+    &__swiper-wrapper {
+        display: flex;
+    }
+
+
+    &__table-swiper-wrapper {
+        display: flex;
+    }
+
+  
+    &__title {
+        margin: 0 auto;
+        font-family: 'Akzidenz-Grotesk Pro',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 6.9rem;
+        line-height: 168%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-shadow: 0px 0.5rem 1.4rem #4C8BFF;
+        display: block;
+        position: relative;
+        left: 2rem;
+    }
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__table {
+        margin-top: 49.6rem;
+        width: 93.1rem;
+        height: 33.6rem;
+        background: rgba(85,85,85,.03);
+        border: 1.3px solid #f5f5f5;
+        backdrop-filter: blur(80px);
+        border-radius: 100rem;
+        padding-left: 9rem;
+        padding-top: 1.5rem;
+        padding-bottom: 2.8rem;
+        margin-left: auto;
+        right: -31rem;
+        align-items: center;
+        display: flex;
+        position: absolute;
+      
+    }
+
+   
+    &__swiper-slide-content-wrapper {
+        display: flex;
+        padding-left: 16.1rem;
+    }
+
+    &__logo {
+        width: 37.5rem;
+        height: 14.5rem;
+        display: block;
+        margin-bottom: 2.7rem;
+    }
+
+    &__logo-text {
+        font-size: 1.6rem;
+        line-height: 156% ;
+       font-weight: 400;
+    }
+
+    &__image {
+        width: 60.35rem;
+        height: 62.85rem;
+        position: relative;
+        top: -3rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    
+    
+
+    &__table-swiper {
+        overflow: hidden;
+        width:  23.3rem;
+        height: 29.3rem;
+        position: absolute;
+    }
+
+    &__table-swiper-wrapper {
+        display: flex;
+       
+        
+    }
+    &__table-swiper-slide {
+        min-width:  22.3rem;
+        min-height: 29.3rem;
+        max-width:  22.3rem;
+        max-height: 29.3rem;
+        opacity: 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__table-swiper-slide-content-image {
+        width: 21.951rem;
+        height: 29.3rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+  
+
+    &__table-next {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        cursor: pointer;
+        position: relative;
+        padding-right: 3rem;
+        left: 27rem;
+        top: 1rem;
+        &::before {
+            position: absolute;
+            content:'';
+            width: 3.4rem;
+            height: 3.4rem;
+            background-image: url(../img/icon/next.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            right: -1rem;
+            top: -1rem;
+        }
+    }
+
+
+    .pagination-slider {
+        
+        position: absolute;
+        top: 27.5rem;
+        right: 15.7rem;
+    }
+}

@@ -1,0 +1,414 @@
+.map {
+    margin-bottom: 19rem;
+    .title {
+        margin-bottom: 6.4rem;
+    }
+
+    
+    .container {
+        
+        width: 156.9rem;
+       
+    }
+
+    .scheme {
+        height: 73.6rem;
+        width: 156.9rem;
+        margin: 0 auto;
+        position: relative;
+        @media only all and  (max-width: 48em) {
+            width: 78rem;
+            height: 31.4rem;
+        }
+    }
+    .scheme .svg-block {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 156.9rem;
+        height: 73.6rem;
+        @media only all and  (max-width: 48em) {
+            width: 78rem;
+            height: 31.4rem;
+        }
+       
+    }
+    .scheme .svg-block >  div {
+        background: #D41B31;
+        cursor: pointer;
+        position: absolute;
+        width: 1.4rem;
+        height: 1.4rem;
+        background: #D41B31;
+        border-radius: 50%;
+        @media only all and  (max-width: 48em) {
+            width: 1.2rem;
+            height: 1.2rem;
+        }
+        
+    }
+    .svg-block >  div:nth-child(1) {
+        right: 38.7rem;
+        top: 14.3rem;
+        @media only all and  (max-width: 48em) {
+            right: 98.7rem;
+            top: 6.3rem;
+        }
+    }
+
+    .svg-block >  div:nth-child(2) {
+        right: 53.4rem;
+        top: 6.4rem;
+
+        @media only all and  (max-width: 48em) {
+            right: 106rem;
+            top: 2.4rem;
+        }
+    }
+
+    .svg-block >  div:nth-child(3) {
+        left: 17.2rem;
+        top: 9.8rem;
+        @media only all and  (max-width: 48em) {
+            left: 8.3rem;
+            top: 4.4rem;
+        }
+    }
+
+    .svg-block >  div:nth-child(4) {
+        left: 16rem;
+        top: 19.8rem;
+        @media only all and  (max-width: 48em) {
+            left: 7.5rem;
+            top: 8.8rem;
+        }
+    }
+
+    .svg-block >  div:nth-child(5) {
+        left: 35rem;
+        top: 45.3rem;
+        @media only all and  (max-width: 48em) {
+            left: 17rem;
+            top: 21.5rem;
+        }
+    }
+
+    .svg-block >  div:nth-child(6) {
+        right: 35.8rem;
+        top: 39.3rem;
+
+        @media only all and  (max-width: 48em) {
+            right: 97.4rem;
+            top: 18.5rem;
+        }
+    }
+
+    .svg-block >  div:nth-child(7) {
+        right: 32.8rem;
+        top: 31.8rem;
+        @media only all and  (max-width: 48em) {
+            right: 96rem;
+            top: 15rem;
+        }
+    }
+
+    .svg-block >  div:nth-child(8) {
+        right: 32.8rem;
+        top: 27.2rem;
+        @media only all and  (max-width: 48em) {
+            right: 97rem;
+            top: 13.6rem;
+        }
+    }
+
+    .svg-block >  div:nth-child(9) {
+        right: 35.1rem;
+        top: 29.5rem;
+        @media only all and  (max-width: 48em) {
+            right: 96rem;
+            top: 12.6rem;
+        }
+    }
+
+    .svg-block >  div:nth-child(10) {
+        right: 37.5rem;
+        top: 20.6rem;
+        @media only all and  (max-width: 48em) {
+            right: 98.2rem;
+            top: 11.6rem;
+        }
+    }
+
+    .svg-block >  div:nth-child(11) {
+        right: 37.5rem;
+        top: 25.5rem;
+        @media only all and  (max-width: 48em) {
+            right: 98.2rem;
+            top: 9.3rem;
+        }
+    }
+
+    .svg-block >  div:nth-child(12) {
+        right: 47.1rem;
+        top: 28.1rem;
+        @media only all and  (max-width: 48em) {
+            right: 106.2rem;
+            top: 9rem;
+        
+        }
+    }
+   
+    .svg-block >  div:nth-child(13) {
+        right: 51.3rem;
+        top: 22.1rem;
+        @media only all and  (max-width: 48em) {
+            right: 108rem;
+            top: 10rem;
+        
+        }
+    }
+
+    .svg-block >  div:nth-child(14) {
+        right: 57.3rem;
+        top: 22.1rem;
+        @media only all and  (max-width: 48em) {
+            right: 105rem;
+            top: 10rem;
+        
+        }
+    }
+    .svg-block >  div:nth-child(15) {
+        right: 53.3rem;
+        top: 19.3rem;
+        @media only all and  (max-width: 48em) {
+            right: 103rem;
+            top: 13rem;
+        
+        }
+    }
+
+    .svg-block >  div:nth-child(16) {
+        left: 77rem;
+        top: 14.6rem;
+        @media only all and  (max-width: 48em) {
+            left: 37.4rem;
+            top: 6.6rem;
+        }
+    }
+    
+    /* Цвета магазинов - при наведении мышкой и активный */
+    .scheme circle:hover, #hover {
+        background: #D41B31;
+    }
+    .scheme div.active {
+        background: #D41B31;
+       
+      
+        
+        &::before {
+            position: absolute;
+            content: '';
+            width: 6.2rem;
+            height: 6.2rem;
+            background: rgba(212, 27, 49, 0.1);
+            border: 0.1rem solid rgba(213, 27, 49, 0.5);
+            box-sizing: border-box;
+            border-radius: 50%;
+            left: -2.5rem;
+            top: -2.5rem;
+        }
+    }
+    
+    /* Названия и подсказки магазинов */
+    .scheme-item {
+        position: absolute;
+        cursor: pointer;
+    }
+    .scheme-name {
+        font-weight: bold;
+        font-size: 10px;
+        text-align: center;
+        line-height: 13px;
+    }
+    .scheme-popup {
+        display: none;
+        padding-left: 3.4rem;
+        padding-top: 3.3rem;
+        padding-right: 2rem;
+        padding-bottom: 3.7rem;
+        width: 30.3rem;
+        position: absolute;
+        background: #fff;
+        z-index: 9999;
+        box-shadow: 1rem 1.6rem 7rem #E6E7EB;
+        @media only all and  (max-width: 48em) {
+            width: 56.4rem;
+            padding-top: 6rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            padding-bottom: 6rem;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            left: -4rem;
+            top: 10.3rem;
+            border: 2rem solid transparent; 
+            border-right: 2rem solid #fff;
+            @media only all and  (max-width: 48em) {
+                top: -7rem;
+                right: 5rem;
+               left: initial;
+                border: 4rem solid transparent; 
+                border-top: 4rem solid #fff;
+                transform: rotate(180deg); 
+            }
+        }
+
+        .title {
+            font-family: 'Open Sans',sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.3rem;
+            line-height: 148%;
+            letter-spacing: 0.02em;
+            color: #1A1B20;
+            margin-bottom: 2.8rem;
+            display: flex;
+            justify-content: flex-start;
+            @media only all and  (max-width: 48em) {
+                font-size: 3.4rem;
+                line-height: 200% ;
+                margin-bottom: 5rem;
+            }
+        }
+
+        .inner {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 3rem;
+            @media only all and  (max-width: 48em) {
+               margin-bottom: 6rem;
+            }
+            strong {
+                font-family: 'Open Sans',sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 1.3rem;
+                line-height: 1.8rem;
+                letter-spacing: 0.08em;
+                text-transform: uppercase;
+                color: #143383;
+                margin-bottom: 0.5rem;
+                @media only all and  (max-width: 48em) {
+                    font-size: 2.4rem;
+                    line-height: 3.2rem;
+                    margin-bottom: 1.4rem;
+                }
+            }
+
+            span {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 162%;
+                color: #1A1B20;
+                @media only all and  (max-width: 48em) {
+                    font-size: 3.2rem;
+                    line-height: 162%;
+                    
+                }
+            }
+        }
+
+        .inner:last-child {
+            margin-bottom: 0;
+        }
+       
+    }
+
+
+    #scheme-item-one {
+        top: 48.4rem; 
+        right: 18.2rem;
+    }
+
+    #scheme-item-two {
+       right: 34.4rem; 
+       top: 40.4rem;
+    }
+
+    #scheme-item-three {
+       left: 37.2rem; 
+       top: 43.8rem;
+     }
+
+     #scheme-item-four {
+        left: 36rem; 
+        top: 53.8rem;
+      }
+
+
+      #scheme-item-five {
+        left: 55rem; 
+        top: 79.3rem;
+      }
+
+      #scheme-item-six {
+       right: 17.8rem; 
+       top: 73.5rem;
+      }
+
+      #scheme-item-seven {
+        right: 14rem;
+         top: 66rem;
+       }
+
+       #scheme-item-eight {
+        right: 14.8rem; 
+        top: 61rem;
+       }
+
+       #scheme-item-nine {
+        right: 17.1rem; 
+        top: 63.5rem;
+       }
+
+
+       #scheme-item-ten {
+        right: 19.5rem; 
+        top: 54.6rem;
+       }
+
+       #scheme-item-eleven {
+        right: 19.5rem;
+        top: 59.5rem;
+       }
+
+       #scheme-item-twelve {
+         right: 29.1rem; 
+         top: 62.1rem;
+
+         
+       }
+       #scheme-item-trending {
+            right: 33.3rem; 
+            top: 56.1rem;
+       }
+
+       #scheme-item-fourteen {
+            right: 38.3rem; 
+            top: 56.3rem;
+       }
+
+       #scheme-item-fifteen {
+        right: 35.3rem; 
+        top: 53.3rem;
+       }
+
+       #scheme-item-sixteen {
+        right: 60.3rem; 
+        top: 48.5rem;
+       }
+       
+}

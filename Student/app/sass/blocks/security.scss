@@ -1,0 +1,92 @@
+.security {
+    width: 126.8rem;
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 8.9rem;
+        h2 {
+            font-family: 'Akrobat', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 5rem;
+            line-height: 120%;
+            color: #0E192E;
+        }
+    }
+    &__login {
+        font-family: 'Euclid Circular A', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        color: #0E192E;
+    }
+    &__text {
+        font-family: 'Akrobat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.7rem;
+        line-height: 162%;
+        color: #0E192E;
+        margin-bottom: 3.9rem;
+    }
+    &__block {
+        display: flex;
+        margin-bottom: 5rem;
+        input {
+            border-radius: 2.4rem;
+            width: 40rem;
+            height: 7rem;
+            background: #F2F5FF;
+            border: none;
+            margin-right: 3rem;
+            padding-left: 3rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            font-family: 'Euclid Circular A', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+            color: #0E192E;
+        }
+        label {
+            font-family: 'Euclid Circular A', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+            color: #0E192E;
+            padding-bottom: 1.8rem;
+            display: inline-block;
+            padding-left: 1rem;
+        }
+        .input:last-child {
+            margin-right: 0;
+        }
+        input::placeholder {
+            font-family: 'Euclid Circular A', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+            color: #0E192E;
+        }
+    }
+    &__input {
+        display: flex;
+        flex-direction: column;
+    }
+    &__btn {
+        .button-all {
+            width: 23.8rem;
+            height: 6.2rem;
+            color: #fff;
+            &::before {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,257 @@
+.trailers {
+    margin-bottom: 28.5rem;
+    @media only screen and (max-width: 48em) {
+        margin-bottom: 53.5rem;
+    }
+    .container {
+        width: 154rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            padding: 0 4rem;
+        }
+    }
+    &__title {
+        font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 5.8rem;
+        letter-spacing: 0.02em;
+        color: #262626;
+        margin-bottom: 6rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            font-size: 5.1rem;
+            line-height: 6.2rem;
+            margin-bottom: 8rem;
+        }
+    }
+    &__menu-wrapper {
+        @media only screen and (max-width: 48em) {
+            overflow: hidden;
+        }
+    }
+    &__menu-limeter {
+        @media only screen and (max-width: 48em) {
+            padding-bottom: 2rem;
+            margin-bottom: -2rem;
+        }
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+        @media only screen and (max-width: 48em) {
+            overflow-x: scroll;
+            padding-bottom: 2rem;
+            -webkit-overflow-scrolling: touch;
+        }
+    }
+    &__item {
+        font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.8rem;
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+        line-height: 139%;
+        color: #98999C;
+        cursor: pointer;
+        @media only screen and (max-width: 48em) {
+            display: inline-block;
+            font-size: 3.2rem;
+            line-height: 156%;
+            min-width: max-content;
+            margin-right: 3.5rem;
+        }
+    }
+    .active {
+        font-size: 1.8rem;
+        line-height: 139%;
+        color: #3066C1;
+        @media only screen and (max-width: 48em) {
+            display: inline-block;
+            font-size: 3.2rem;
+            line-height: 156%;
+            min-width: max-content;
+            margin-right: 3.5rem;
+        }
+    }
+    &__content {
+        width: 36.2rem;
+        height: 31.6rem;
+        cursor: pointer;
+        @media only screen and (max-width: 48em) {
+            width: 51.4rem !important;
+            height: 44.2rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 2rem;
+            
+            @media only screen and (max-width: 48em) {
+                object-fit: cover;
+                border-radius: 3rem;
+            }
+        }
+    }
+    &__slide {
+        margin-right: 0.5%;
+        @media only screen and (max-width: 48em) {
+            width: 51.4rem !important;
+            height: 44.2rem;
+            margin-right: 4.5rem;
+        }
+    }
+    &__block {
+        position: relative;
+        margin-top: 0.2rem;
+    }
+    &__block-arrow {
+        display: flex;
+        width: 37rem;
+        left: 61rem;
+        top: 3rem;
+        position: relative;
+        @media only screen and (max-width: 48em) {
+            width: 37rem;
+            left: 12rem;
+            top: 10rem;
+            position: relative;
+        }
+    }
+    &__block-pagination {
+        position: absolute;
+        left: 76rem;
+        top: 2.8rem;
+        font-size: 0;
+        @media only screen and (max-width: 48em) {
+            left: 33rem;
+            top: 6.8rem;
+            width: 31rem;
+            font-size: 0;
+        }
+    }
+    &__block-scroll {
+        position: absolute;
+        left: 70rem;
+        top: 5.7rem;
+        @media only screen and (max-width: 48em) {
+            left: 0.7rem;
+            top: -68.4rem;
+        }
+    }
+    //  элементы слайдера
+    &__swiper-pagination {
+        width: 100%;
+        @media only screen and (max-width: 48em) {
+            display: flex;
+            align-items: center;
+        }
+        .swiper-pagination {
+            font-size: 0;
+        }
+        .swiper-pagination-current {
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.6rem;
+            line-height: 1.9rem;
+            color: #000000;
+            position: relative;
+            right: 9rem;
+            top: 2rem;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.1rem;
+                right: 14.1rem;
+                top: 6rem;
+            }
+        }
+        .swiper-pagination-total {
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.6rem;
+            line-height: 1.9rem;
+            color: #C0C8DB;
+            position: relative;
+            left: 9rem;
+            top: 2.2rem;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.1rem;
+                top: 6.3rem;
+                left: 13rem;
+            }
+        }
+    }
+    &__swiper-scrollbar {
+        width: 13.473rem!important;
+        height: 0.2rem;
+        background: #C0C8DB;
+        border-radius: 10rem;
+        left: 68.7rem;
+        top: 56.7rem;
+        @media only screen and (max-width: 48em) {
+            position: absolute;
+            width: 20rem!important;
+            height: 0.35rem;
+            background: #C0C8DB;
+            border-radius: 10rem;
+            left: 22.6rem;
+            top: 82rem;
+        }
+        .swiper-scrollbar-drag {
+            width: 2.761rem!important;
+            height: 0.2rem;
+            background: #01348A;
+            border-radius: 10rem;
+            @media only screen and (max-width: 48em) {
+                height: 0.35rem;
+                width: 4.1rem!important;
+            }
+        }
+    }
+    &__swiper-button-next,
+    &__swiper-button-prev {
+        width: 4rem;
+        height: 4rem;
+        border: 0.1rem solid #C0C8DB;
+        box-sizing: border-box;
+        border-radius: 50%;
+        position: absolute;
+        cursor: pointer;
+        @media only screen and (max-width: 48em) {
+            width: 6rem;
+            height: 6rem;
+        }
+    }
+    &__swiper-button-prev {
+        background-image: url(../img/icon/arrowgrey.svg);
+        background-size: 1rem 1rem;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        top: 0.8rem;
+        right: 34.5rem;
+        @media only screen and (max-width: 48em) {
+            width: 6rem;
+            height: 6rem;
+        }
+    }
+    &__swiper-button-next {
+        background-image: url(../img/icon/arrowgrey.svg);
+        background-size: 1rem 1rem;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        transform: rotate(180deg);
+        right: 3rem;
+        top: 1rem;
+        @media only screen and (max-width: 48em) {
+            width: 6rem;
+            height: 6rem;
+            right: -11rem;
+            top: 0.6rem;
+        }
+    }
+}

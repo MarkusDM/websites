@@ -1,0 +1,205 @@
+.new {
+    margin-bottom: 15.8rem;
+    overflow: hidden;
+    .container {
+        width: 100%;
+    }
+
+    &__wrapper {
+        display: flex;
+    }
+
+
+    &__left {
+        width: 58.5rem;
+        background: #243568;
+        padding-top: 15rem;
+        padding-bottom: 13.3rem;
+    }
+
+    &__left-swiper-slide {
+        margin-bottom: 4.8rem;
+    }
+
+    &__left-swiper-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5.7rem;
+        line-height: 108.4%;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        padding-left: 18.6rem;
+        margin-bottom: 2.5rem;
+    }
+
+    &__left-swiper-floor {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 152%;
+        color: #FFFFFF;
+        padding-left: 18.6rem;
+        margin-bottom: 4.5rem;
+    }
+
+    &__left-swiper-image {
+        width: 21rem;
+        height: 24.3rem;
+    }
+
+
+    &__right {
+        background: #FFFFFF;
+        padding-top: 7.4rem;
+        padding-right: 18.9rem;
+        width: 173.5rem;
+    }
+
+    &__right-swiper-slide-content {
+        display: flex;
+    }
+
+    &__right-swiper-slide-inner {
+        margin-right: 6.9rem;
+    }
+
+    &__right-swiper-slide-logo {
+        width: 34rem;
+        height: 15.5rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+    }
+
+    &__right-swiper-slide-image {
+        width: 101.5rem;
+        height: 62.3rem;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__right-swiper-slide-social {
+        padding-top: 17.4rem;
+        margin-bottom: 17rem;
+        display: flex;
+        flex-direction: column;
+        a {
+            width: 6.4rem;
+            height: 6.4rem;
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+        a:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__right-swiper-slide-link {
+        display: block;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 184%;
+        color: #2B2F36;
+        transform: rotate(-90deg);
+        position: relative;
+        right: 2.5rem;
+        top: 10.3rem;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 1.2rem;
+            height: 3rem;
+            background-image: url(../img/icon/arrowtop.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            transform: rotate(90deg);
+            left: 15rem;
+            top: 0.7rem;
+        }
+    }
+
+    &__left-swiper {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    &__left-swiper-wrapper {
+        display: flex;
+    }
+
+    &__left-swiper-slide {
+        min-width: 100%;
+    }
+
+    &__right-swiper {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    &__right-swiper-wrapper {
+        display: flex;
+    }
+
+    &__right-swiper-slide {
+        min-width: 100%;
+    }
+
+   &__left-numbers {
+    font-size: 0;
+    padding-left: 19.2rem;
+    padding-top: 0.3rem;
+    .swiper-pagination-current,
+    .swiper-pagination-total {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 152%;
+        color: #fff;
+    }
+
+
+    .swiper-pagination-current {
+        margin-right: 2rem;
+        padding-right: 8.3rem;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            background: #D6D8E0;
+            width: 6.3rem;
+            height: 1px;
+            top: 1.5rem;
+            right: 0;
+        }
+    }
+   }
+
+
+   &__left-arrows {
+       display: flex;
+       padding-left: 18.8rem;
+       margin-top: 1.2rem;
+   }
+
+   &__left-prev,
+   &__left-next {
+       width: 2.8rem;
+       height: 1rem;
+       background-size: 100% 100%;
+       background-repeat: no-repeat;
+       cursor: pointer;
+   }
+
+   &__left-prev {
+       background-image: url(../img/arrow/arrowprev.svg);
+       margin-right: 10.5rem;
+   }
+
+   &__left-next {
+    background-image: url(../img/arrow/arrownext.svg);
+    }
+
+}

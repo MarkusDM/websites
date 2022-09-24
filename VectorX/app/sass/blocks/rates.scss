@@ -1,0 +1,221 @@
+.rates {
+    margin-bottom: 5rem;
+    overflow: hidden;
+    .container {
+        width: 148.1rem;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            width: 100%;
+            padding: 0 3rem;
+        }
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 5.5rem;
+        line-height: 8.2rem;
+        text-align: center;
+        color: #333333;
+        transform: rotate(0.22deg);
+        margin-bottom: 8.5rem;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            text-align: left;
+            padding-top: 4rem;
+            margin-bottom: 7.5rem;
+        }
+    }
+    &__tables {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 2rem;
+    }
+    .rates-table {
+        width: 31rem;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        margin-right: 24rem;
+        margin-bottom: 13rem;
+        transition: all .2s ease;
+        cursor: pointer;
+        @media only screen and (min-width: 20em) and (max-width: 48em) {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 15rem;
+        }
+        &__profitability {
+            margin-bottom: 11.5rem;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                margin-bottom: 8.8rem;
+            }
+            p {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 2.5rem;
+                color: #333333;
+                display: block;
+                margin-bottom: 2.3rem;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    font-size: 2.86rem;
+                    font-weight: bold;
+                    line-height: 4.09rem;
+                    padding-left: 1rem;
+                }
+            }
+            strong {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 5.5rem;
+                line-height: 2.5rem;
+                color: #333333;
+                display: flex;
+                position: relative;
+                width: 16.1rem;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    font-size: 6.88rem;
+                    font-weight: bold;
+                    line-height: 6.45rem;
+                    width: 20.1rem;
+                    margin-left: 1rem;
+                }
+                span {
+                    font-family: 'Euclid Circular A', sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    line-height: 2.5rem;
+                    color: #333333;
+                    position: absolute;
+                    right: 1rem;
+                    top: -1rem;
+                    @media only screen and (min-width: 20em) and (max-width: 48em) {
+                        font-size: 2.35rem;
+                        line-height: 4.09rem;
+                        top: 0;
+                        right: -1rem;
+                    }
+                }
+            }
+        }
+        &__image {
+            width: 24.4rem;
+            height: 19.1rem;
+            background: #EFE8D9;
+            position: absolute;
+            top: 16rem;
+            z-index: -1;
+            right: -5.3rem;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                width: 52.215rem;
+                height: 23rem;
+                background: #EFE8D9;
+                right: 0rem;
+                margin-bottom: 2.94rem;
+            }
+            img {
+                position: relative;
+                top: -11rem;
+                right: -7rem;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    width: 39.39rem;
+                    height: 28.35rem;
+                    right: -20rem;
+                    top: -15rem;
+                }
+            }
+        }
+        &__strategy {
+            width: 21.1rem;
+            display: inline-block;
+            position: absolute;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                width: 100%;
+                margin-bottom: 5rem;
+            }
+            p {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 2.5rem;
+                color: #333333;
+                display: block;
+                margin-bottom: 2.3rem;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    font-size: 2.9rem;
+                    font-weight: bold;
+                    line-height: 2.94rem;
+                    margin-bottom: 5.3rem;
+                }
+            }
+            strong {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-size: 3.6rem;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 3.7rem;
+                letter-spacing: 0em;
+                display: inline-block;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    font-size: 4.6rem;
+                    font-weight: bold;
+                    line-height: 3.921rem;
+                }
+            }
+        }
+        &__text {
+            margin-top: 24.5rem;
+            p {
+                padding-top: 5rem;
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 2rem;
+                color: #333333;
+                width: 25.4rem;
+                display: inline-block;
+                padding-right: 0rem;
+                margin-left: 12rem;
+                @media only screen and (min-width: 20em) and (max-width: 48em) {
+                    font-size: 2.8rem;
+                    line-height: 3.5rem;
+                    width: 46.21rem;
+                    position: relative;
+                    right: 0rem;
+                }
+            }
+        }
+        &__strong {
+            display: inline-block;
+            font-family: 'Euclid Circular A', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.4rem;
+            line-height: 1.8rem;
+            text-transform: uppercase;
+            color: #DED4C1;
+            transform: rotate(-90deg);
+            left: -3.5rem;
+            top: 41rem;
+            position: absolute;
+            @media only screen and (min-width: 20em) and (max-width: 48em) {
+                font-size: 2.4rem;
+                line-height: 2.54rem;
+                font-weight: bold;
+                right: initial;
+                top: 50rem;
+                left: -6.8rem;
+            }
+        }
+    }
+    .rates-table:nth-child(3),
+    .rates-table:nth-child(6),
+    .rates-table:nth-child(9),
+    .rates-table:nth-child(11),
+    .rates-table:nth-child(13) {
+        margin-right: 0;
+    }
+}

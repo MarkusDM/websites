@@ -1,0 +1,443 @@
+.about-sersis {
+    margin-bottom: 16rem;
+    @media only screen and (max-width: 48em) {
+        margin-bottom: 15.6rem;
+    }
+    .container {
+        padding-left: 1.6rem;
+        padding-right: 6.9rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            padding: 0 4rem;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column-reverse;
+        }
+    }
+    &__left {
+        margin-right: 13rem;
+        display: flex;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+    &__box-small {
+        width: 29.8rem;
+        height: 12rem;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 2.2rem;
+        background: #FFFFFF;
+        position: relative;
+        padding-top: 2.2rem;
+        padding-left: 2rem;
+        padding-bottom: 2.7rem;
+        padding-right: 2rem;
+        margin-bottom: 3.6rem;
+        @media only screen and (max-width: 48em) {
+            height: 18rem;
+            width: 32.1rem;
+            flex-direction: column;
+            padding-top: 0;
+        }
+    }
+    &__box-small--top {
+        flex-direction: column;
+    }
+    &__box-small-number {
+        @media only screen and (max-width: 48em) {
+            font-size: 2rem;
+            position: relative;
+            top: 0.4rem;
+        }
+    }
+    &__box-small-icon {
+        position: absolute;
+        width: 5.5rem;
+        height: 5.5rem;
+        right: 6.8rem;
+        top: -2.4rem;
+        @media only screen and (max-width: 48em) {
+            width: 6rem;
+            height: 6rem;
+            right: 7.1rem;
+            top: -2.5rem;
+        }
+    }
+    &__box-small-red {
+        width: 2.4rem;
+        height: 2.4rem;
+        display: inline-block;
+        margin-bottom: 1.3rem;
+        @media only screen and (max-width: 48em) {
+            width: 2.5rem;
+            height: 2.5rem;
+            display: inline-block;
+            margin-bottom: 1.3rem;
+            position: relative;
+            left: 0.3rem;
+            top: 2.5rem;
+        }
+    }
+    &__box-small-inner {
+        display: flex;
+        justify-content: space-between;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        color: #262626;
+        margin-bottom: 0.6rem;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column;
+        }
+    }
+    &__box-small-feedback {
+        @media only screen and (max-width: 48em) {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 2.5rem;
+            line-height: 4.1rem;
+            color: #262626;
+            padding-top: 1rem;
+        }
+    }
+    &__box-small-service {
+        @media only screen and (max-width: 48em) {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2.35rem;
+            line-height: 2.74rem;
+            color: #262626;
+        }
+    }
+    &__box-small-inner-bottom {
+        display: flex;
+        justify-content: space-between;
+        @media only screen and (max-width: 48em) {
+            flex-direction: row-reverse;
+        }
+        span {
+            display: inline-block;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+            color: #262626;
+            @media only screen and (max-width: 48em) {
+                font-size: 1.7rem;
+            }
+           
+        }
+    }
+    &__box-small-star {
+        display: flex;
+        @media only screen and (max-width: 48em) {
+            position: relative;
+            top: 0rem;
+        }
+        img {
+            width: 1.728rem;
+            height: 1.728rem;
+            margin-right: 0.415rem;
+            @media only screen and (max-width: 48em) {
+                margin-right: 1rem;
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+        img:last-child {
+            margin-right: 0;
+        }
+    }
+    &__box-big {
+        background: #FFFFFF;
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 2.2rem;
+        height: 35.2rem;
+        width: 29.8rem;
+        padding-top: 2.3rem;
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+        padding-bottom: 2.9rem;
+        @media only screen and (max-width: 48em) {
+            height: 37.2rem;
+            width: 31.8rem;
+        }
+    }
+    &__box-big-image {
+        height: 22.2rem;
+        width: 25.2rem;
+        border-radius: 1.9rem;
+        display: inline-block;
+        margin-bottom: 2rem;
+        @media only screen and (max-width: 48em) {
+            height: 24rem;
+            width: 28rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 1.9rem;
+        }
+    }
+    &__box-big-name {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        color: #262626;
+        margin-bottom: 1.6rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 2.6rem;
+            margin-bottom: 2.5rem;
+        }
+    }
+    &__box-big-inner-block {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__box-big-inner {
+        display: flex;
+    }
+    &__box-big-float {
+        height: 2rem;
+        width: 1.675rem;
+        margin-right: 1.42rem;
+        @media only screen and (max-width: 48em) {
+            margin-right: 2rem;
+        }
+    }
+    &__box-big-city {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+        color: #E4E4E4;
+    }
+    &__box-big-rating {
+        display: flex;
+    }
+    &__box-big-star {
+        height: 1.728rem;
+        width: 1.728rem;
+        display: inline-block;
+        margin-right: 0.772rem;
+    }
+    &__box-big-number {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        color: #262626;
+    }
+    &__block {
+        margin-right: 3.6rem;
+    }
+    &__block:last-child {
+        margin-right: 0;
+    }
+    &__box-big--piter {
+        margin-bottom: 3.6rem;
+        .about-sersis__box-big-image {
+            @media only screen and (max-width: 48em) {
+                margin-bottom: 2.5rem;
+            }
+        }
+        .about-sersis__box-big-name {
+            @media only screen and (max-width: 48em) {
+                font-size: 2.6rem;
+                margin-bottom: 2.5 rem;
+                padding-left: 0.5 rem;
+            }
+        }
+    }
+    &__box-small--bottom {
+        padding-top: 2rem;
+        display: flex;
+        @media only screen and (max-width: 48em) {
+            height: 17rem;
+            width: 32rem;
+            flex-direction: inherit;
+        }
+    }
+    &__box-small-image {
+        width: 8.1rem;
+        height: 8rem;
+        border-radius: 1.3rem;
+        margin-right: 2.9rem;
+        display: inline-block;
+        @media only screen and (max-width: 48em) {
+            width: 6.4rem;
+            height: 11.1rem;
+            border-radius: 1.3rem;
+            margin-right: 2.9rem;
+            display: inline-block;
+            position: relative;
+            left: 0.5rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 1.3rem;
+            filter: drop-shadow(-2.3rem 1.2rem 5rem rgba(162, 162, 162, 0.29));
+            @media only screen and (max-width: 48em) {
+                object-fit: fill;
+            }
+        }
+    }
+    &__box-small-strong {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 2.35rem;
+            padding-top: 2rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+    &__box-small-span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        color: #262626;
+        margin-bottom: 0.2rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 2.15rem;
+            margin-bottom: 2rem;
+        }
+    }
+    &__box-small-people {
+        height: 3.2rem;
+        position: relative;
+        top: 1rem;
+        @media only screen and (max-width: 48em) {
+            height: 4rem;
+            width: 17rem;
+            position: relative;
+            top: -1rem;
+            left: -1.2rem;
+        }
+        img {
+            @media only screen and (max-width: 48em) {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    &__right {
+        width: 71.1rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 20rem;
+        }
+    }
+    &__right-title {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 5.8rem;
+        letter-spacing: 0.02em;
+        color: #262626;
+        margin-bottom: 6.9rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 5.1rem;
+        }
+    }
+    &__right-list {
+        li {
+            padding-left: 7.2rem;
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.7rem;
+            line-height: 147%;
+            color: #262626;
+            margin-bottom: 2.2rem;
+            position: relative;
+            list-style-type: none;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.1rem;
+                line-height: 126%;
+                letter-spacing: 0em;
+                padding-left: 8.8rem;
+                margin-bottom: 4rem;
+            }
+            &::before {
+                position: absolute;
+                content: '01';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 3rem;
+                line-height: 3.8rem;
+                color: #3066C1;
+                overflow: hidden;
+                left: 0;
+                @media only screen and (max-width: 48em) {
+                    font-size: 5rem;
+                    left: 0.5rem;
+                    top: 1.6rem;
+                }
+            }
+        }
+        li:nth-child(2) {
+            &::before {
+                content: '02';
+            }
+        }
+        li:nth-child(3) {
+            &::before {
+                content: '03';
+            }
+        }
+    }
+}
+.akrk-frame {
+    .js {
+        .page {
+            background-color: #fdfdfe;
+        
+            #register-form {
+                input {
+                    width: 27.8rem;
+                    height: 7.8rem;
+                    border: 0.14rem solid #E7EBEE;
+                    box-sizing: border-box;
+                    border-radius: 1.5rem;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 2.2rem;
+                    line-height: 2.7rem;
+                    padding-top: 3.4rem;
+                    padding-left: 2rem;
+                    padding-bottom: 1.7rem;
+                    /* text */
+                    color: #262626;
+                    @media only screen and (max-width: 48em) {
+                        width: 100%;
+                        margin-right: 0;
+                        height: 13.8rem;
+                        border-radius: 4rem;
+                        padding-top: 5.2rem;
+                        padding-left: 4rem;
+                        font-size: 3.4rem;
+                    }
+                }
+            }
+        }
+    }
+}
+

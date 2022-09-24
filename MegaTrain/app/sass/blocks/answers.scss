@@ -1,0 +1,160 @@
+.answers {
+    margin-bottom: 19.3rem;
+    .container {
+        width: 120rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            padding: 0 4rem;
+        }
+    }
+    &__category {
+        display: flex;
+        margin-bottom: 4rem;
+        @media only screen and (max-width: 48em) {
+            margin-bottom: 12rem;
+        }
+        span {
+            position: relative;
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.7rem;
+            line-height: 147%;
+            color: #C9C9C9;
+            padding-right: 5rem;
+            @media only screen and (max-width: 48em) {
+                font-size: 3rem;
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                width: 1px;
+                height: 1.2rem;
+                background: #262626;
+                top: 0.55rem;
+                right: 0;
+                @media only screen and (max-width: 48em) {
+                    width: 2px;
+                    height: 2.4rem;
+                    top: 1rem;
+                }
+            }
+        }
+        span:last-child {
+            padding-right: 0;
+            padding-left: 5rem;
+            color: #262626;
+            &::before {
+                display: none;
+            }
+        }
+    }
+    &__questions {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 2.2rem;
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+        padding-left: 4rem;
+        padding-right: 11.5rem;
+        margin-bottom: 2rem;
+        font-family: 'Akzidenz-Grotesk Pro Med Ext', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.4rem;
+        line-height: 3.1rem;
+        letter-spacing: 0.02em;
+        color: #262626;
+        position: relative;
+        cursor: pointer;
+        @media only screen and (max-width: 48em) {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+            padding-left: 4rem;
+            padding-right: 11rem;
+            font-size: 3.05rem;
+            line-height: 4.6rem;
+            margin-bottom: 4rem;
+        }
+        &::before {
+            position: absolute;
+            content: '';
+            background-image: url(../img/bluearrow.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 1.6rem;
+            height: 0.8rem;
+            top: 50%;
+            right: 4.6rem;
+            @media only screen and (max-width: 48em) {
+                width: 2rem;
+                height: 1.6rem;
+            }
+        }
+    }
+    &__answer {
+        margin-bottom: 8rem;
+        font-family: 'Gilroy', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.7rem;
+        line-height: 147%;
+        color: #262626;
+        padding-right: 6rem;
+        padding-left: 3rem;
+        padding-top: 2rem;
+        display: none;
+        transition: all 0.2s;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.05rem;
+            line-height: 167%;
+        }
+    }
+    .active {
+        display: block;
+        &::before {
+            transform: rotate(180deg);
+            transition: all 0.2s;
+        }
+    }
+    &__btns {
+        display: flex;
+        justify-content: center;
+        margin-top: 5.6rem;
+        @media only screen and (max-width: 48em) {
+            margin-top: 7rem;
+        }
+        .link-btn {
+            span {
+                @media only screen and (max-width: 48em) {
+                    font-size: 3.05rem;
+                }
+            }
+            &::before {
+                width: 3rem;
+                height: 3rem;
+                @media only screen and (max-width: 48em) {
+                    width: 5rem;
+                    height: 5rem;
+                    right: -3rem;
+                }
+            }
+        }
+        .link-btn-before {
+            &::after {
+                background-image: url(../img/arrowdown.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                width: 1.1rem;
+                height: 1.1rem;
+                right: 0.9rem;
+                @media only screen and (max-width: 48em) {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    right: -1.3rem;
+                }
+            }
+        }
+    }
+}

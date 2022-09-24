@@ -1,0 +1,51 @@
+.header {
+    position: absolute;
+    top: 2.1rem;
+    left: 16.1rem;
+    z-index: 5;
+    &__wrapper {
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    &__logo {
+        width: 14.5rem;
+        height: 7.765rem;
+        display: inline-block;
+        margin-right: 62rem;
+    }
+
+    &__item {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        margin-right: 3.5rem;
+    }
+
+    &__item:last-child {
+        margin-right: 0;
+    }
+    &__nav {
+        margin-right: 41.2rem;
+        
+    }
+
+    &__nav-lists {
+        display: flex;
+        margin-top: -0.3rem;
+    }
+
+    .all-btn {
+        margin-top: 1.4rem;
+    }
+
+    .burger {
+        display: none;
+    }
+}

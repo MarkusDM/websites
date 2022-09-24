@@ -1,0 +1,77 @@
+.partners {
+    padding-bottom: 15.9rem;
+    .container {
+        width: 100%;
+        padding-left: 16rem;
+        padding-right: 15.8rem;
+    }
+
+    &__title {
+        margin-bottom: 4rem;
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            font-family: 'Akzidenz-Grotesk Pro',sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 6.9rem;
+            line-height: 122% ;
+            text-transform: uppercase;
+            span {
+                font-weight: 500;
+            }
+        }
+    }
+
+    &__swiper {
+        overflow: hidden;
+    }
+
+    &__swiper-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__slide {
+        margin-right: 10rem;
+    }
+
+    &__slide-content--miratorg {
+        height: 14.8rem;
+        width: 22.2rem;
+        display: inline-block;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    &__slide-content--olimp {
+        height: 16.1rem;
+        width: 20.6rem;
+        display: inline-block;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    &__slide-content--rgd {
+        height: 9.7rem;
+        width: 10.4rem;
+        display: inline-block;
+        margin-top: -2rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    .pagination-slider {
+        margin-top: 3rem;
+    }
+}

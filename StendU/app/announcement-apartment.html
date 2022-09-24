@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>StendU | Транспорт в Риге</title>
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>" type="text/javascript"></script>
+</head>
+
+<body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="menu-mob">
+            <a class="menu-mob__btn" href="#">
+              <img class="menu-mob__btn-img" src="images/menu-btn.svg" alt="открыть меню">
+            </a>
+    
+            <div class="menu-mob__inner">
+              <div class="menu-mob__wrapper">
+                <div class="menu-mob__top menu-mob__top--undefined">
+                  <div class="menu-mob__user">
+                    <img class="menu-mob__user-img" src="images/User-undefined.svg" alt="">
+    
+                    <img class="menu-mob__user-success" src="images/user-success.svg" alt="">
+                  </div>
+    
+                  <a class="menu-mob__login" href="#">Войти</a>
+    
+                  <div class="menu-mob__info">
+                    <div class="menu-mob__name">
+                      Алина Петрова
+                    </div>
+    
+                    <div class="menu-mob__about">
+                      <div class="menu-mob__rating">
+                        <img class="menu-mob__rating-img" src="images/star.svg" alt="ваш рейтинг">
+    
+                        <span class="menu-mob__rating">
+                          5.0
+                        </span>
+                      </div>
+    
+                      <div class="menu-mob__review">
+                        <span class="menu-mob__review-count">
+                          26
+                        </span>
+    
+                        отзывов
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="menu-mob__bottom">
+                  <ul class="menu-mob__list">
+                    <li class="menu-mob__item">
+                      <a class="menu-mob__link" href="#">
+                        <img class="menu-mob__link-img" src="images/menu-mob-announcements.svg" alt="Мои объявления">
+    
+                        Мои объявления
+                      </a>
+                    </li>
+    
+                    <li class="menu-mob__item">
+                      <a class="menu-mob__link" href="#">
+                        <img class="menu-mob__link-img" src="images/menu-mob-like.svg" alt="Мои отзывы">
+    
+                        Мои отзывы
+                      </a>
+                    </li>
+    
+                    <li class="menu-mob__item">
+                      <a class="menu-mob__link" href="#">
+                        <img class="menu-mob__link-img" src="images/menu-mob-favorite.svg" alt="Избранное">
+    
+                        Избранное
+                      </a>
+                    </li>
+    
+                    <li class="menu-mob__item">
+                      <a class="menu-mob__link" href="#">
+                        <img class="menu-mob__link-img" src="images/menu-mob-notification.svg" alt="Уведомления">
+    
+                        Уведомления
+                      </a>
+                    </li>
+    
+                    <li class="menu-mob__item">
+                      <a class="menu-mob__link" href="#">
+                        <img class="menu-mob__link-img" src="images/menu-mob-message.svg" alt="Сообщения">
+    
+                        Сообщения
+                      </a>
+                    </li>
+    
+                    <li class="menu-mob__item">
+                      <a class="menu-mob__link" href="#">
+                        <img class="menu-mob__link-img" src="images/menu-mob-setting.svg" alt="Настройки">
+    
+                        Настройки
+                      </a>
+                    </li>
+                  </ul>
+    
+                  <a class="menu-mob__announcement" href="#">
+                    <div class="menu-mob__announcement-btn">
+                      <img class="menu-mob__announcement-img" src="images/menu-mob-plus.svg" alt="Создать объявление">
+                    </div>
+    
+                    Создать объявление
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <a class="header__location" href="#">
+            <img class="header__location-img" src="images/location.svg" alt="ваше местоположение">
+    
+            <span>Ваш город:</span>
+    
+            <span class="header__location-text">Рига</span>
+          </a>
+    
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Все объявления</a>
+              </li>
+    
+              <li class="menu__item">
+                <a href="transport.html" class="menu__link">Авто</a>
+              </li>
+    
+              <li class="menu__item">
+                <a href="property.html" class="menu__link">Недвижимость</a>
+              </li>
+    
+              <li class="menu__item">
+                <a href="#" class="menu__link">Работа</a>
+              </li>
+    
+              <li class="menu__item">
+                <a href="#" class="menu__link">Услуги</a>
+              </li>
+    
+              <li class="menu__item">
+                <a href="#" class="menu__link">Еще</a>
+              </li>
+    
+              <li class="menu__item">
+                <a href="#" class="menu__link">О компании</a>
+              </li>
+    
+              <li class="menu__item">
+                <a href="#" class="menu__link">Контакты</a>
+              </li>
+    
+              <li class="menu__item">
+                <a href="#" class="menu__link">Помощь</a>
+              </li>
+            </ul>
+          </nav>
+    
+          <ul class="header__social social">
+            <li class="social__item social__item--mob">
+              <a class="social__link" href="#">
+                <img class="social__img" src="images/social-PA-mob.svg" alt="личный кабинет">
+              </a>
+            </li>
+    
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <img class="social__img" src="images/social-PA.svg" alt="личный кабинет">
+              </a>
+            </li>
+    
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <img class="social__img" src="images/social-message.svg" alt="сообщения">
+              </a>
+            </li>
+    
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <img class="social__img" src="images/social-notification.svg" alt="уведомления">
+              </a>
+            </li>
+    
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <img class="social__img" src="images/social-favorite.svg" alt="избранное">
+              </a>
+            </li>
+          </ul>
+        </div>
+    
+        <div class="header__bottom">
+          <a href="index.html" class="header__logo logo">
+            <img src="images/logo.svg" alt="логотип" class="header__logo-img">
+          </a>
+    
+          <form class="header__search" action="#">
+            <button class="header__categories btn-blue" type="button">
+              <img class="header__categories-img header__categories-img--mob" src="images/categories-mob.svg"
+                alt="выбрать категории">
+    
+              <img class="header__categories-img" src="images/categories.svg" alt="выбрать категории">
+    
+              Категории
+            </button>
+    
+            <div class="form">
+              <div class="form__top">
+                <input class="form__reset" type="reset">
+    
+                <span class="form__text">Уточнить</span>
+    
+                <button class="form__close" type="button"></button>
+              </div>
+    
+              <ul class="form__items">
+                <li class="form__item">
+                  <div class="form__subtitle">Категория</div>
+    
+                  <div class="form__select">
+                    <input class="form__select-input" placeholder="Выбрать категорию" type="text">
+                  </div>
+    
+                  <ul class="form__list">
+                    <li class="form__box">
+                      <button class="form__elem" type="button">категория 1</button>
+                    </li>
+    
+                    <li class="form__box">
+                      <button class="form__elem" type="button">категория 2</button>
+                    </li>
+    
+                    <li class="form__box">
+                      <button class="form__elem" type="button">категория 3</button>
+                    </li>
+                  </ul>
+                </li>
+    
+                <li class="form__item">
+                  <div class="form__subtitle">Город или регион</div>
+    
+                  <div class="form__select">
+                    <input class="form__select-input" placeholder="Выбрать город или регион" type="text">
+                  </div>
+    
+                  <ul class="form__list">
+                    <li class="form__box">
+                      <button class="form__elem" type="button">Город или регион 1</button>
+                    </li>
+    
+                    <li class="form__box">
+                      <button class="form__elem" type="button">Город или регион 2</button>
+                    </li>
+    
+                    <li class="form__box">
+                      <button class="form__elem" type="button">Город или регион 3</button>
+                    </li>
+                  </ul>
+                </li>
+    
+                <li class="form__item">
+                  <div class="form__subtitle">Цена</div>
+    
+                  <div class="form__wrapper">
+                    <label class="form__cost categories-btn">
+                      от
+    
+                      <input class="form__cost-value" type="number">
+                    </label>
+    
+                    <label class="form__cost categories-btn">
+                      до
+    
+                      <input class="form__cost-value" type="number">
+                    </label>
+                  </div>
+                </li>
+    
+                <li class="form__item">
+                  <div class="form__subtitle">Продавцы</div>
+    
+                  <div class="form__wrapper">
+                    <label class="form__seller categories-btn">
+                      <input class="form__seller-checkbox" type="checkbox">
+    
+                      <div class="form__seller-text">Частные</div>
+                    </label>
+    
+                    <label class="form__seller categories-btn">
+                      <input class="form__seller-checkbox" type="checkbox">
+    
+                      <div class="form__seller-text">Компании</div>
+                    </label>
+                  </div>
+                </li>
+    
+                <li class="form__item">
+                  <div class="form__subtitle">Сортировать</div>
+    
+                  <ul class="form__sort">
+                    <li class="form__sort-item">
+                      <label class="form__case">
+                        <input class="form__radio" name="sort" type="radio">
+    
+                        <div class="form__sort-text">По умолчанию</div>
+                      </label>
+                    </li>
+    
+                    <li class="form__sort-item">
+                      <label class="form__case">
+                        <input class="form__radio" name="sort" type="radio">
+    
+                        <div class="form__sort-text">По дате</div>
+                      </label>
+                    </li>
+    
+                    <li class="form__sort-item">
+                      <label class="form__case">
+                        <input class="form__radio" name="sort" type="radio">
+    
+                        <div class="form__sort-text">Дешевле</div>
+                      </label>
+                    </li>
+    
+                    <li class="form__sort-item">
+                      <label class="form__case">
+                        <input class="form__radio" name="sort" type="radio">
+    
+                        <div class="form__sort-text">Дороже</div>
+                      </label>
+                    </li>
+    
+                    <li class="form__sort-item">
+                      <label class="form__case">
+                        <input class="form__radio" name="sort" type="radio">
+    
+                        <div class="form__sort-text">По удалённости</div>
+                      </label>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+    
+              <div class="form__inner">
+                <label class="form__label">
+                  <input class="form__label-input" type="checkbox">
+    
+                  <div class="form__label-text">Только с фото</div>
+                </label>
+    
+                <label class="form__label">
+                  <input class="form__label-input" type="checkbox">
+    
+                  <div class="form__label-text">С доставкой</div>
+                </label>
+              </div>
+    
+              <button class="form__all" type="button">Показать 230 объявлений</button>
+    
+            </div>
+    
+            <label class="header__label">
+              <input class="header__input" type="text" placeholder="Поиск по объявлениям...">
+            </label>
+    
+            <button href="#" class="header__btn btn-blue" type="submit">
+              <img src="images/search.svg" alt="поиск" class="header__btn-img">
+    
+              Найти
+            </button>
+          </form>
+    
+          <a class="header__application-add btn-blue" href="#">Создать объявление</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="announcement">
+        <div class="container">
+          <div class="announcement-title">Создание объявления</div>
+          <div class="announcement-wrap">
+            <div class="announcement-content">
+              <div class="announcement-content__block announcement-content__category">
+                <div class="announcement-content__title">Категория</div>
+                <div class="announcement-content__category-block">
+                  <div class="announcement-content__category-name">
+                    <div class="announcement-content__category-img">
+                      <img src="images/announcement/category-3.svg" alt="">
+                    </div>
+                    <div class="announcement-content__category-text">
+                      <ul class="announcement-content__category-list">
+                        <li>
+                          <a href="#">Недвижимость</a>
+                        </li>
+                        <li>
+                          <a href="#">Квартиры</a>
+                        </li>
+                        <li>
+                          <a href="#">Сдам</a>
+                        </li>
+                      </ul>
+                      <div class="announcement-content__category-description">На длительный срок</div>
+                    </div>
+                  </div>
+                  <a href="#" class="announcement-content__category-more">
+                    <span>Другая категория</span>
+                    <img src="images/announcement/edit-icon.svg" alt="">
+                  </a>
+                </div>
+              </div>
+
+              <div class="announcement-content__block announcement-content__place">
+                <div class="announcement-content__title">Адрес</div>
+                <div class="announcement-content__place-search">
+                  <label class="wide">
+                    <div class="announcement-label__title">Адрес <span>?</span></div>
+                    <input type="search" placeholder="Начните вводить адрес, а потом выберите из списка">
+                    <button class="announcement-content__place-search-btn">
+                      <img src="images/announcement/search.svg" alt="">
+                    </button>
+                  </label>
+                </div>
+                <div class="announcement-content__place-map" id="announcement-place-map"></div>
+              </div>
+              
+              <div class="announcement-content__block announcement-content__contacts">
+                <div class="announcement-content__title">Контакты</div>
+                <div class="announcement-content__contacts-wrap announcement-contacts__wrap">
+                  <div class="announcement-switch">
+                    <div class="announcement-label__title">Размещает объявление</div>
+                    <div class="announcement-switch__wrap">
+                      <label class="announcement-switch__item">
+                        <input type="radio" name="switch-advertisement" checked>
+                        <span>Собственник</span>
+                      </label>
+                      <label class="announcement-switch__item">
+                        <input type="radio" name="switch-advertisement">
+                        <span>Посредник</span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <label >
+                    <div class="announcement-label__title">Введите e-mail</div>
+                    <input type="email" value="example@mail.ru">
+                  </label>
+
+                  <label>
+                    <div class="announcement-label__title">Введите телефон</div>
+                    <input type="text" value="+74993481034">
+                  </label>
+
+                  <div class="announcement-contacts__block">
+                    <div class="announcement-contacts__block-title">Способ связи</div>
+                    <div class="announcement-contacts__block-pick">
+                      <label>
+                        <input type="radio" name="announcement-contacts-raido" class="visually-hidden" checked>
+                        <span></span>
+                        <div>По телефону и в сообщениях</div>
+                      </label>
+                      <label>
+                        <input type="radio" name="announcement-contacts-raido" class="visually-hidden">
+                        <span></span>
+                        <div>По телефону</div>
+                      </label>
+                      <label>
+                        <input type="radio" name="announcement-contacts-raido" class="visually-hidden">
+                        <span></span>
+                        <div>В сообщениях</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="announcement-content__block announcement-content__apartment">
+                <div class="announcement-content__title">О квартире</div>
+                <div class="announcement-content__block-wrap">
+                  <label>
+                    <div class="announcement-label__title">Тип дома</div>
+                    <div class="announcement-filter">
+                      <input type="hidden" class="announcement-filter__select" value="Кирпичный">
+                      <div class="select">
+                        <div class="select_checked">
+                          <span class="select-text">Кирпичный</span>
+                        </div>
+                        <ul class="select-dropdown">
+                          <li class="select-dropdown__option" data-value="Кирпичный">
+                            Кирпичный
+                          </li>
+                          <li class="select-dropdown__option" data-value="Бетонный">
+                            Бетонный
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </label>
+
+                  <label>
+                    <div class="announcement-label__title">Этаж</div>
+                    <div class="announcement-filter">
+                      <input type="hidden" class="announcement-filter__select" value="11">
+                      <div class="select">
+                        <div class="select_checked">
+                          <span class="select-text">11</span>
+                        </div>
+                        <ul class="select-dropdown">
+                          <li class="select-dropdown__option" data-value="11">
+                            11
+                          </li>
+                          <li class="select-dropdown__option" data-value="12">
+                            12
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </label>
+
+                  <label>
+                    <div class="announcement-label__title">Этажей в доме</div>
+                    <div class="announcement-filter">
+                      <input type="hidden" class="announcement-filter__select" value="12">
+                      <div class="select">
+                        <div class="select_checked">
+                          <span class="select-text">12</span>
+                        </div>
+                        <ul class="select-dropdown">
+                          <li class="select-dropdown__option" data-value="12">
+                            12
+                          </li>
+                          <li class="select-dropdown__option" data-value="15">
+                            15
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </label>
+
+                  <label>
+                    <div class="announcement-label__title">Количество комнат</div>
+                    <div class="announcement-filter">
+                      <input type="hidden" class="announcement-filter__select" value="3">
+                      <div class="select">
+                        <div class="select_checked">
+                          <span class="select-text">3</span>
+                        </div>
+                        <ul class="select-dropdown">
+                          <li class="select-dropdown__option" data-value="3">
+                            3
+                          </li>
+                          <li class="select-dropdown__option" data-value="4">
+                            4
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </label>
+
+                  <label>
+                    <div class="announcement-label__title">Общая площадь</div>
+                    <div class="announcement-filter">
+                      <input type="hidden" class="announcement-filter__select" value="72 м2">
+                      <div class="select">
+                        <div class="select_checked">
+                          <span class="select-text">72 м2</span>
+                        </div>
+                        <ul class="select-dropdown">
+                          <li class="select-dropdown__option" data-value="72 м2">
+                            72 м2
+                          </li>
+                          <li class="select-dropdown__option" data-value="70 м2">
+                            70 м2
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </label>
+
+                  <label>
+                    <div class="announcement-label__title">Площадь кухни</div>
+                    <div class="announcement-filter">
+                      <input type="hidden" class="announcement-filter__select" value="10 м2">
+                      <div class="select">
+                        <div class="select_checked">
+                          <span class="select-text">10 м2</span>
+                        </div>
+                        <ul class="select-dropdown">
+                          <li class="select-dropdown__option" data-value="10 м2">
+                            10 м2
+                          </li>
+                          <li class="select-dropdown__option" data-value="12 м2">
+                            12 м2
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </label>
+
+                  <label>
+                    <div class="announcement-label__title">Жилая площадь</div>
+                    <div class="announcement-filter">
+                      <input type="hidden" class="announcement-filter__select" value="55 м2">
+                      <div class="select">
+                        <div class="select_checked">
+                          <span class="select-text">55 м2</span>
+                        </div>
+                        <ul class="select-dropdown">
+                          <li class="select-dropdown__option" data-value="55 м2">
+                            55 м2
+                          </li>
+                          <li class="select-dropdown__option" data-value="60 м2">
+                            60 м2
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </label>
+
+                  <label>
+                    <div class="announcement-label__title">Количество кроватей</div>
+                    <div class="announcement-filter">
+                      <input type="hidden" class="announcement-filter__select" value="2">
+                      <div class="select">
+                        <div class="select_checked">
+                          <span class="select-text">2</span>
+                        </div>
+                        <ul class="select-dropdown">
+                          <li class="select-dropdown__option" data-value="2">
+                            2
+                          </li>
+                          <li class="select-dropdown__option" data-value="3">
+                            3
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </label>
+
+                  <label>
+                    <div class="announcement-label__title">Спальных мест</div>
+                    <div class="announcement-filter">
+                      <input type="hidden" class="announcement-filter__select" value="4">
+                      <div class="select">
+                        <div class="select_checked">
+                          <span class="select-text">4</span>
+                        </div>
+                        <ul class="select-dropdown">
+                          <li class="select-dropdown__option" data-value="4">
+                            4
+                          </li>
+                          <li class="select-dropdown__option" data-value="5">
+                            5
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="announcement-content__block announcement-content__options other-options">
+                <div class="announcement-content__title">Дополнительные параметры</div>
+                <div class="announcement-content__options-wrap">
+                  <div class="announcement-content__options-item">
+                    <div class="announcement-content__options-title">Техника</div>
+                    <div class="announcement-content__options-body">
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden" checked>
+                        <span></span>
+                        <div>Плитка</div>
+                      </label>
+
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden">
+                        <span></span>
+                        <div>Микроволновка</div>
+                      </label>
+
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden" checked>
+                        <span></span>
+                        <div>Холодильник</div>
+                      </label>
+
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden" checked>
+                        <span></span>
+                        <div>Стиральная машина</div>
+                      </label>
+
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden">
+                        <span></span>
+                        <div>Фен</div>
+                      </label>
+
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden" checked>
+                        <span></span>
+                        <div>Утюг</div>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="announcement-content__options-item item-review">
+                    <div class="announcement-content__options-title">Коммуникации</div>
+                    <div class="announcement-content__options-body">
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden" checked>
+                        <span></span>
+                        <div>Wi-Fi</div>
+                      </label>
+
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden" checked>
+                        <span></span>
+                        <div>Телевизор</div>
+                      </label>
+
+                      <label class="label-checkbox">
+                        <input type="checkbox" class="visually-hidden">
+                        <span></span>
+                        <div>Кабельное или цифровое ТВ</div>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="announcement-content__options-item">
+                    <div class="announcement-content__options-title">Комфорт</div>
+                    <div class="announcement-content__options-body">
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden" checked>
+                        <span></span>
+                        <div>Кондиционер</div>
+                      </label>
+
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden">
+                        <span></span>
+                        <div>Камин</div>
+                      </label>
+
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden">
+                        <span></span>
+                        <div>Парковочное место</div>
+                      </label>
+
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden" checked>
+                        <span></span>
+                        <div>Лоджия или балкон</div>
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="announcement-content__options-item">
+                    <div class="announcement-content__options-title">Дополнительно</div>
+                    <div class="announcement-content__options-body">
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden" checked>
+                        <span></span>
+                        <div>Можно с питомцами</div>
+                      </label>
+
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden">
+                        <span></span>
+                        <div>Можно с детьми</div>
+                      </label>
+
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden" checked>
+                        <span></span>
+                        <div>Можно курить</div>
+                      </label>
+
+                      <label class="label-checkbox narrow">
+                        <input type="checkbox" class="visually-hidden">
+                        <span></span>
+                        <div>Можно для мероприятий</div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="announcement-content__block announcement-content__appearance appearance-apartment">
+                <div class="announcement-content__title">Внешний вид</div>
+                <div class="announcement-content__appearance-block">
+                  <div class="announcement-label__title">Фотографии</div>
+                  <div class="announcement-content__appearance-photos-wrap">
+                    <div class="announcement-content__appearance-photos">
+                      <div class="announcement-content__appearance-photo appearance-photo-main" data-appearance-photo="1">
+                        <div class="announcement-content__appearance-photo-img">
+                          <img src="images/announcement/appearance-photo.png" alt="">
+                        </div>
+                        <div class="announcement-content__appearance-photo-remove" data-appearancePhotoRemove="1">
+                          <img src="images/announcement/appearance-photo-delete.svg" alt="">
+                        </div>
+                      </div>
+
+                      <div class="announcement-content__appearance-photo" data-appearance-photo="2">
+                        <div class="announcement-content__appearance-photo-img">
+                          <img src="images/announcement/appearance-photo1.png" alt="">
+                        </div>
+                        <div class="announcement-content__appearance-photo-remove" data-appearancePhotoRemove="2">
+                          <img src="images/announcement/appearance-photo-delete.svg" alt="">
+                        </div>
+                      </div>
+
+                      <div class="announcement-content__appearance-photo" data-appearance-photo="3">
+                        <div class="announcement-content__appearance-photo-img">
+                          <img src="images/announcement/appearance-photo2.png" alt="">
+                        </div>
+                        <div class="announcement-content__appearance-photo-remove" data-appearancePhotoRemove="3">
+                          <img src="images/announcement/appearance-photo-delete.svg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <label>
+                      <input type="file" hidden class="announcement-content__appearance-photo-input">
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="announcement-content__block announcement-content__description">
+                <div class="announcement-content__title">Описание</div>
+                <div class="announcement-content__block-wrap">
+                  <label class="wide">
+                    <div class="announcement-label__title">Описание</div>
+                    <textarea placeholder="Честно опишите достоинства и недостатки своего автомобиля.                                                                                                                                 Не указывайте в описании телефон и e-mail — для этого есть отдельные поля."></textarea>
+                  </label>
+                </div>
+              </div>
+
+              <div class="announcement-content__block announcement-content__deal">
+                <div class="announcement-content__title">Цена и условия сделки</div>
+                <div class="announcement-content__block-wrap">
+                  <label class="ss-wide label-rent">
+                    <div class="announcement-label__title">Арендная плата</div>
+                    <input type="text" value="300 000">
+                  </label>
+
+                  <label class="ss-wide">
+                    <div class="announcement-label__title">Залог</div>
+                    <div class="announcement-filter">
+                      <input type="hidden" class="announcement-filter__select" value="Без залога">
+                      <div class="select">
+                        <div class="select_checked">
+                          <span class="select-text">Без залога</span>
+                        </div>
+                        <ul class="select-dropdown">
+                          <li class="select-dropdown__option" data-value="Без залога">
+                            Без залога
+                          </li>
+                          <li class="select-dropdown__option" data-value="Залог">
+                            Залог
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="announcement-content__block announcement-content__save">
+                <a href="#" class="announcement-content__save-btn announcement-save__btn">
+                  <div class="announcement-content__save-btn-img">
+                    <img src="images/announcement/save-icon.svg" alt="">
+                  </div>
+                  <div class="announcement-content__save-btn-text">Сохранить и выйти</div>
+                </a>
+                <a href="#" class="announcement-content__save-next">Продолжить</a>
+              </div>
+            </div>
+
+            <div class="announcement-stages">
+              <div class="announcement-stages__banner">
+                <div class="announcement-stages__banner-corner corner-left"></div>
+                <div class="announcement-stages__banner-corner corner-right"></div>
+                <div class="announcement-stages__banner-img">
+                  <img src="images/announcement/stages-banner.svg" alt="">
+                </div>
+              </div>
+              <div class="announcement-stages__content">
+                <div class="announcement-stages__items">
+                  <div class="announcement-stages__item active">
+                    <div class="announcement-stages__item-img">
+                      <img src="images/announcement/stage-1.svg" alt="">
+                    </div>
+                    <div class="announcement-stages__item-name">Категория</div>
+                  </div>
+                  <div class="announcement-stages__item active">
+                    <div class="announcement-stages__item-img">
+                      <img src="images/announcement/stage-2.svg" alt="">
+                    </div>
+                    <div class="announcement-stages__item-name">Параметры</div>
+                  </div>
+                  <div class="announcement-stages__item active">
+                    <div class="announcement-stages__item-img">
+                      <img src="images/announcement/stage-3.svg" alt="">
+                    </div>
+                    <div class="announcement-stages__item-name">Внешний вид</div>
+                  </div>
+                  <div class="announcement-stages__item">
+                    <div class="announcement-stages__item-img">
+                      <img src="images/announcement/stage-4.svg" alt="">
+                    </div>
+                    <div class="announcement-stages__item-name">Место сделки</div>
+                  </div>
+                  <div class="announcement-stages__item">
+                    <div class="announcement-stages__item-img">
+                      <img src="images/announcement/stage-5.svg" alt="">
+                    </div>
+                    <div class="announcement-stages__item-name">Контакты</div>
+                  </div>
+                </div>
+                <a href="#" class="announcement-stages__link">
+                  <div class="announcement-stages__link-suptitle">Столкнулись с проблемой?</div>
+                  <div class="announcement-stages__link-title">Задайте нам вопрос</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__top">
+          <li class="footer__item">
+            <div class="footer__subtitle">
+              Транспорт
+            </div>
+
+            <ul class="footer__list">
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Легковые авто</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Запчасти и аксессуары</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Мото</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Коммерческий транспорт</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Водный транспорт</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="footer__item">
+            <div class="footer__subtitle">
+              Недвижимость
+            </div>
+
+            <ul class="footer__list">
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Купить</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Снять</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Посуточно</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Запрос на недвижимость</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="footer__item">
+            <div class="footer__subtitle">
+              Личные вещи
+            </div>
+
+            <ul class="footer__list">
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Одежда, обувь, аксессуары</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Детская одежда, обувь</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Товары для детей</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Красота и здоровье</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Часы и украшения</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="footer__item">
+            <div class="footer__subtitle">
+              Услуги
+            </div>
+
+            <ul class="footer__list">
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Перевозки, транспорт</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Ремонт, строительство</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Ремонт техники</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Красота и здоровье</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Уборка, дезинсекция</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="footer__item">
+            <div class="footer__subtitle">
+              Работа
+            </div>
+
+            <ul class="footer__list">
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Вакансии</a>
+              </li>
+
+              <li class="footer__elem">
+                <a class="footer__link" href="#">Резюме</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="footer__bottom">
+          <a class="footer__logo logo" href="index.html">
+            <img class="logo__img" src="images/logo.svg" alt="логотип">
+          </a>
+
+          <nav class="footer__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Все объявления</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="#" class="menu__link">Авто</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="#" class="menu__link">Недвижимость</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="#" class="menu__link">Работа</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="#" class="menu__link">Услуги</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="#" class="menu__link">Еще</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="#" class="menu__link">О компании</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="#" class="menu__link">Контакты</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="#" class="menu__link">Помощь</a>
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="footer__social social">
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <img class="social__img" src="images/social-PA.svg" alt="личный кабинет">
+              </a>
+            </li>
+
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <img class="social__img" src="images/social-message.svg" alt="сообщения">
+              </a>
+            </li>
+
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <img class="social__img" src="images/social-notification.svg" alt="уведомления">
+              </a>
+            </li>
+
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <img class="social__img" src="images/social-favorite.svg" alt="избранное">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="announcement-modal">
+      <div class="announcement-modal__inner">
+        <div class="announcement-modal__left">
+          <img class="announcement-modal__img" src="images/announcement/appearance-photo.png" alt="">
+        </div>
+    
+        <div class="announcement-modal__boundary"></div>
+    
+        <div class="announcement-modal__right">
+          <div class="announcement-modal__title">
+            Пользователь увдит объявление <span>Часы Tangente Sport Neomatik Automatic</span> сразу после проверки.
+          </div>
+    
+          <div class="announcement-modal__text">
+            Обычно она занимает пару минут, в редких случаях нам нужно больше времени.
+          </div>
+    
+          <a class="announcement-modal__up href=" #"">
+            Поднять просмотры
+          </a>
+    
+          <a class="announcement-modal__close" href="#"></a>
+        </div>
+      </div>
+    </div>
+    
+  <script src="js/jquery.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    ymaps.ready(function () {
+      var myMap = new ymaps.Map('announcement-place-map', {
+          center: [55.755811, 37.617617],
+          zoom: 9,
+          controls: []
+        }, {
+          searchControlProvider: 'yandex#search'
+        }),
+
+        MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+          '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+        ),
+
+        myPlacemark = new ymaps.Placemark([55.662004, 37.126448], {
+          hintContent: 'Собственный значок метки',
+          balloonContent: 'Это красивая метка'
+        }, {
+          iconLayout: 'default#image',
+          iconImageHref: 'images/announcement/map-mark.svg',
+          iconImageSize: [70, 96],
+          // Смещение левого верхнего угла иконки относительно
+          // её "ножки" (точки привязки).
+          iconImageOffset: [-35, -96]
+        });
+
+      myMap.geoObjects
+        .add(myPlacemark),
+        myMap.behaviors.disable('scrollZoom');
+    });
+  </script>
+</body>
+
+</html>

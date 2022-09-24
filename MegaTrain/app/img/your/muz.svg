@@ -1,0 +1,17 @@
+<svg width="91" height="96" viewBox="0 0 91 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="5.64746" width="90.3529" height="90.3529" rx="17.4545" fill="url(#paint0_linear_1257_14485)"/>
+<rect width="90.3529" height="90.3529" rx="17.4545" fill="#3066C1"/>
+<path d="M64.1481 46.4819V53.8893C64.1481 60.3708 60.4444 63.1486 54.8889 63.1486H36.3703C30.8148 63.1486 27.1111 60.3708 27.1111 53.8893V46.4819C27.1111 41.5745 29.2407 38.7968 32.6666 37.7412C33.7778 37.3894 35.0185 37.2227 36.3703 37.2227H54.8889C56.2407 37.2227 57.4815 37.3894 58.5926 37.7412C62.0185 38.7968 64.1481 41.5745 64.1481 46.4819Z" stroke="white" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M58.5926 35.3707V37.7411C57.4814 37.3893 56.2407 37.2225 54.8888 37.2225H36.3703C35.0185 37.2225 33.7777 37.3893 32.6666 37.7411V35.3707C32.6666 33.3337 34.3333 31.667 36.3703 31.667H54.8888C56.9259 31.667 58.5926 33.3337 58.5926 35.3707Z" stroke="white" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M53.037 28.9076V31.6669H38.2222V28.9076C38.2222 27.3706 39.4814 26.1113 41.0185 26.1113H50.2407C51.7777 26.1113 53.037 27.3706 53.037 28.9076Z" stroke="white" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M40.2037 58.426C41.5538 58.426 42.6482 57.3316 42.6482 55.9816C42.6482 54.6315 41.5538 53.5371 40.2037 53.5371C38.8537 53.5371 37.7593 54.6315 37.7593 55.9816C37.7593 57.3316 38.8537 58.426 40.2037 58.426Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51.5554 54.4783V44.8827C51.5554 42.8411 50.2908 42.5442 49.0078 42.9154L44.151 44.2516C43.2713 44.4929 42.6665 45.1982 42.6665 46.219V47.9265V49.0774V56.1117" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M49.2036 56.7971C50.5536 56.7971 51.6481 55.7027 51.6481 54.3527C51.6481 53.0026 50.5536 51.9082 49.2036 51.9082C47.8536 51.9082 46.7592 53.0026 46.7592 54.3527C46.7592 55.7027 47.8536 56.7971 49.2036 56.7971Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42.6667 48.9824L51.6482 46.5381" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_1257_14485" x1="94.8038" y1="-4.14075" x2="-4.20527" y2="4.10952" gradientUnits="userSpaceOnUse">
+<stop stop-color="#154BA5"/>
+<stop offset="1" stop-color="#01348A"/>
+</linearGradient>
+</defs>
+</svg>

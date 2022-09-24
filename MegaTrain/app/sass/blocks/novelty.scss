@@ -1,0 +1,525 @@
+.novelty {
+    margin-bottom: 22rem;
+    .container {
+        width: 152.5rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            padding: 0 3.4rem;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column;
+        }
+    }
+    &__left {
+        width: 113rem;
+        margin-right: 3.7rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            margin-right: 0;
+        }
+        .link-btn {
+            width: 19rem;
+            margin: 0 auto;
+            @media only screen and (max-width: 48em) {
+                width: 35rem;
+                margin-bottom: 19.6rem;
+            }
+            span {
+                @media only screen and (max-width: 48em) {
+                    font-size: 3.13rem;
+                    line-height: 3.8rem;
+                    margin-bottom: 2.74rem;
+                }
+            }
+            &::before {
+                width: 2.9rem;
+                height: 2.9rem;
+                right: 2.8rem;
+                top: 0.05rem;
+                @media only screen and (max-width: 48em) {
+                    width: 4rem;
+                    height: 4rem;
+                }
+            }
+        }
+        .link-btn-before::after {
+            background-image: url(../img/arrowdown.svg);
+            top: -0.5rem;
+            right: 2.2rem;
+            @media only screen and (max-width: 48em) {
+                top: 0.2rem;
+                right: 2.8rem;
+                background-size: 1.2rem 1.2rem;
+            }
+        }
+    }
+    &__tables {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+    &__box {
+        width: 35.2rem;
+        background: #FFFFFF;
+        border-radius: 2.2rem;
+        padding-top: 4.72rem;
+        padding-left: 3.87rem;
+        padding-right: 3.87rem;
+        display: flex;
+        flex-direction: column;
+        box-shadow: -2px 4px 12px 3px rgba(196, 196, 196, 0.2);
+        margin-right: 3.7rem;
+        margin-bottom: 3.8rem;
+        padding-bottom: 3rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            padding-top: 10rem;
+            border-radius: 4.21rem;
+            margin-bottom: 4rem;
+            margin-right: 0;
+        }
+    }
+    &__box:nth-child(3n) {
+        margin-right: 0;
+    }
+    &__box-title {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 2.2rem;
+        line-height: 2.7rem;
+        text-align: center;
+        color: #262626;
+        margin-bottom: 2.3rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.7rem;
+            line-height: 4.2rem;
+            margin-bottom: 4rem;
+        }
+    }
+    &__box-date {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        text-align: center;
+        color: #959699;
+        margin-bottom: 2.7rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.1rem;
+            margin-bottom: 6rem;
+        }
+    }
+    &__box-image {
+        width: 17.792rem;
+        height: 17.792rem;
+        display: inline-block;
+        margin: 0 auto;
+        margin-bottom: 4.2rem;
+        @media only screen and (max-width: 48em) {
+            width: 35.7rem;
+            height: 35.09rem;
+            margin-bottom: 4.94rem;
+            margin-bottom: 7.84rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 4rem;
+            filter: drop-shadow(0.5rem 2.23332rem 5rem rgba(39, 40, 49, 0.29));
+            @media only screen and (max-width: 48em) {
+                object-fit: cover;
+                border-radius: 7rem;
+            }
+        }
+    }
+    &__box-link {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.7rem;
+        line-height: 2.1rem;
+        position: relative;
+        color: #959699;
+        padding-bottom: 1rem;
+        padding-left: 7.6rem;
+        display: inline-block;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.1rem;
+            margin: 0 auto;
+            padding-left: 0.3rem;
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+        }
+        &::before {
+            position: absolute;
+            content: '';
+            background-image: url(../img/line.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 14.4rem;
+            height: 0.1rem;
+            bottom: 0;
+            left: 6rem;
+            @media only screen and (max-width: 48em) {
+                object-fit: cover;
+                border-radius: 6rem;
+                background-image: url(../img/bgline.png);
+                width: 28rem;
+                height: 0.1rem;
+                bottom: -1.5rem;
+                left: -4rem;
+            }
+        }
+    }
+    &__form {
+        height: 73.2rem;
+        width: 35.8rem;
+        border-radius: 2.2rem;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 50.74%, rgba(255, 255, 255, 0.396) 95.16%);
+        box-shadow: 0px -50px 343px rgba(0, 30, 98, 0.06), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        padding-top: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 3.8rem;
+        position: relative;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            height: 107rem;
+            padding: 7.88rem;
+            padding-left: 5.49rem;
+            padding-right: 5.49rem;
+        }
+        .link-btn {
+            width: 100%;
+            @media only screen and (max-width: 48em) {
+                width: 40rem;
+            }
+            span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1.6rem;
+                line-height: 2rem;
+                color: #262626;
+                padding-left: 5.4rem;
+                @media only screen and (max-width: 48em) {
+                    font-size: 2.94rem;
+                    padding-left: 1rem;
+                }
+            }
+            &::before {
+                position: absolute;
+                content: '';
+                width: 3rem;
+                height: 3rem;
+                background: linear-gradient( 265.24deg, #154BA5 -5.38%, #01348A 96.47%);
+                right: 5.8rem;
+                top: -0.5rem;
+                @media only screen and (max-width: 48em) {
+                    width: 5rem;
+                    height: 5rem;
+                    top: -1.8rem;
+                }
+            }
+        }
+        .link-btn-before::after {
+            right: 5.3rem;
+            background-size: 1rem 1rem;
+            @media only screen and (max-width: 48em) {
+                background-size: 1.2rem 1.2rem;
+                right: 6rem;
+                top: -1.3rem;
+            }
+        }
+    }
+    &__form-title {
+        margin-bottom: 3.6rem;
+        strong {
+            width: 100%;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 2.2rem;
+            line-height: 2.7rem;
+            color: #262626;
+            display: inline-block;
+            margin-bottom: 1.7rem;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.52rem;
+                line-height: 4.3rem;
+            }
+        }
+        span {
+            width: 100%;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+            color: #959699;
+            @media only screen and (max-width: 48em) {
+                font-size: 2.94rem;
+                line-height: 3.3rem;
+            }
+        }
+    }
+    &__form-inner {
+        position: relative;
+        margin-bottom: 2rem;
+        input {
+            border: 0.1rem solid #E2E2E2;
+            box-sizing: border-box;
+            border-radius: 1.5rem;
+            height: 7.8rem;
+            width: 27.8rem;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 2.2rem;
+            line-height: 2.7rem;
+            color: #262626;
+            padding-left: 2rem;
+            background: none;
+            padding-top: 3rem;
+            @media only screen and (max-width: 48em) {
+                width: 100%;
+                height: 12.15rem;
+                margin-bottom: 2.95rem;
+            }
+        }
+        label {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1rem;
+            line-height: 1.2rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #262626;
+            position: absolute;
+            top: 1.9rem;
+            left: 1.8rem;
+            z-index: 2;
+            @media only screen and (max-width: 48em) {
+                font-size: 1.4rem;
+                top: 2.4rem;
+                left: 2rem;
+            }
+        }
+        input::placeholder {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2.2rem;
+            line-height: 2.6rem;
+            color: #D6D6D6;
+        }
+        input:focus::-webkit-input-placeholder {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2.2rem;
+            line-height: 2.6rem;
+            color: #D6D6D6;
+        }
+        input:focus::-moz-placeholder {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2.2rem;
+            line-height: 2.6rem;
+            color: #D6D6D6;
+        }
+        input:focus:-moz-placeholder {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2.2rem;
+            line-height: 2.6rem;
+            color: #D6D6D6;
+        }
+        input:focus:-ms-input-placeholder {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2.2rem;
+            line-height: 2.6rem;
+            color: #D6D6D6;
+        }
+    }
+    &__form-inner--bottom {
+        margin-bottom: 3.5rem;
+    }
+    &__image {
+        height: 26.09rem;
+        width: 27.02rem;
+        display: inline-block;
+        border-radius: 0px;
+        position: relative;
+        top: 3.8rem;
+        left: 0.6rem;
+        @media only screen and (max-width: 48em) {
+            height: 30rem;
+            width: 40rem;
+            left: 9rem;
+        }
+    }
+    &__stock-box {
+        width: 35.2rem;
+        position: relative;
+        margin-right: 3.7rem;
+        height: 41.9rem;
+        background: #FFFFFF;
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 2.2rem;
+        padding-top: 5.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 3rem;
+        margin-bottom: 5.9rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            height: 71rem;
+            padding-top: 12.4rem;
+            padding-left: 5.88rem;
+            padding-right: 5.88rem;
+            margin-bottom: 7.86rem;
+            margin-right: 0;
+        }
+        .link-btn {
+            width: 100%;
+            &::before {
+                right: 0;
+                top: 0;
+                @media only screen and (max-width: 48em) {
+                    width: 5rem;
+                    height: 5rem;
+                    top: -1rem;
+                }
+            }
+        }
+        .link-btn-before::after {
+            position: absolute;
+            content: '';
+            width: 2rem;
+            height: 4rem;
+            background-image: url(../img/icon/arrowwhite.svg);
+            background-repeat: no-repeat;
+            background-size: 1rem 1rem;
+            background-position: 50% 50%;
+            z-index: 2;
+            right: 0.42rem;
+            top: -4px;
+            @media only screen and (max-width: 48em) {
+                background-size: 1.3rem 1.3rem;
+                right: 1.4rem;
+                top: -2.8px;
+            }
+        }
+    }
+    &__stock-box-block {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__stock-box-blue {
+        background: #5087E3;
+        border-radius: 1rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 1.4rem;
+        padding-bottom: 1.4rem;
+        position: absolute;
+        top: -2rem;
+        @media only screen and (max-width: 48em) {
+            padding-top: 3.43rem;
+            padding-bottom: 3.43rem;
+            padding-left: 4.31rem;
+            padding-right: 4.31rem;
+        }
+        span {
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            color: #FFFFFF;
+            flex-grow: 0;
+            @media only screen and (max-width: 48em) {
+                font-size: 2.94rem;
+            }
+        }
+    }
+    &__stock-box-sale {
+        width: 5.6rem;
+        height: 5.6rem;
+        background: #FFFFFF;
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 3rem;
+        top: -2rem;
+        @media only screen and (max-width: 48em) {
+            width: 9.8rem;
+            height: 9.8rem;
+        }
+        span {
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+            text-align: center;
+            color: #3066C1;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.13rem;
+            }
+        }
+    }
+    &__stock-box-title {
+        font-family: 'Gilroy', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 2.4rem;
+        color: #262626;
+        margin-bottom: 3.5rem;
+        height: 4.8rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.13rem;
+            margin-bottom: 4.117rem;
+            line-height: 3.3rem;
+        }
+    }
+    &__tables--stock {
+        padding-top: 3rem;
+    }
+    &__stock-box-image {
+        width: 29.2rem;
+        height: 19.1rem;
+        display: inline-block;
+        margin-bottom: 3.5rem;
+        @media only screen and (max-width: 48em) {
+            width: 48rem;
+            height: 31.76rem;
+            margin-bottom: 5.88rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 3rem;
+        }
+    }
+    .link-btn-stock {
+        right: 2rem;
+        top: -0.6rem;
+        &::after {
+            background-image: url(../img/arrowdown.svg);
+            top: -0.5rem;
+            right: 2.2rem;
+            @media only screen and (max-width: 48em) {
+                top: 0.2rem;
+                right: 2.7rem;
+            }
+        }
+    }
+    &__stock-box:nth-child(3n) {
+        margin-right: 0;
+    }
+}

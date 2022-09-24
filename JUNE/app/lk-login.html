@@ -1,0 +1,75 @@
+
+  @@include('./template/header-black.html')
+
+<main>
+  <section class="lk">
+    <div class="container">
+      <div class="lk__inner">
+        <div class="lk__left">
+          <div class="lk__title title">
+            <div class="title__text">
+              Личный кабинет
+            </div>
+          </div>
+
+          <form class="lk__form form-lk" action="#">
+            <label class="form-lk__label">
+              <span class="form-lk__label-text">Логин</span>
+
+              <input class="form-lk__input" type="text" placeholder="e-mail">
+            </label>
+
+            <label class="form-lk__label">
+              <span class="form-lk__label-text">Пароль</span>
+
+              <a href="#" class="form-lk__password-visible">
+                <svg viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18.7671 12.2313L12.2313 18.7671C11.3917 17.9275 10.875 16.7779 10.875 15.4992C10.875 12.9417 12.9417 10.875 15.4992 10.875C16.7779 10.875 17.9275 11.3917 18.7671 12.2313Z" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M23.0178 7.45336C20.7574 5.74836 18.174 4.81836 15.5003 4.81836C10.9407 4.81836 6.69112 7.50503 3.7332 12.155C2.5707 13.9763 2.5707 17.0375 3.7332 18.8588C4.75362 20.4604 5.94195 21.8425 7.23362 22.9534" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M10.875 25.2275C12.3475 25.8475 13.9104 26.1833 15.4992 26.1833C20.0588 26.1833 24.3083 23.4966 27.2663 18.8466C28.4288 17.0254 28.4288 13.9641 27.2663 12.1429C26.84 11.4712 26.375 10.8383 25.8971 10.2441" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M20.0341 16.4043C19.6983 18.2255 18.2129 19.711 16.3916 20.0468" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12.2327 18.7676L2.58398 28.4163" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M28.4163 2.58398L18.7676 12.2327" stroke="#A7A7AE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+                
+              <input class="form-lk__input" type="password">
+            </label>
+
+            <label class="form-lk__remember">
+              <input type="checkbox" class="form-lk__remember-input">
+
+              <span class="form-lk__remember-text">Запомнить пароль для вохода</span>
+            </label>
+
+            <button class="form-lk__btn all-btn" type="submit"><span>Войти</span></button>
+            
+            <a href="#" class="form-lk__forgot">
+              Забыли пароль?
+            </a>
+          </form>
+
+          <div class="lk__alternative">
+            <span>Еще нет аккаунта?</span>
+
+            <a class="lk__alternative-btn" href="#">
+              <span>Регистрация</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="lk__right">
+          <div class="lk__right-text">
+            Получайте уведомления о новых акциях и событиях нашего ТРЦ. 
+            Следите за любимыми магазинами.
+          </div>
+
+          <img class="lk__right-img" src="./images/lk/lk-image1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+@@include('./template/footer.html')

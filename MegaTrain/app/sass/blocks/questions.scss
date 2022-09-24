@@ -1,0 +1,273 @@
+.questions {
+    margin-bottom: 17rem;
+    @media only screen and (max-width: 48em) {
+        margin-bottom: 32rem;
+    }
+    .container {
+        width: 100%;
+        padding-left: 19rem;
+        padding-right: 19rem;
+        @media only screen and (max-width: 48em) {
+            padding: 0 4rem;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column;
+        }
+    }
+    &__title {
+        font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 5.8rem;
+        letter-spacing: 0.02em;
+        color: #262626;
+        width: 69.5rem;
+        margin-bottom: 4rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 5.1rem;
+            line-height: 6.4rem;
+            margin-bottom: 4rem;
+        }
+    }
+    &__text {
+        font-family: 'Akzidenz-Grotesk Pro Med Ext', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 156%;
+        color: #262626;
+        width: 59.4rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 3.1rem;
+            line-height: 167%;
+            width: 100%;
+        }
+    }
+    &__block-image {
+        position: relative;
+        margin-right: 39rem;
+        @media only screen and (max-width: 48em) {
+            margin-right: 0;
+            margin-bottom: 8rem;
+        }
+    }
+    &__image {
+        height: 45.73rem;
+        width: 27.59rem;
+        position: absolute;
+        top: -8rem;
+        @media only screen and (max-width: 48em) {
+            position: relative;
+            margin-bottom: 12rem;
+            width: 42.4rem;
+            height: 72.4rem;
+            margin: 0 auto;
+            top: -5rem;
+            left: 2rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &__left {
+        margin-bottom: 12.4rem;
+        @media only screen and (max-width: 48em) {
+            margin-bottom: 16rem;
+        }
+    }
+    &__block-box {
+        height: 13.1rem;
+        width: 16.88rem;
+        border-radius: 1.91rem;
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        box-shadow: 0px 166.401px 298.824px rgba(0, 30, 98, 0.04), 0px 83.2817px 149.558px rgba(0, 30, 98, 0.0304133), 0px 50.165px 90.0868px rgba(0, 30, 98, 0.0260636), 0px 32.1483px 57.7324px rgba(0, 30, 98, 0.0228358), 0px 20.836px 37.4175px rgba(0, 30, 98, 0.02), 0px 13.116px 23.5539px rgba(0, 30, 98, 0.0171642), 0px 7.53596px 13.5332px rgba(0, 30, 98, 0.0139364), 0px 3.31677px 5.9563px rgba(0, 30, 98, 0.00958669);
+        padding-top: 1.941rem;
+        padding-left: 2.1rem;
+        position: absolute;
+        left: -7.7rem;
+        top: -4rem;
+        z-index: 3;
+        @media only screen and (max-width: 48em) {
+            width: 33.9rem;
+            height: 19rem;
+            border-radius: 4rem;
+            left: 0rem;
+            top: -0.6rem;
+            padding-left: 3.8rem;
+            padding-top: 8rem;
+        }
+    }
+    &__block-box--red {
+        right: 0;
+        left: 9.2rem;
+        top: 18rem;
+        height: 14.3rem;
+        width: 18.4rem;
+        padding-top: 2.4rem;
+        padding-left: 2.5rem;
+        @media only screen and (max-width: 48em) {
+            width: 33.9rem;
+            height: 19rem;
+            border-radius: 4rem;
+            left: 34rem;
+            top: 42rem;
+            padding-left: 3.8rem;
+            padding-top: 8rem;
+        }
+        .questions__block-box-icon {
+            width: 4.6rem;
+            height: 4.6rem;
+            position: relative;
+            top: 0rem;
+            left: -0.3rem;
+            margin-bottom: 1.27rem;
+            @media only screen and (max-width: 48em) {
+                width: 8.5rem;
+                height: 8.5rem;
+                margin-bottom: 1.27rem;
+                position: absolute;
+                left: 4rem;
+                top: -3.5rem;
+            }
+        }
+    }
+    &__block-box-icon {
+        width: 4.261rem;
+        height: 4.261rem;
+        margin-bottom: 1.27rem;
+        @media only screen and (max-width: 48em) {
+            width: 8.5rem;
+            height: 8.5rem;
+            margin-bottom: 1.27rem;
+            position: absolute;
+            left: 4rem;
+            top: -3.5rem;
+        }
+    }
+    &__block-box-text {
+        display: flex;
+        flex-direction: column;
+        strong {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.36993rem;
+            line-height: 1.7rem;
+            color: #3066C1;
+            @media only screen and (max-width: 48em) {
+                font-size: 2.6rem;
+                line-height: 3.6rem;
+            }
+        }
+        span {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.36993rem;
+            line-height: 1.6rem;
+            color: #262626;
+            @media only screen and (max-width: 48em) {
+                font-size: 2.6rem;
+                line-height: 4.8rem;
+            }
+        }
+    }
+    &__right {
+        display: flex;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column;
+        }
+    }
+    &__right-text {
+        font-family: 'Akzidenz-Grotesk Pro Med Ext', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 156%;
+        color: #262626;
+        width: 45.6rem;
+        margin-bottom: 3.7rem;
+        margin-top: -0.5rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            font-size: 3rem;
+            line-height: 5rem;
+            margin-bottom: 4.5rem;
+        }
+    }
+    &__btn {
+        width: 45.6rem;
+        height: 9.3rem;
+        background: #FFFFFF;
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 8.3rem;
+        padding-top: 3.4rem;
+        padding-bottom: 3.4rem;
+        padding-left: 4.3rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 3.3rem;
+        position: relative;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            height: 11.4rem;
+            padding-left: 3rem;
+            padding-top: 3rem;
+            margin-bottom: 4rem;
+        }
+        &::after {
+            position: absolute;
+            content: '';
+            width: 4rem;
+            height: 4rem;
+            background-image: url(../img/icon/arrowwhite.svg);
+            background-repeat: no-repeat;
+            background-size: 1.8rem 1.8rem;
+            background-position: 50% 50%;
+            z-index: 2;
+            right: 2.6rem;
+            @media only screen and (max-width: 48em) {
+                right: 3.8rem;
+                top: 3.8rem;
+            }
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            width: 7.5rem;
+            height: 7.5rem;
+            right: 0.9rem;
+            background: linear-gradient(265.24deg, #154BA5 -5.38%, #01348A 96.47%);
+            border-radius: 50%;
+            @media only screen and (max-width: 48em) {
+                width: 6.8rem;
+                height: 6.8rem;
+                right: 2.5rem;
+                top: 2.1rem;
+            }
+        }
+        span {
+            font-family: 'Akzidenz-Grotesk Pro Med Ext', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.6rem;
+            line-height: 156%;
+            color: #3066C1;
+            @media only screen and (max-width: 48em) {
+                font-size: 2.6rem;
+            }
+        }
+    }
+    &__btn-image {
+        margin-right: 2.2rem;
+        @media only screen and (max-width: 48em) {
+            margin-right: 1rem;
+        }
+    }
+}

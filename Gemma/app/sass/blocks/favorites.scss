@@ -1,0 +1,132 @@
+.favorites {
+    margin-top: 17rem;
+    margin-bottom: 17rem;
+    .container {
+        width: 154rem;
+    }
+
+    .title {
+        justify-content: flex-start;
+        margin-bottom: 7rem;
+    }
+
+    &__setting {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+
+        .label-search {
+            position: relative;
+            &::before {
+                position: absolute;
+                content: '';
+                width: 2.7rem;
+                height: 2.7rem;
+                background-image: url(../img/search-normal.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                left: 0;
+                
+            }
+        }
+    }
+    
+
+    &__search {
+        width: 79rem;
+        border: none;
+        background: none;
+        border-bottom:  0.1rem solid #D7DBE8;
+        padding-bottom: 1.2rem;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 156%;
+        position: relative;
+        padding-left: 4.8rem;
+        display: flex;
+        
+    }
+
+    &__check {
+        margin-top: 2rem;
+        .checkbox input[type="checkbox"] {
+            opacity: 0;
+        }
+        
+        .checkbox label {
+            position: relative;
+            display: inline-block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 2.1rem;
+            letter-spacing: 0.08em;
+            color: #1A1B20;
+            padding-left: 4.4rem;
+        }
+        
+        .checkbox label::before,
+        .checkbox label::after {
+            position: absolute;
+            content: "";
+
+            display: inline-block;
+        }
+        
+       
+        .checkbox label::before{
+            width: 2.3rem;
+            height: 2.3rem;
+            border: 0.1rem solid;
+            left: 0;
+        }
+        
+        /*Checkmark of the fake checkbox*/
+        .checkbox label::after {
+            height: 0.5rem;
+            width: 0.9rem;
+            border-left: 0.2rem solid;
+            border-bottom: 0.2rem solid;
+            transform: rotate(-45deg);
+            left: 0.7rem;
+            top: 0.7rem;
+        }
+        
+        /*Hide the checkmark by default*/
+        .checkbox input[type="checkbox"] + label::after {
+            content: none;
+        }
+        
+        /*Unhide on the checked state*/
+        .checkbox input[type="checkbox"]:checked + label::after {
+            content: "";
+        }
+        
+        /*Adding focus styles on the outer-box of the fake checkbox*/
+        .checkbox input[type="checkbox"]:focus + label::before {
+            outline: rgb(59, 153, 252) auto 5px;
+        }
+        
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+
+        .product {
+            margin-right: 6rem;
+            margin-bottom: 6rem;
+        }
+
+        .product:nth-child(4n) {
+            margin-right: 0;
+        }
+
+        .product__heart {
+            display: none;
+        }
+    }
+
+
+    
+}

@@ -1,0 +1,303 @@
+.lots {
+    &__title {
+        margin-bottom: 8.1rem;
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        width: 127rem;
+        align-items: center;
+        h2 {
+            font-family: 'Akrobat', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 5rem;
+            line-height: 120%;
+            color: #0E192E;
+            display: inline-block;
+        }
+    }
+    &__seletc-block {
+        display: flex;
+        width: 65.8rem;
+        .select {
+            position: relative;
+            display: block;
+            width: 38rem;
+            height: 7rem;
+            background: #F2F5FF;
+            font-family: 'Euclid Circular A', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+            color: #0E192E;
+            border-radius: 2.4rem;
+            border: none;
+            margin-right: 3rem;
+            &__head {
+                &::after {
+                    right: 3.3rem;
+                }
+            }
+        }
+        .select:last-child {
+            margin-right: 0;
+        }
+    }
+    &__tables {
+        flex-wrap: wrap;
+        display: none;
+    }
+    .active {
+        display: flex;
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 7.2rem;
+        padding-bottom: 1.9rem;
+        border-bottom: 0.1rem solid #E5ECF1;
+        padding-left: 1rem;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        width: 64rem;
+        li {
+            font-family: 'Euclid Circular A', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+            color: #0E192E;
+            flex: none;
+            flex-grow: 0;
+            cursor: pointer;
+        }
+    }
+    .active-lots {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 0.3rem;
+            background: #0A4EA7;
+            top: 4rem;
+        }
+    }
+    &__check {
+        display: flex;
+        span {
+            font-family: 'Euclid Circular A', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+            color: #ADB2C4;
+            display: inline-block;
+            margin-right: 0.2rem;
+        }
+        strong {
+            font-family: 'Euclid Circular A', sans-serif;
+            font-size: 1.8rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 2.3rem;
+            letter-spacing: 0em;
+            display: inline-block;
+        }
+    }
+    .lots-table {
+        width: 62rem;
+        background: #FFFFFF;
+        box-shadow: 1.5rem 2rem 8rem rgba(232, 235, 244, 0.8);
+        border-radius: 3.2rem;
+        position: relative;
+        padding-left: 4.1rem;
+        padding-right: 4.1rem;
+        padding-top: 3.4rem;
+        padding-bottom: 5rem;
+        position: relative;
+        margin-bottom: 4rem;
+        margin-right: 3rem;
+        &__schedule {
+            display: flex;
+            padding-bottom: 3rem;
+        }
+        &__description {
+            padding-bottom: 4rem;
+            span {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 156%;
+                color: #ADB2C4;
+                display: inline-block;
+                margin-bottom: 1rem;
+            }
+            .text {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-size: 1.8rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2.5rem;
+            }
+        }
+        &__image {
+            width: 7.7rem;
+            height: 7.7rem;
+            margin-right: 1.8rem;
+        }
+        &__title {
+            display: flex;
+            flex-direction: column;
+            span {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 187%;
+                color: #ADB2C4;
+                display: inline-block;
+            }
+            strong {
+                font-family: 'Akrobat', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 3.5rem;
+                line-height: 4.2rem;
+                color: #0E192E;
+                display: inline-block;
+            }
+        }
+        &__number {
+            width: 14rem;
+            height: 6.1rem;
+            background: #80A6D1;
+            border-bottom-left-radius: 3.2rem;
+            border-top-right-radius: 3.2rem;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            right: 0;
+            span {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.8rem;
+                line-height: 167%;
+                color: #FFFFFF;
+            }
+        }
+        &__inner {
+            display: flex;
+            flex-wrap: wrap;
+            width: 57rem;
+            margin-bottom: 0.3rem;
+            border-top: 0.1rem solid #E5ECF1;
+            padding-top: 3.6rem;
+        }
+        &__block {
+            display: flex;
+            margin-bottom: 4rem;
+            min-width: 20.5rem;
+            margin-right: 6.4rem;
+        }
+        &__block:nth-child(2n) {
+            margin-right: 0;
+        }
+        &__icon {
+            width: 3rem;
+            height: 3rem;
+            display: inline-block;
+            margin-right: 1rem;
+            position: relative;
+            right: 0.5rem;
+            top: 1rem;
+        }
+        &__text {
+            display: flex;
+            flex-direction: column;
+            span {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.6rem;
+                line-height: 156%;
+                color: #ADB2C4;
+                display: inline-block;
+            }
+            strong {
+                font-family: 'Euclid Circular A', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.8rem;
+                line-height: 156%;
+            }
+        }
+        &__btn {
+            display: flex;
+            justify-content: space-between;
+            .text {
+                display: flex;
+                align-items: center;
+                font-family: 'Euclid Circular A', sans-serif;
+                font-size: 1.8rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2.3rem;
+                span {
+                    color: #EB3232;
+                    margin-right: 0.2rem;
+                    font-family: 'Euclid Circular A', sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 2.3rem;
+                    line-height: 107%;
+                    margin-right: 0.4rem;
+                }
+            }
+        }
+        .button-all {
+            width: 20rem;
+            margin-top: 0rem;
+            background: linear-gradient(180deg, #005A9D 0%, #0B4AA9 100%);
+            box-shadow: 0px 1rem 4rem rgba(19, 85, 169, 0.3);
+            border-radius: 3.2rem;
+            height: 5.6rem;
+            &::before {
+                display: none;
+            }
+            font-family: 'Euclid Circular A',
+            sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.8rem;
+            line-height: 156%;
+            color: #FFFFFF;
+        }
+        .button-all--white {
+            background: #F2F5FE;
+            color: #0E192E;
+            margin-left: 3.5rem;
+            box-shadow: none;
+        }
+    }
+    .lots-table--error {
+        margin-bottom: 3rem;
+    }
+    .lots-table--win {
+        margin-bottom: 4.2rem;
+        .lots__btn {
+            margin-top: 1.2rem;
+        }
+    }
+    .lots-table:nth-child(2n) {
+        margin-right: 0;
+    }
+}

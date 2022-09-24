@@ -1,0 +1,255 @@
+.vip {
+    margin-bottom: 20.6rem;
+    .container {
+        width: 100%;
+        padding-left: 13.8rem;
+        padding-right: 19.1rem;
+        @media only screen and (max-width: 48em) {
+            padding: 0 4rem;
+            width: 100%;
+        }
+    }
+    &__title {
+        font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4.5rem;
+        line-height: 5.8rem;
+        letter-spacing: 0.02em;
+        color: #262626;
+        margin-bottom: 6rem;
+        padding-left: 5.5rem;
+        padding-top: 1rem;
+        @media only screen and (max-width: 48em) {
+            padding-left: 0;
+            padding-top: 1.7rem;
+            font-size: 5.1rem;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column;
+        }
+    }
+    &__left {
+        margin-right: 0rem;
+        @media only screen and (max-width: 48em) {
+            margin-bottom: 3rem;
+        }
+    }
+    &__image {
+        width: 48.9rem;
+        height: 25.6rem;
+        display: block;
+        margin-bottom: 3.7rem;
+        margin-left: 5rem;
+        @media only screen and (max-width: 48em) {
+            width: 100%;
+            margin-right: 0;
+            margin-left: 0;
+            margin-top: 5rem;
+            height: 36rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 1.9rem;
+            @media only screen and (max-width: 48em) {
+                object-fit: cover;
+                border-radius: 4rem;
+            }
+        }
+    }
+    &__box {
+        width: 25.5rem;
+        height: 8.4rem;
+        background: #FFFFFF;
+        box-shadow: 0px 191px 343px rgba(0, 30, 98, 0.04), 0px 95.5933px 171.667px rgba(0, 30, 98, 0.0304133), 0px 57.5809px 103.404px rgba(0, 30, 98, 0.0260636), 0px 36.9009px 66.267px rgba(0, 30, 98, 0.0228358), 0px 23.9162px 42.9489px rgba(0, 30, 98, 0.02), 0px 15.055px 27.0359px rgba(0, 30, 98, 0.0171642), 0px 8.65001px 15.5338px rgba(0, 30, 98, 0.0139364), 0px 3.80709px 6.83682px rgba(0, 30, 98, 0.00958669);
+        border-radius: 22px;
+        display: flex;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2.1rem;
+        padding-right: 1.4rem;
+        margin-bottom: 3.7rem;
+        position: relative;
+        @media only screen and (max-width: 48em) {
+            width: 38.5rem;
+            height: 22.4rem;
+            padding-left: 3rem;
+            padding-top: 7.6rem;
+        }
+    }
+    &__box:last-child {
+        width: 27.4rem;
+        height: 11.4rem;
+        padding-top: 4.5rem;
+        padding-bottom: 2.5rem;
+        margin-left: auto;
+        right: -13rem;
+        padding-left: 3.3rem;
+        @media only screen and (max-width: 48em) {
+            width: 38.5rem;
+            height: 20.4rem;
+            padding-left: 3rem;
+            padding-top: 5rem;
+            right: 0;
+            top: 7rem;
+        }
+        .vip__box-image {
+            width: 3.333rem;
+            height: 4.161rem;
+            top: 0;
+            margin-right: 2.5rem;
+            @media only screen and (max-width: 48em) {
+                width: 6.333rem;
+                height: 5.161rem;
+                top: 2rem;
+                margin-right: 2.5rem;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+    &__box-icon {
+        top: -3rem;
+        right: 2.8rem;
+        position: absolute;
+        width: 5.5rem;
+        height: 5.5rem;
+        @media only screen and (max-width: 48em) {
+            top: -5.6rem;
+            right: 6.5rem;
+            position: absolute;
+            width: 8.4rem;
+            height: 8.4rem;
+        }
+    }
+    &__box-image {
+        margin-right: 1.973rem;
+        width: 1.927rem;
+        height: 1.977rem;
+        position: relative;
+        top: 1rem;
+        @media only screen and (max-width: 48em) {
+            margin-right: 1.3rem;
+            width: 7.927rem;
+            height: 4.977rem;
+            position: relative;
+            top: 1.6rem;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &__box-text {
+        display: flex;
+        flex-direction: column;
+        strong {
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.6rem;
+            line-height: 1.9rem;
+            color: #3066C1;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.05rem;
+                margin-bottom: 2.2rem;
+            }
+        }
+        span {
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.6rem;
+            line-height: 1.8rem;
+            /* text */
+            color: #262626;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.05rem;
+                line-height: 3.3rem;
+            }
+        }
+    }
+    // right
+    &__right {
+        margin-left: 16.8rem;
+        padding-top: 12rem;
+        @media only screen and (max-width: 48em) {
+            margin-left: 0;
+        }
+        .link-btn {
+            width: 18rem;
+            margin-left: auto;
+            @media only screen and (max-width: 48em) {
+                width: 30rem;
+                margin-left: initial;
+            }
+            span {
+                @media only screen and (max-width: 48em) {
+                    font-size: 3rem;
+                }
+            }
+            &::before {
+                width: 3rem;
+                height: 3rem;
+                @media only screen and (max-width: 48em) {
+                    width: 5rem;
+                    height: 5rem;
+                }
+            }
+        }
+        .link-btn-before {
+            &::after {
+                right: -0.5rem;
+                @media only screen and (max-width: 48em) {
+                    right: 0.5rem;
+                    background-size: 1.5rem 1.5rem;
+                }
+            }
+        }
+    }
+    &__right-title {
+        font-family: 'Akzidenz-Grotesk Pro Med Ext', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.4rem;
+        line-height: 167%;
+        color: #262626;
+        margin-bottom: 1.5rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 5rem;
+        }
+    }
+    &__right-text {
+        font-family: 'Gilroy', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        color: #262626;
+        margin-bottom: 12.9rem;
+        padding-right: 10rem;
+        @media only screen and (max-width: 48em) {
+            padding-right: 0;
+            font-size: 3.05rem;
+            line-height: 120%;
+        }
+        p {
+            margin-bottom: 1.8rem;
+            @media only screen and (max-width: 48em) {
+                margin-bottom: 3rem;
+            }
+        }
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

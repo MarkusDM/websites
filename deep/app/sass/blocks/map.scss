@@ -1,0 +1,40 @@
+.map {
+    margin-bottom: 20rem;
+    padding-top: 11.4rem;
+    .container {
+        width: 100%;
+        padding-left: 16.2rem;
+        padding-right: 15.8rem;
+    }
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+        width: 20rem;
+        span {
+            font-family: 'Akzidenz-Grotesk Pro',sans-serif;
+            font-size: 6.9rem;
+            font-weight: 300;
+            line-height: 122%;
+            letter-spacing: 0em;
+            text-align: left;
+            text-transform: uppercase;
+        }
+        strong {
+            font-family: 'Akzidenz-Grotesk Pro',sans-serif;
+            font-size: 6.9rem;
+            font-weight: 500;
+            line-height: 122%;
+            letter-spacing: 0em;
+            text-align: left;
+            text-transform: uppercase;
+        }
+
+    }
+
+    &__map-geo {
+        width: 160rem;
+        height: 83.6rem;
+    }
+}

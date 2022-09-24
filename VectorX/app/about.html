@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, viewport-fit=cover">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=5c510cdf-e517-4d5d-adaa-a9c0f95c611a&lang=ru_RU" type="text/javascript"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>VectorX</title>
+</head>
+
+<body>
+    <div class="bg-vector">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <nav class="header__nav">
+                        <ul class="header__menu">
+                            <li class="service-li"><a href="#" class="services-link">Услуги</a>
+                                <ul class="services">
+                                    <li><a href="">Консультационное сопровождение</a></li>
+                                    <li><a href="">Доверительное управление</a></li>
+                                    <li><a href="">Брокерское обслуживание</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu-li"><a href="#" class="submenu-link">О компании</a>
+                                <ul class="submenu">
+                                    <li><a href="">Команда</a></li>
+                                    <li><a href="">Лицензии</a></li>
+                                    <li><a href="">Партнеры</a></li>
+                                    <li><a href="">Раскрытие информации</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="#" class="header__logo">
+                            <img src="./img/icon/logo.PNG" alt="Логотип">
+                        </a>
+                        <ul class="header__menu header__menu--right ">
+                            <li class="analytics-li"><a href="#" class="analytics-link">Аналитика</a>
+                                <ul class="analytics">
+                                    <li><a href="">Рынок акций</a></li>
+                                    <li><a href="">Макропоказатели</a></li>
+                                    <li><a href="">Эксперты в СМИ</a></li>
+                                    <li><a href="">Спецпроекты</a></li>
+                                </ul>
+                            </li>
+                            <button class="header-login">
+                                <div class="header-login__image">
+                                    <img src="./img/icon/login.svg" alt="login">
+                                </div>
+                                <span>Персональный доступ</span>
+                            </button>
+                        </ul>
+                    </nav>
+                    <nav class="header__block">
+                        <div class="header-close">
+                            <img src="./img/icon/close.svg" alt="крестик">
+                        </div>
+                        <ul class="header__menu  mobile-menu">
+                            <li class="service-li"><a href="#" class="services-link">Услуги</a>
+                                <ul class="services">
+                                    <li><a href="">Консультационное сопровождение</a></li>
+                                    <li><a href="">Доверительное управление</a></li>
+                                    <li><a href="">Брокерское обслуживание</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu-li"><a href="#" class="submenu-link">О компании</a>
+                                <ul class="submenu">
+                                    <li><a href="">Команда</a></li>
+                                    <li><a href="">Лицензии</a></li>
+                                    <li><a href="">Партнеры</a></li>
+                                    <li><a href="">Раскрытие информации</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li class="analytics-li"><a href="#" class="analytics-link">Аналитика</a>
+                                <ul class="analytics">
+                                    <li><a href="">Рынок акций</a></li>
+                                    <li><a href="">Макропоказатели</a></li>
+                                    <li><a href="">Эксперты в СМИ</a></li>
+                                    <li><a href="">Спецпроекты</a></li>
+                                </ul>
+                            </li>
+                            <button class="header-login">
+                                <div class="header-login__image">
+                                    <img src="./img/icon/login.svg" alt="login">
+                                </div>
+                                <span>Персональный доступ</span>
+                            </button>
+                        </ul>
+                    </nav>
+                    <div class="menu-burger__header">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="intermediary">
+                <div class="container">
+                    <div class="intermediary__wrapper">
+                        <div class="intermediary-left">
+                            <div class="intermediary-left__title">
+                                Посредник между биржей и инвестором
+                            </div>
+                            <!-- title -->
+                            <div class="intermediary-left__inner">
+                                <div class="intermediary-left__blocks">
+                                    <div class="intermediary-left__block">
+                                        <strong>3 <span>года</span></strong>
+                                        <p>на рынке</p>
+                                    </div>
+                                    <div class="intermediary-left__circle">
+
+                                    </div>
+                                </div>
+                                <div class="intermediary-left__text">
+                                    <p>Российская инвестиционная компания, образованная в 2008 году - официальное наименование компании: Общество с ограниченной ответственностью Инвестиционная Компания. Мы обслуживаем частных и корпоративных клиентов.</p>
+                                </div>
+                                <div class="intermediary-left__text intermediary-left__text--mobile">
+                                    <p>Российская инвестиционная компания, образованная в 2008 году - официальное наименование компании: Общество с ограниченной ответственностью Инвестиционная Компания.</p>
+                                    <p>Мы обслуживаем частных и корпоративных клиентов.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- left -->
+                        <div class="intermediary-right">
+                            <div class="intermediary-right__image">
+                                <img src="./img/face-bull.png" alt="">
+                            </div>
+                            <button class="button-all button-all--big button-all--black  js-open-modal">
+                            <span>Начать инвестировать</span>
+                            <div class="button-all__image">
+                                <img src="./img/icon/arrow.svg" alt="стрелка">
+                            </div>
+                        </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-line">
+                    <img src="./img/liiiin.png" alt="линия">
+                </div>
+                <div class="block-line--mobile">
+                    <img src="./img/mobilelinne.png" alt="линия">
+                </div>
+            </section>
+            <!-- intermediary -->
+            <section class="road">
+                <div class="container">
+                    <div class="road__wrapper">
+                        <div class="road__inner">
+                            <div class="road__text road__text--bottom">
+                                <span>2021</span>
+                                <p>год</p>
+                            </div>
+                            <div class="road__list">
+                                <p>Итоги года</p>
+                                <ul>
+                                    <li>«Первичные размещения» - «Продукт года», SPEAR’S Russia WMA.</li>
+                                    <li>Победа в номинации «Права потребителей и качество обслуживания».</li>
+                                    <li>Вступление в Национальную финансовую ассоциацию.</li>
+                                    <li>Присвоен рейтинг кредитоспособности ruB+ «Эксперт РА».</li>
+                                    <li>Топ-60 рейтинга работодателей HeadHunter.</li>
+                                    <li>Улучшение позиций в рейтинге Мосбиржи и вступление в ТОП-15 ведущих операторов Мосбиржи по числу активных клиентов с осени 2019 года. 2</li>
+                                    <li> ТОП-12 по объему операций на ИИС среди ведущих операторов.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="road__inner">
+                            <div class="road__text">
+                                <span>2020</span>
+                                <p>год</p>
+                            </div>
+                            <div class="road__list">
+                                <p>Итоги года</p>
+                                <ul>
+                                    <li>«Первичные размещения» - «Продукт года», SPEAR’S Russia WMA.</li>
+                                    <li>Победа в номинации «Права потребителей и качество обслуживания».</li>
+                                    <li>Вступление в Национальную финансовую ассоциацию.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="road__inner ">
+                            <div class="road__text">
+                                <span>2019</span>
+                                <p>год</p>
+                            </div>
+                            <div class="road__list">
+                                <p>Итоги года</p>
+                                <ul>
+                                    <li>«Первичные размещения» - «Продукт года», SPEAR’S Russia WMA.</li>
+                                    <li>Победа в номинации «Права потребителей и качество обслуживания».</li>
+                                    <li>Вступление в Национальную финансовую ассоциацию.</li>
+                                    <li>Присвоен рейтинг кредитоспособности ruB+ «Эксперт РА».</li>
+                                    <li>Топ-60 рейтинга работодателей HeadHunter.</li>
+                                    <li>Улучшение позиций в рейтинге Мосбиржи и вступление в ТОП-15 ведущих операторов Мосбиржи по числу активных клиентов с осени 2019 года. 2</li>
+                                    <li> ТОП-12 по объему операций на ИИС среди ведущих операторов.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="road__inner ">
+                            <div class="road__text">
+                                <span>2018</span>
+                                <p>год</p>
+                            </div>
+                            <div class="road__list">
+                                <p>Итоги года</p>
+                                <ul>
+                                    <li>«Первичные размещения» - «Продукт года», SPEAR’S Russia WMA.</li>
+                                    <li>Победа в номинации «Права потребителей и качество обслуживания».</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="road__inner ">
+                            <div class="road__text">
+                                <span>2017</span>
+                                <p>год</p>
+                            </div>
+                            <div class="road__list">
+                                <p>Итоги года</p>
+                                <ul>
+                                    <li>«Первичные размещения» - «Продукт года», SPEAR’S Russia WMA.</li>
+                                    <li>Победа в номинации «Права потребителей и качество обслуживания».</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="road__line">
+                        <img src="./img/dotted.png" alt="линия">
+                    </div>
+                </div>
+            </section>
+            <!-- road -->
+        </main>
+    </div>
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="contacts-left">
+                    <div class="contacts-left__title">
+                        <p>Вы точно по адресу!</p>
+                        <span>Контакты</span>
+                    </div>
+                    <ul class="contacts-left__ul">
+                        <li>
+                            <p>Адрес:</p>
+                            <span>г. Москва, ул. Кирова к1, оф.407</span>
+                        </li>
+                        <li>
+                            <p>Телефон:</p>
+                            <a href="#">8 800 444 88 33</a>
+                        </li>
+                        <li>
+                            <p>Почта:</p>
+                            <a href="#">vectorx@inbox.ru</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- left -->
+                <div class="contacts-right">
+                    <div class="contacts-right__map">
+                        <img src="./img/foncontacts.png" alt="телефон">
+                    </div>
+                    <form action="" class="contacts-form">
+                        <div class="contacts-form__text">
+                            <p>Ответим в течении часа!</p>
+                            <span>Связаться</span>
+                        </div>
+                        <div class="contacts-form__inner">
+
+                            <div class="placeholder-container">
+                                <input type="name" placeholder=" ">
+                                <label>Ваше Имя</label>
+                            </div>
+                            <div class="placeholder-container">
+                                <input type="tel" placeholder=" ">
+                                <label>Телефон</label>
+                            </div>
+                        </div>
+                        <!-- 1 -->
+                        <div class="placeholder-container placeholder-container--big">
+                            <input type="text" placeholder=" ">
+                            <label>Ваш комментарий</label>
+                        </div>
+                        <button class="button-all button-all--big js-open-modal ">
+                            <span>Оставить заявку</span>
+                            <div class="button-all__image ">
+                                <img src="./img/icon/arrow.svg " alt="стрелка ">
+                            </div>
+                        </button>
+                    </form>
+                </div>
+                <!-- right -->
+            </div>
+        </div>
+    </section>
+    <footer class="footer ">
+        <div class="container ">
+            <div class="footer__wrapper ">
+                <a class="footer__logo ">
+                    <img src="./img/icon/logo.PNG " alt="logo ">
+                </a>
+                <div class="footer__inner ">
+                    <ul>
+                        <strong>Услуги</strong>
+                        <li><a href="# ">Консультационное сопровождение</a></li>
+                        <li><a href="# ">Доверительное управление</a></li>
+                        <li><a href="# ">Брокерское обслуживание</a></li>
+                    </ul>
+                    <ul>
+                        <a href="#" class="strong-link">О компании</ф>
+                        <li><a href="# ">Команда</a></li>
+                        <li><a href="# ">Лицензии</a></li>
+                        <li><a href="# ">Партнеры</a></li>
+                        <li><a href="# ">Раскрытие информации</a></li>
+                        <li><a href="# ">Контакты</a></li>
+                    </ul>
+                    <ul>
+                        <strong>Аналитика</strong>
+                        <li><a href="# ">Рынок акций</a></li>
+                        <li><a href="# ">Макропоказатели</a></li>
+                        <li><a href="# ">Эксперты в СМИ</a></li>
+                        <li><a href="# ">Спецпроекты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__social-links ">
+                    <a href="# " class="footer__social-link ">
+                        <img src="./img/icon/telegram.svg " alt="telegram ">
+                    </a>
+                    <a href="# " class="footer__social-link ">
+                        <img src="./img/icon/Instagram.svg " alt="Instagram ">
+                    </a>
+                    <a href="# " class="footer__social-link ">
+                        <img src="./img/icon/Facebook.svg " alt="Facebook ">
+                    </a>
+                    <a href="# " class="footer__social-link ">
+                        <img src="./img/icon/youtube.svg " alt="youtube ">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+    <div class="modal js-modal-form">
+
+        <svg class="modal__cross js-modal-close" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M31.6093 0.390626C31.3593 0.140665 31.0202 0.000244141 30.6666 0.000244141C30.3131 0.000244141 29.974 0.140665 29.724 0.390626L16 14.1146L2.27596 0.390626C2.02592 0.140665 1.68684 0.000244141 1.33329 0.000244141C0.979741 0.000244141 0.640663 0.140665 0.390626 0.390626C0.140665 0.640663 0.000244141 0.979741 0.000244141 1.33329C0.000244141 1.68684 0.140665 2.02592 0.390626 2.27596L14.1146 16L0.390626 29.724C0.140665 29.974 0.000244141 30.3131 0.000244141 30.6666C0.000244141 31.0202 0.140665 31.3593 0.390626 31.6093C0.640663 31.8593 0.979741 31.9997 1.33329 31.9997C1.68684 31.9997 2.02592 31.8593 2.27596 31.6093L16 17.8853L29.724 31.6093C29.974 31.8593 30.3131 31.9997 30.6666 31.9997C31.0202 31.9997 31.3593 31.8593 31.6093 31.6093C31.8593 31.3593 31.9997 31.0202 31.9997 30.6666C31.9997 30.3131 31.8593 29.974 31.6093 29.724L17.8853 16L31.6093 2.27596C31.8593 2.02592 31.9997 1.68684 31.9997 1.33329C31.9997 0.979741 31.8593 0.640663 31.6093 0.390626Z" fill="#967873"/>
+        </svg>
+
+        <div class="modal__wrapper">
+            <div class="modal-right">
+                <div class="modal-right__image">
+                    <img src="./img/tel.png" alt="телефон">
+                </div>
+            </div>
+            <div class="modal-left">
+                <form action="" class="modal-form">
+                    <div class="modal-form__text">
+                        <p>Задать Вопрос</p>
+                        <span>Вы можете отправить заявку на получение дополнительной информации. В ближайшее время наш специалист свяжется с вами.</span>
+                    </div>
+                    <!-- 1 -->
+                    <div class="modal-form__inner">
+                        <div class="modal-form__block modal-form__block--name">
+                            <p></p>
+                            <input type="name" placeholder="Ваше Имя">
+                        </div>
+                        <!-- 1 -->
+                        <div class="modal-form__block">
+                            <p class="modal-form__label" for=" ">Ваш телефон</p>
+                            <input type="tel " placeholder="10 ">
+                        </div>
+                        <!-- 2 -->
+                        <button href="# " class="button-all button-all--big button-all--top submit-form">
+                            <span>Оставить заявку</span>
+                            <div class="button-all__image ">
+                                <img src="./img/icon/arrow.svg " alt="стрелка ">
+                            </div>
+                        </button>
+                        <!-- button -->
+                    </div>
+                    <!-- 2 -->
+                    <div class="modal-form__bottom ">
+                        Или вы можете связаться с нами сами по телефону: <a href="# ">8 800 444 88 33</a>
+                    </div>
+                    <!-- 3 -->
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 2 -->
+    <div class="modal modal--happy js-modal">
+        <svg class="modal__cross js-modal-close " width="32 " height="32 " viewBox="0 0 32 32 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+            <path d="M31.6093 0.390626C31.3593 0.140665 31.0202 0.000244141 30.6666 0.000244141C30.3131 0.000244141 29.974 0.140665 29.724 0.390626L16 14.1146L2.27596 0.390626C2.02592 0.140665 1.68684 0.000244141 1.33329 0.000244141C0.979741 0.000244141
+                                0.640663 0.140665 0.390626 0.390626C0.140665 0.640663 0.000244141 0.979741 0.000244141 1.33329C0.000244141 1.68684 0.140665 2.02592 0.390626 2.27596L14.1146 16L0.390626 29.724C0.140665 29.974 0.000244141 30.3131 0.000244141
+                                30.6666C0.000244141 31.0202 0.140665 31.3593 0.390626 31.6093C0.640663 31.8593 0.979741 31.9997 1.33329 31.9997C1.68684 31.9997 2.02592 31.8593 2.27596 31.6093L16 17.8853L29.724 31.6093C29.974 31.8593 30.3131 31.9997 30.6666
+                                31.9997C31.0202 31.9997 31.3593 31.8593 31.6093 31.6093C31.8593 31.3593 31.9997 31.0202 31.9997 30.6666C31.9997 30.3131 31.8593 29.974 31.6093 29.724L17.8853 16L31.6093 2.27596C31.8593 2.02592 31.9997 1.68684 31.9997 1.33329C31.9997
+                                0.979741 31.8593 0.640663 31.6093 0.390626Z " fill="#967873 "/>
+        </svg>
+        <div class="modal__wrapper modal__wrapper--happy ">
+            <div class="modal-happy__title">
+                <span>Спасибо!</span>
+                <strong>Ваша заявка успешно отправлена!</strong>
+                <p>Наш специалист свяжется с вами в ближайшее время</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay js-modal-overlay "></div>
+    </script>
+    <script src="./js/jquery-3.5.0.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js "></script>
+    <script src="./js/main.js "></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-Bold.eot');
+    src: local('Euclid Circular A Bold'), local('../fonts/EuclidCircularA-Bold'), url('../fonts/EuclidCircularA-Bold.eot') format('embedded-opentype'), url('../fonts/EuclidCircularA-Bold.woff2') format('woff2'), url('../fonts/EuclidCircularA-Bold.woff') format('woff'), url('../fonts/EuclidCircularA-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-Light.eot');
+    src: local('Euclid Circular A Light'), local('../fonts/EuclidCircularA-Light'), url('../fonts/EuclidCircularA-Light.eot') format('embedded-opentype'), url('../fonts/EuclidCircularA-Light.woff2') format('woff2'), url('../fonts/EuclidCircularA-Light.woff') format('woff'), url('../fonts/EuclidCircularA-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-BoldItalic.eot');
+    src: local('Euclid Circular A Bold Italic'), local('../fonts/EuclidCircularA-BoldItalic'), url('../fonts/EuclidCircularA-BoldItalic.eot') format('embedded-opentype'), url('../fonts/EuclidCircularA-BoldItalic.woff2') format('woff2'), url('../fonts/EuclidCircularA-BoldItalic.woff') format('woff'), url('../fonts/EuclidCircularA-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-LightItalic.eot');
+    src: local('Euclid Circular A Light Italic'), local('../fonts/EuclidCircularA-LightItalic'), url('../fonts/EuclidCircularA-LightItalic.eot') format('embedded-opentype'), url('../fonts/EuclidCircularA-LightItalic.woff2') format('woff2'), url('../fonts/EuclidCircularA-LightItalic.woff') format('woff'), url('../fonts/EuclidCircularA-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-Regular.eot');
+    src: local('Euclid Circular A Regular'), local('../fonts/EuclidCircularA-Regular'), url('../fonts/EuclidCircularA-Regular.eot') format('embedded-opentype'), url('../fonts/EuclidCircularA-Regular.woff2') format('woff2'), url('../fonts/EuclidCircularA-Regular.woff') format('woff'), url('../fonts/EuclidCircularA-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('EuclidCircularA-SemiBold.eot');
+    src: local('Euclid Circular A SemiBold'), local('../fonts/EuclidCircularA-SemiBold'), url('../fonts/EuclidCircularA-SemiBold.eot') format('embedded-opentype'), url('../fonts/EuclidCircularA-SemiBold.woff2') format('woff2'), url('../fonts/EuclidCircularA-SemiBold.woff') format('woff'), url('../fonts/EuclidCircularA-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('EuclidCircularA-Medium.eot');
+    src: local('Euclid Circular A Medium'), local('../fonts/EuclidCircularA-Medium'), url('../fonts/EuclidCircularA-Medium.eot') format('embedded-opentype'), url('../fonts/EuclidCircularA-Medium.woff2') format('woff2'), url('../fonts/EuclidCircularA-Medium.woff') format('woff'), url('../fonts/EuclidCircularA-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-Italic.eot');
+    src: local('Euclid Circular A Italic'), local('../fonts/EuclidCircularA-Italic'), url('../fonts/EuclidCircularA-Italic.eot') format('embedded-opentype'), url('../fonts/EuclidCircularA-Italic.woff2') format('woff2'), url('../fonts/EuclidCircularA-Italic.woff') format('woff'), url('../fonts/EuclidCircularA-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-SemiBoldItalic.eot');
+    src: local('Euclid Circular A SemiBold Italic'), local('../fonts/EuclidCircularA-SemiBoldItalic'), url('../fonts/EuclidCircularA-SemiBoldItalic.eot') format('embedded-opentype'), url('../fonts/EuclidCircularA-SemiBoldItalic.woff2') format('woff2'), url('../fonts/EuclidCircularA-SemiBoldItalic.woff') format('woff'), url('../fonts/EuclidCircularA-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('../fonts/EuclidCircularA-MediumItalic.eot');
+    src: local('Euclid Circular A Medium Italic'), local('../fonts/EuclidCircularA-MediumItalic'), url('../fonts/EuclidCircularA-MediumItalic.eot') format('embedded-opentype'), url('../fonts/EuclidCircularA-MediumItalic.woff2') format('woff2'), url('../fonts/EuclidCircularA-MediumItalic.woff') format('woff'), url('../fonts/EuclidCircularA-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+//  ACrobat
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-Light.eot');
+    src: local('Akrobat Light'), local('Akrobat-Light'), url('../fonts/Akrobat-Light.eot') format('embedded-opentype'), url('../fonts/Akrobat-Light.woff2') format('woff2'), url('../fonts/Akrobat-Light.woff') format('woff'), url('../fonts/Akrobat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-Regular.eot');
+    src: local('Akrobat Regular'), local('Akrobat-Regular'), url('../fonts/Akrobat-Regular.eot') format('embedded-opentype'), url('../fonts/Akrobat-Regular.woff2') format('woff2'), url('../fonts/Akrobat-Regular.woff') format('woff'), url('../fonts/Akrobat-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-ExtraLight.eot');
+    src: local('Akrobat ExtraLight'), local('Akrobat-ExtraLight'), url('../fonts/Akrobat-ExtraLight.eot') format('embedded-opentype'), url('../fonts/Akrobat-ExtraLight.woff2') format('woff2'), url('../fonts/Akrobat-ExtraLight.woff') format('woff'), url('../fonts/Akrobat-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-SemiBold.eot');
+    src: local('Akrobat SemiBold'), local('Akrobat-SemiBold'), url('../fonts/Akrobat-SemiBold.eot') format('embedded-opentype'), url('../fonts/Akrobat-SemiBold.woff2') format('woff2'), url('../fonts/Akrobat-SemiBold.woff') format('woff'), url('../fonts/Akrobat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-Thin.eot');
+    src: local('Akrobat Thin'), local('Akrobat-Thin'), url('../fonts/Akrobat-Thin.eot') format('embedded-opentype'), url('../fonts/Akrobat-Thin.woff2') format('woff2'), url('../fonts/Akrobat-Thin.woff') format('woff'), url('../fonts/Akrobat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-Bold.eot');
+    src: local('Akrobat Bold'), local('Akrobat-Bold'), url('../fonts/Akrobat-Bold.eot') format('embedded-opentype'), url('../fonts/Akrobat-Bold.woff2') format('woff2'), url('../fonts/Akrobat-Bold.woff') format('woff'), url('../fonts/Akrobat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-Black.eot');
+    src: local('Akrobat Black'), local('Akrobat-Black'), url('../fonts/Akrobat-Black.eot') format('embedded-opentype'), url('../fonts/Akrobat-Black.woff2') format('woff2'), url('../fonts/Akrobat-Black.woff') format('woff'), url('../fonts/Akrobat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: url('../fonts/Akrobat-ExtraBold.eot');
+    src: local('Akrobat ExtraBold'), local('Akrobat-ExtraBold'), url('../fonts/Akrobat-ExtraBold.eot') format('embedded-opentype'), url('../fonts/Akrobat-ExtraBold.woff2') format('woff2'), url('../fonts/Akrobat-ExtraBold.woff') format('woff'), url('../fonts/Akrobat-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}

@@ -1,0 +1,222 @@
+.home {
+    padding-top: 4.1rem;
+    margin-bottom: 12rem;
+    overflow: hidden;
+    .container {
+        width: 100%;
+        padding-left: 19rem;
+    }
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__left {
+        padding-top: 17.9rem;
+        width: 63.8rem;
+        margin-right: 12.7rem;
+    }
+
+
+    &__left-number {
+        font-family: 'Open Sans',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+
+        color: #1A1B20;
+    }
+
+    &__left-title {
+        font-family: 'Open Sans',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6.7rem;
+        line-height: 144%;
+        color: #1A1B20;
+        margin-bottom: 4.6rem;
+        position: relative;
+
+        img {
+            width: 17.9rem;
+            height: 9.6rem;
+            position: absolute;
+            right: 2rem;
+            bottom: 0;
+        }
+    }
+
+    &__left-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.9rem;
+        line-height: 147%;
+        color: #1A1B20;
+        margin-bottom: 5.6rem;
+        width: 48.8rem;
+
+    }
+
+    &__right {
+        width: 111.4rem;
+        
+    }
+
+    &__right-container {
+        overflow: hidden;
+    }
+
+    &__right-wrapper {
+        position: relative;
+    }
+
+
+    &__right-wrapper {
+        display: flex;
+        align-items: center;
+      
+    }
+
+    &__slide {
+        width: 43.71rem;
+        height: 52.74rem;
+        margin-top: -15rem;
+        cursor: pointer;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__slider-new {
+        width: 12.6rem;
+        height: 12.6rem;
+        position: absolute;
+        display: none;
+    }
+
+    &__slider-content {
+        position: relative;
+      
+        
+    
+    }
+
+    &__slider-image {
+        width: 43.71rem;
+        height: 52.74rem;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .swiper-slide-active {
+        width: 78rem!important;
+        height: 89.2rem;
+        margin-top: -4.8rem;
+
+
+        .home__slider-content {
+            width: 78rem;
+            height: 89.2rem;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .home__slider-new {
+            display: block;
+            left: 0;
+            left: -0.5rem;
+            top: 17.3rem;
+        }
+
+        .home__slider-image {
+            width: 65.9rem;
+            height: 79.5rem;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    &__right-pagination {
+        font-size: 0;
+        .swiper-pagination-current {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.4rem;
+            line-height: 1.9rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #1A1B20;
+        }
+        .swiper-pagination-total {
+            display: none;
+        }
+    }
+
+    &__right-block-pagination {
+        width: 9rem;
+        position: absolute;
+        right: 23.8rem;
+        margin-top: -15.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 10;
+    }
+
+    &__right-pagination-text {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #1A1B20;
+        margin-left: 0.8rem;
+    }
+
+    &__right-block-arrows {
+        display: flex;
+    }
+
+    &__right-prev,
+    &__right-next {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 3.5rem;
+        height: 2rem;
+        cursor: pointer;
+    }
+
+    &__right-prev {
+        background-image: url(../img/icon/arrowprev.svg);
+        margin-right: 1.5rem;
+    }
+    &__right-next {
+        background-image: url(../img/icon/arrownext.svg);
+    }
+
+    &__right-inner-pagination {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.6rem;
+    }
+
+
+    .mobile {
+        display: none;
+    }
+
+}

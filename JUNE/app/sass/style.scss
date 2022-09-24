@@ -1,0 +1,50 @@
+@import "./general/normalize";
+@import "./general/fonts";
+@import "./general/variables";
+@import "./general/main";
+@import "./general/set";
+@import "./general/elements";
+
+
+// ------------------------------------------------------------------------------->
+
+
+@import "./blocks/header";
+@import "./blocks/main-block";
+@import "./blocks/developments";
+@import "./blocks/news-table";
+@import "./blocks/new";
+@import "./blocks/stock-block";
+@import "./blocks/stock-table";
+@import "./blocks/events";
+@import "./blocks/events-table";
+@import "./blocks/footer";
+
+
+
+// ------------------------------------------------------------------------------
+
+
+@import "./blocks/central";
+@import "./blocks/boutique";
+@import "./blocks/score";
+@import "./blocks/collection";
+@import "./blocks/product-block";
+@import "./blocks/map";
+@import "./blocks/test-main";
+@import "./blocks/stock-detail";
+@import "./blocks/contacts";
+@import "./blocks/category";
+@import "./blocks/central-news";
+@import "./blocks/score-news";
+@import "./blocks/detail-h";
+@import "./blocks/events-main";
+@import "./blocks/events-section";
+@import "./blocks/events-detail";             
+@import "./blocks/policy";
+@import "./blocks/about-main";
+@import "./blocks/about";
+@import "./blocks/lk";            
+// 
+
+@import "./blocks/media";

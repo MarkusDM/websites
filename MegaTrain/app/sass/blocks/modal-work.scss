@@ -1,0 +1,272 @@
+.work-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 110;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: none;
+    &__container {
+        min-height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media only screen and (max-width: 48em) {
+            height: 100%;
+            width: 100%;
+            margin-top: 30%;
+            margin-bottom: 20rem;
+        }
+    }
+    &__content {
+        height: 87.3rem;
+        width: 73.5rem;
+        position: relative;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        background: #FFFFFF;
+        border-radius: 2.2rem;
+        @media only screen and (max-width: 48em) {
+            width: 67rem;
+            height: 152.8rem;
+            padding-top: 1.8;
+            padding-left: 4rem;
+            padding-right: 4rem;
+        }
+    }
+    &__title {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        @media only screen and (max-width: 48em) {
+            margin-bottom: 7rem;
+        }
+        strong {
+            font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 4.5rem;
+            line-height: 5.8rem;
+            letter-spacing: 0.02em;
+            color: #262626;
+            margin-bottom: 3rem;
+            @media only screen and (max-width: 48em) {
+                font-size: 5rem;
+                line-height: 6.4rem;
+            }
+        }
+        span {
+            font-family: 'Akzidenz-Grotesk Pro Med Ext', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.6rem;
+            line-height: 156%;
+            color: #98999C;
+            @media only screen and (max-width: 48em) {
+                font-size: 3rem;
+                line-height: 5rem;
+                color: #262626;
+            }
+        }
+    }
+    &__inner {
+        position: relative;
+        margin-bottom: 3.7rem;
+        @media only screen and (max-width: 48em) {
+            margin-bottom: 4rem;
+        }
+        label {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1rem;
+            line-height: 1.2rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #262626;
+            position: absolute;
+            top: 1.7rem;
+            left: 2rem;
+            z-index: 2;
+            @media only screen and (max-width: 48em) {
+                top: 3.2rem;
+                left: 3.2rem;
+                font-size: 2rem;
+            }
+        }
+        input {
+            width: 100%;
+            height: 7.8rem;
+            border: 0.14rem solid #E7EBEE;
+            box-sizing: border-box;
+            border-radius: 1.5rem;
+            padding-left: 2rem;
+            padding-top: 3.4rem;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 2.2rem;
+            line-height: 2.7rem;
+            color: #98999C;
+            transition: all 0.2s;
+            background: none;
+            @media only screen and (max-width: 48em) {
+                height: 13.2rem;
+                font-size: 3.1rem;
+                padding-left: 4rem;
+                padding-top: 4rem;
+            }
+            &:focus {
+                border: 0.2rem solid #3066C1;
+            }
+        }
+    }
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        @media only screen and (max-width: 48em) {
+            flex-direction: column;
+        }
+        .modal-work__inner {
+            input {
+                width: 50%;
+                @media only screen and (max-width: 48em) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .modal__cross {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        width: 2rem;
+        height: 3rem;
+        cursor: pointer;
+        z-index: 12;
+    }
+    .example-3 {
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 7.6rem;
+        @media only screen and (max-width: 48em) {
+            margin-bottom: 9rem;
+        }
+    }
+    .example-3 h2 {
+        font-weight: 400
+    }
+    .example-3 .filupp>input[type="file"] {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0
+    }
+    .example-3 .filupp {
+        position: relative;
+        border: 0.14rem solid #E7EBEE;
+        box-sizing: border-box;
+        border-radius: 1.5rem;
+        display: block;
+        width: 100%;
+        cursor: pointer;
+        height: 7.8rem;
+        @media only screen and (max-width: 48em) {
+            height: 13.2rem;
+        }
+    }
+    .example-3 .filupp:before {
+        content: "";
+        position: absolute;
+        width: 7.8rem;
+        height: 7.8rem;
+        background: #ED2139;
+        border-radius: 1.5rem;
+        right: 0;
+        background-image: url(../img/bigdown.svg);
+        background-repeat: no-repeat;
+        background-size: 2.4rem 2.4rem;
+        background-position: 50% 50%;
+        @media only screen and (max-width: 48em) {
+            height: 13.2rem;
+            width: 13.2rem;
+            background-size: 2.6rem 2.6rem;
+        }
+    }
+    .example-3 .filupp:after {
+        content: "\f178";
+        font-family: FontAwesome;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        position: absolute;
+        top: .65em;
+        right: .45em;
+        font-size: 2em;
+        color: #dd4040;
+        line-height: 0
+    }
+    .example-3 .filupp-file-name {
+        width: 100%;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        word-wrap: normal;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #262626;
+        padding-top: 3rem;
+        padding-left: 2rem;
+        @media only screen and (max-width: 48em) {
+            font-size: 2rem;
+            padding-right: 3rem;
+            padding-left: 3rem;
+            height: 6rem;
+        }
+    }
+    .link-btn {
+        width: 30rem;
+        margin: 0 auto;
+        @media only screen and (max-width: 48em) {
+            margin: initial;
+            width: 37rem;
+        }
+        &::before {
+            width: 7.7rem;
+            height: 7.7rem;
+        }
+        span {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            color: #98999C;
+            @media only screen and (max-width: 48em) {
+                font-size: 3.05rem;
+            }
+        }
+    }
+    .link-btn-before {
+        &::after {
+            width: 3rem;
+            height: 3rem;
+            right: 2.1rem;
+            background-size: 2.1rem 2.1rem;
+        }
+    }
+}

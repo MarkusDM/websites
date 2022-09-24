@@ -1,0 +1,177 @@
+.studio {
+    padding-top: 7.6rem;
+    margin-bottom: 18rem;
+    .container {
+        width: 100%;
+        padding-left: 10rem;
+        padding-right: 9.6em;
+    }
+
+    &__wrapper {
+        display: flex;
+    }
+
+  
+
+    &__title {
+        font-size: 10.5rem;
+        line-height:  110%;
+        padding-top: 3rem;
+        margin-bottom: 5.7rem;
+        width: 85rem;
+    }
+
+    &__right {
+        width: 87.4rem;
+    }
+
+    &__text {
+        font-size: 2rem;
+        line-height: 140%;
+        width: 55.1rem;
+        margin-bottom: 6.8rem;
+    }
+
+    .all-btn {
+        &::before {
+            top: -2.6rem;
+        }
+    }
+
+    &__right-block {
+        display: flex;
+    }
+
+    &__right-image {
+        width: 54.4rem;
+        height: 59.8rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+            
+        }
+    }
+
+    &__right-image:first-child {
+        margin-right: 5.8rem;
+    }
+
+
+    &__inner {
+        margin-top: 18rem;
+        border-top: 1px solid #000;
+        padding-top: 6rem;
+        display: flex;
+    }
+
+    &__inner-image {
+        width: 61.1rem;
+        min-width: 61.1rem;
+        max-width: 61.1rem;
+        display: block;
+        height: 52.9rem;
+        margin-right: 5.8rem;
+    }
+
+    &__inner-text {
+        display: flex;
+      
+         p {
+            font-weight: 300;
+            font-size: 2rem;
+            line-height: 140%;
+           display: block;
+           max-width: 53.5rem;
+         }
+
+         strong {
+            font-weight: 500;
+            font-size: 2rem;
+            line-height: 140%;
+           display: block;
+           max-width: 53.5rem;
+         }
+    }
+
+    &__inner-text-left {
+        margin-right: 5.8rem;
+
+        p {
+            margin-bottom: 2rem;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        strong {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__inner-text-right {
+        p {
+            margin-bottom: 2rem;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        strong {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__desk-text {
+        margin-top: 18rem;
+        padding-top: 6.2rem;
+        border-top: 1px solid #000000;
+        display: flex;
+       
+
+    }
+
+    &__desk-text-left {
+        width: 52.9rem;
+        margin-right: 5.8rem;
+        p {
+            font-weight: 300;
+            font-size: 2rem;
+            line-height: 140% ;
+            
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+
+    &__desk-text-right {
+        width: 112.7rem;
+
+        p {
+            font-weight: 300;
+            font-size: 1.8rem;
+            line-height: 144% ;
+            margin-bottom: 2rem;
+            
+        }
+
+        strong {
+            font-weight: 500;
+            font-size: 1.8rem;
+            line-height: 144% ;
+            margin-bottom: 2rem;
+            display: block;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+   
+}

@@ -1,0 +1,229 @@
+.main {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 26rem;
+    .container {
+        width: 100%;
+    }
+
+
+
+    &__background-swiper-slide-image {
+        position: relative;
+        width: 100%;
+        &::after {
+            position: absolute;
+            content: '';
+            z-index: 2;
+
+            background: rgba(0, 0, 0, 0.29);
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+        }
+    }
+
+
+  
+
+    .mob {
+        display: none;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5.8rem;
+        line-height: 8.4rem;
+        color: #FFFFFF;
+        position: absolute;
+        z-index: 3;
+        top: 14.1rem;
+        left: 45.5rem;
+    }
+
+    &__bullets {
+        z-index: 3;
+        position: absolute;
+        top: 24.6rem;
+        left: 94.3rem;
+    }
+
+    &__bullets-block {
+        display: flex;
+        .swiper-pagination-bullet {
+            width: 0.7rem;
+            height: 0.7rem;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            margin-right: 0.7rem;
+        
+           
+        }
+
+        .swiper-pagination-bullet-active  {
+            background: #FFFFFF;
+        }
+    }
+
+    &__background-swiper {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    &__background-swiper-wrapper {
+        width: 100%;
+        display: flex;
+    }
+
+    &__background-swiper-slide {
+        min-width: 100%;
+        min-height: 81.2rem;
+        max-height: 81.2rem;
+    }
+
+
+    &__text {
+        position: absolute;
+        top: 26.3rem;
+        left: 18.8rem;
+        z-index: 3;
+    }
+
+    &__text-geo {
+        padding-left: 4.1rem;
+        padding-top: 0.8rem;
+        width: 19.2rem;
+        padding-bottom: 0.8rem;
+        padding-right: 1.6rem;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(37px);
+        font-size: 1.5rem;
+        line-height: 160%;
+        color: #FFFFFF;
+        border-radius: 10rem;
+        position: relative;
+        margin-bottom: 3.4rem;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 1.5rem;
+            left: 1.7rem;
+            top: 1.3rem;
+            height: 1.5rem;
+            background-image: url(../img/icon/geo.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+
+    &__text-title {
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 152%;
+        color: #FFFFFF;
+        margin-bottom: 0.8rem;
+    }
+
+    &__text-span {
+        font-family: 'Euclid Circular A',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.9rem;
+        line-height: 152%;
+        color: #fff;
+        max-width: 34rem;
+    }
+
+    &__btn {
+        width: 18.33rem;
+        height: 18.33rem;
+        position: absolute;
+        z-index: 3;
+        border:  0.793651px solid #FFFFFF;
+        border-radius: 50%;
+        padding-top: 5rem;
+        padding-left: 4rem;
+        font-family: 'Euclid Circular A';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.1rem;
+        line-height: 126%;
+        color: #fff;
+        right: 18.7rem;
+        top: 26.3rem;
+        cursor: pointer;
+        span {
+            padding-bottom: 4.1rem;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: '';
+                background-image: url(../img/icon/arrow.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                bottom: 0;
+                width: 3rem;
+                height: 1.4rem;
+                right: 0rem;
+
+                
+            }
+        }
+
+    }
+
+
+
+    &__boxs-swiper-box {
+        width: 29.2rem;
+        height: 14.4rem;
+        background: #FFFFFF;
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+        padding-top: 1.1rem;
+        strong {
+            font-weight: 700;
+            font-size: 5.7rem;
+            line-height: 6.4rem;
+            text-align: center;
+            letter-spacing: 0.01em;
+            color: #2B2F36;
+        }
+
+        span {
+            font-weight: 400;
+            font-size: 1.9rem;
+            line-height: 156%;
+            text-align: center;
+            color: rgba(41, 45, 50, 0.32);
+        }
+    }
+
+    &__boxs-swiper-slider {
+        margin-right: 1.4%;
+    }
+
+    &__boxs-swiper {
+        width: 155rem;
+        overflow: hidden;
+    }
+
+    &__boxs-swiper-wrapper {
+        display: flex;
+        
+    }
+
+    &__boxs {
+        position: absolute;
+        left: 18.6rem;
+        z-index: 4;
+        top: 76.6rem;
+    }
+}

@@ -1,0 +1,463 @@
+.admin-answer
+  padding-bottom: 8.5rem
+  display: block
+  &-detail
+    padding-bottom: 4.5rem
+  .admin-back
+    display: inline-block
+    font-size: 1.8rem
+    font-family: 'Euclid Circular A', sans-serif
+    font-weight: 600
+    position: relative
+    padding-left: 5.5rem
+    margin-bottom: 6.5rem
+    span
+      position: absolute
+      top: 50%
+      left: 0
+      transform: translateY(-50%)
+      width: 3.8rem
+      height: 3.8rem
+      border-radius: 50%
+      background: linear-gradient(180deg, #005A9D 0%, #0B4AA9 100%) 50% no-repeat
+      box-shadow: 0 1rem 4rem rgba(19, 85, 169, 0.3)
+      &::before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        border-radius: inherit
+        background: url(../img/back.svg) 50% no-repeat
+        background-size: 0.7rem
+  &__contest
+    padding: 3.5rem 3.7rem 2.5rem 4.1rem
+    background: #fff
+    border-radius: 3.2rem
+    box-shadow: 1.5rem 2rem 8rem rgba(232, 235, 244, 0.8)
+    position: relative
+    margin-bottom: 8rem
+    &-number
+      position: absolute
+      top: 0
+      right: 0
+      width: 13.8rem
+      height: 6.1rem
+      background: #98ADDE
+      display: flex
+      justify-content: center
+      align-items: center
+      font-size: 1.8rem
+      font-family: 'Euclid Circular A', sans-serif
+      color: #fff
+      border-radius: 0 3.2rem
+    &-info
+      display: flex
+      align-items: center
+      margin-bottom: 2.9rem
+      &-img
+        width: 7.7rem
+        flex-shrink: 0
+        margin-right: 3rem
+      &-title
+        font-size: 1.6rem
+        font-family: 'Euclid Circular A', sans-serif
+        color: #ADB2C4
+      &-position
+        font-size: 3.7rem
+        font-family: 'Akrobat', sans-serif
+        font-weight: 700
+        color: #0E192E
+    &-body
+      border-top: 1px solid #E5ECF1
+      display: flex
+    &-item
+      display: flex
+      align-items: center
+      padding: 3.5rem 1rem 1rem 5.2rem
+      width: 19.3%
+      min-height: 9.8rem
+      flex-shrink: 0
+      &:not(:last-child)
+        border-right: 1px solid #E5ECF1
+      &:first-child
+        padding-left: 0
+      &:nth-child(2)
+        width: 26.7%
+      &:nth-child(3)
+        width: 32.5%
+      &:nth-child(4)
+        width: 21.5%
+        padding-right: 0
+      &-img
+        width: 2.8rem
+        flex-shrink: 0
+        margin-right: 1.4rem
+      &-text
+        font-family: 'Euclid Circular A', sans-serif
+      &-title
+        font-size: 1.6rem
+        color: #ADB2C4
+        line-height: 1.3
+      &-subtitle
+        font-size: 1.8rem
+        font-weight: 500
+        color: #0E192E
+        line-height: 1.59
+    &-performer
+      font-size: 1.6rem
+      font-family: 'Euclid Circular A', sans-serif
+      color: #ADB2C4
+      span
+        font-size: 1.8rem
+        font-weight: 500
+        color: #0E192E
+        margin-left: .3rem
+  &__main
+    &-winner
+      margin-bottom: 9rem
+    &-heading
+      display: flex
+      justify-content: space-between
+      align-items: center
+      margin-bottom: 5.2rem
+      &-title
+        font-size: 5rem
+        font-family: 'Akrobat', sans-serif
+        font-weight: 700
+        color: #0E192E
+      &-number
+        font-size: 1.8rem
+        font-family: 'Euclid Circular A', sans-serif
+        color: #ADB2C4
+        span
+          font-size: 2.3rem
+          font-weight: 600
+          color: #0E192E
+          margin-left: .4rem
+    &-line
+      display: flex
+      align-items: center
+      padding: 1.5rem 1.8rem 1.5rem 1.5rem
+      background: #fff
+      border-radius: 100rem
+      box-shadow: 1.5rem 2rem 8rem rgba(232, 235, 244, 0.8)
+      // box-shadow: 1rem 1.5rem 8rem rgba(248, 248, 248, 0.6)
+      &:not(:last-child)
+        margin-bottom: 3rem
+    &-item
+      display: flex
+      align-items: center
+      width: 25.5%
+      flex-shrink: 0
+      padding-right: 3rem
+      &:first-child
+        width: 38.7%
+      &-info
+        .admin-answer__main-item-img
+          display: flex
+          justify-content: center
+          align-items: center
+          width: 7.6rem
+          height: 7.6rem
+          border-radius: 50%
+          background: linear-gradient(180deg, #ECEEFF -8.66%, #B6D2E8 100%), linear-gradient(180deg, #ECF5FF 0%, #B6D2E8 100%)
+          position: relative
+          z-index: 1
+          box-shadow: .2rem .4rem .8rem rgba(117, 156, 201, 0.1)
+          margin-right: 1.8rem
+          img
+            width: 2.7rem
+          &::before
+            content: ''
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            width: calc(100% - 1.5rem)
+            height: calc(100% - 1.5rem)
+            border-radius: inherit
+            background: linear-gradient(180deg, #FCFEFF 0%, #F3F8FF 100%)
+            z-index: -1
+            box-shadow: 0 .2rem 1.5rem rgba(19, 85, 169, 0.3)
+      &-img
+        display: inherit
+        width: 3.3rem
+        flex-shrink: 0
+        margin-right: 1.1rem
+      &-text
+        font-family: 'Euclid Circular A', sans-serif
+        a
+          text-decoration: underline
+      &-title
+        font-size: 1.6rem
+        line-height: 1.56
+        color: #ADB2C4
+      &-name
+        font-size: 1.8rem
+        font-weight: 500
+        line-height: 1.39
+        color: #0E192E
+    &-link
+      width: 7rem
+      height: 7rem
+      border-radius: 50%
+      display: flex
+      justify-content: center
+      align-items: center
+      flex-shrink: 0
+      background: linear-gradient(0deg, #98ADDE, #98ADDE), linear-gradient(180deg, #ECF8FF -150%, #ACC8E4 100%), linear-gradient(0deg, #ACC8E4, #ACC8E4), #FFFFFF
+      box-shadow: .4rem 1rem 10rem rgba(19, 85, 169, 0.03)
+      margin-left: auto
+      img
+        width: 1.2rem
+        margin-left: .3rem
+
+  &__organization
+    margin: 8.6rem 0
+    &-title
+      font-size: 4rem
+      font-family: 'Akrobat', sans-serif
+      font-weight: 500
+      color: #0E192E
+      margin-bottom: 5rem
+      span
+        font-weight: 700
+    &-group
+      display: flex
+      margin-bottom: 5.7rem
+    &-item
+      font-family: 'Euclid Circular A', sans-serif
+      &:not(:last-child)
+        margin-right: 3.5rem
+      &-title
+        font-size: 1.8rem
+        font-weight: 600
+        color: #0E192E
+        margin-bottom: 1.7rem
+      &-price
+        width: 40rem
+        height: 7rem
+        padding: 1rem 2.7rem
+        display: flex
+        align-items: center
+        background: #fff
+        border-radius: 10rem
+        box-shadow: 1.5rem 2rem 8rem rgba(232, 235, 244, 0.8)
+      &-img
+        width: 3.2rem
+        flex-shrink: 0
+        margin-right: 2.8rem
+      &-text
+        font-size: 1.8rem
+        color: #0E192E
+    &-btn
+      width: 21.3rem
+      height: 6.2rem
+      display: flex
+      justify-content: center
+      align-items: center
+      background: linear-gradient(180deg, #005A9D 0%, #0B4AA9 100%)
+      box-shadow: 0 1rem 4rem rgba(19, 85, 169, 0.3)
+      border-radius: 10rem
+      font-size: 1.8rem
+      font-family: 'Euclid Circular A', sans-serif
+      font-weight: 600
+      color: #fff
+      &:not(:last-child)
+        margin-right: 3.2rem
+      &.reject
+        background: transparent
+        border: 1px solid #FFC4C7
+        box-shadow: none
+        filter: drop-shadow(0 1rem 4rem rgba(236, 144, 144, 0.3))
+        color: #BD0913
+      &s
+        display: flex
+  &__documents
+    margin-bottom: 10.8rem
+    &-title
+      font-size: 4rem
+      font-family: 'Akrobat', sans-serif
+      font-weight: 700
+      margin-bottom: 5.2rem
+    &-item
+      padding: 3.2rem 3.1rem 3.3rem 4.9rem
+      background: #fff
+      border-radius: 3.2rem
+      box-shadow: 1.5rem 2rem 8rem rgba(232, 235, 244, 0.8)
+      // box-shadow: 1rem 1.5rem 8rem rgba(248, 248, 248, 0.6)
+      display: flex
+      justify-content: space-between
+      &:not(:last-child)
+        margin-bottom: 3.4rem
+      &.reject
+        background: #FFDFE1
+        .admin-answer__documents-item
+          &-btn
+            background: #fff
+            &.reject
+              background: #FFC9CC
+          &-check.verified
+            background: #FFC9CC
+            .admin-answer__documents-item-check
+              &-decor
+                background: #FFE9EA
+                box-shadow: .2rem .4rem .8rem rgba(201, 117, 117, 0.1)
+                span
+                  box-shadow: .2rem .4rem .8rem rgba(201, 117, 117, 0.1)
+              &-text
+                color: #BD0913
+      &-info
+        width: 76.2%
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        flex-shrink: 0
+      &-description
+        font-size: 1.8rem
+        font-family: 'Euclid Circular A', sans-serif
+        line-height: 1.5
+        color: #0E192E
+        margin-bottom: 3rem
+      &-btn
+        width: 25.1rem
+        height: 5.9rem
+        display: flex
+        justify-content: center
+        align-items: center
+        background: #E9EFFA
+        border-radius: 3rem
+        font-size: 1.8rem
+        font-family: 'Euclid Circular A', sans-serif
+        font-weight: 500
+        color: #0E192E
+        img
+          width: .8rem
+          margin-left: 1.5rem
+        &:not(:last-child)
+          margin-right: 2.3rem
+        &.reject
+          background: #FFDFE1
+          color: #BD0913
+        &s
+          display: flex
+          margin-top: auto
+      &-check
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        width: 23.3rem
+        height: 25.9rem
+        flex-shrink: 0
+        background: #E9EFFA
+        border-radius: 3rem
+        .active
+          display: none
+        &.verified
+          background: #E9FAEB
+          .no
+            display: none
+          .active
+            display: block
+            &-decor
+              span
+                margin-left: auto
+                background: linear-gradient(180deg, #D6FDE1 0%, #7DDE8D 106.25%)
+                &::before
+                  box-shadow: 0 .2rem 1.5rem rgba(76, 149, 75, 0.3)
+                &::after
+                  content: ''
+                  position: absolute
+                  top: 0
+                  left: 0
+                  width: 100%
+                  height: 100%
+                  background: url(../img/check.svg) 50% no-repeat
+                  background-size: 1.6rem
+            &-text
+              color: #5B9864
+        &-decor
+          display: flex
+          width: 10.2rem
+          // height: 5.4rem
+          background: #fff
+          border-radius: 10rem
+          box-shadow: .2rem .4rem .8rem rgba(117, 156, 201, 0.1)
+          margin: -.5rem 0 2.5rem
+          padding: .6rem .7rem
+          span
+            display: block
+            width: 4.2rem
+            height: 4.2rem
+            border-radius: 50%
+            background: #E9EFFA
+            box-shadow: .2rem .4rem .8rem rgba(117, 156, 201, 0.1)
+            position: relative
+            z-index: 1
+            &::before
+              content: ''
+              position: absolute
+              top: 50%
+              left: 50%
+              transform: translate(-50%, -50%)
+              width: 3rem
+              height: 3rem
+              background: linear-gradient(180deg, #FCFEFF 0%, #F3F8FF 100%)
+              border-radius: inherit
+              z-index: -1
+        &-text
+          font-size: 1.8rem
+          font-family: 'Euclid Circular A', sans-serif
+          color: #8C9AB1
+
+  &__information
+    .profile
+      &__title
+        font-size: 3.7rem
+        margin-bottom: 6.6rem
+        h2
+          font-size: inherit
+  
+  &.admin-answer-archive
+    padding-bottom: 11.8rem
+    .admin-answer
+      &__contest
+        padding-bottom: 4.1rem
+        margin-bottom: 9.1rem
+        &-info
+          &-img
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 7.8rem
+            height: 7.8rem
+            border-radius: 50%
+            background: linear-gradient(180deg, #D6FDE1 -8.66%, #7DDE8D 100%)
+            box-shadow: .2rem .4rem .8rem rgba(117, 156, 201, 0.1)
+            position: relative
+            z-index: 1
+            &::before
+              content: ''
+              position: absolute
+              inset: .8rem
+              background: linear-gradient(180deg, #FCFEFF 0%, #F3F8FF 100%)
+              box-shadow: 0 .2rem 1.5rem rgba(80, 149, 83, 0.3)
+              border-radius: inherit
+              z-index: -1
+            img
+              width: 3rem
+        &-body
+          margin-bottom: 2.8rem
+          border-bottom: 1px solid #E5ECF1
+        &-item
+          padding-bottom: 3.5rem
+      &__main
+        &-item
+          width: 23.3%
+          &:first-child
+            width: 38.7%
+          &:nth-child(3)
+            width: 33.3%

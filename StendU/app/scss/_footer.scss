@@ -1,0 +1,52 @@
+.footer {
+  padding: 7rem 0 7.8rem;
+  background-color: #F8F9FD;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+
+  &__top {
+    display: flex;
+    margin-bottom: 8.7rem;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 15.2rem;    
+  }
+
+  &__subtitle {
+    font-size: 2.5rem;
+    font-weight: 700; 
+    margin-bottom: 1.9rem;
+  }
+
+  &__elem {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #9ea5b2;
+    margin-bottom: 0.6rem;
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    padding-top: 6rem;
+    border-top: 1px solid #E4E7F3;
+  }
+
+  &__logo {
+    padding-bottom: 0.8rem;
+    width: 23.1rem;
+  }
+
+  &__menu {
+    margin-left: 9.9rem;
+  }
+
+  &__social {
+    margin-left: auto;
+
+    .social__link {
+      background-color: #E4E7F3;
+    }
+  }
+}

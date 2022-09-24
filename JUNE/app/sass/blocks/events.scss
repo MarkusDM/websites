@@ -1,0 +1,220 @@
+.events {
+    margin-bottom: 21.2rem;
+    .container {
+        width: 154.7rem;
+    }
+
+    .title {
+        
+        &__text {
+            margin-right: 58.4rem;
+            margin-top: 0.6rem;
+        }
+    }
+
+    &__fraction {
+        display: flex;
+    }
+
+
+    &__bullets {
+        margin-right: 11rem;
+        margin-top: 1.6rem;
+        display: flex;
+        width: 4rem!important;
+        .swiper-pagination-bullet {
+            width: 0.7rem;
+            height: 0.7rem;
+            background: rgba(43, 47, 54, 0.3);
+            backdrop-filter: blur(50px);
+            border-radius: 50%;
+            margin-right: 0.7rem;
+        }
+
+        .swiper-pagination-bullet-active-main {
+            background: #2B2F36;
+        }
+
+        .swiper-pagination-bullet:last-child {
+            margin-right: 0;
+        }
+    }
+
+    #events__service,
+    #events__all-service
+    {
+        font-style: normal;
+            font-weight: 700;
+            font-size: 2.5rem;
+            line-height: 152%;
+            color: #2B2F36;
+    }
+
+
+    &__bottom-one {
+        width: 16.1rem;
+        padding-top: 1rem;
+    }
+
+    #events__service {
+        padding-right: 8.2rem;
+        position: relative;
+        margin-right: 2rem;
+        &::before {
+            position: absolute;
+            right: 0;
+            top: 1.5rem;
+            content: '';
+            width: 6.4rem;
+            height: 1.5px;
+            background: #D6D8E0;
+        }
+    }
+
+
+    &__wrapper {
+       
+    }
+    &__swiper {
+        overflow: hidden;
+        width: 100%;
+        padding-top:   4.7rem;
+        padding-bottom: 5.1rem;
+    }
+
+    &__swiper-wrapper {
+        display: flex;
+    }
+
+    &__swiper-slide {
+        display: flex;
+        min-width: 100%;
+
+        .events-table-big {
+            margin-right: 4.6rem;
+        }
+    }
+
+    &__swiper-slide-inner {
+        .events-table {
+            margin-bottom: 4.5rem;
+        }
+
+        .events-table:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4.2rem;
+    }
+
+    &__bottom-one {
+        width: 16.1rem;
+        padding-top: 1rem;
+    }
+
+    &__bottom-one-numbers {
+        font-size: 0;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        .swiper-pagination-current,
+        .swiper-pagination-total {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.5rem;
+            line-height: 152%;
+            color: #2B2F36;
+        }
+
+
+        .swiper-pagination-current {
+            margin-right: 2rem;
+            padding-right: 8.3rem;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: '';
+                background: #D6D8E0;
+                width: 6.3rem;
+                height: 1px;
+                top: 1.5rem;
+                right: 0;
+            }
+        }
+    }
+
+
+
+
+
+
+    &__bottom-two {
+        width: 13.6rem;
+        height: 6.6rem;
+        background: #FFFFFF;
+        border-radius: 100rem;
+        position: relative;
+        padding-top: 1.4rem;
+        padding-bottom: 1.4rem;
+        &::before {
+            position: absolute;
+            content: '';
+            height: 3.8rem;
+            background: #DDDFE7;
+            width: 0.1rem;
+            left: 6.9rem;
+        }
+    }
+
+
+    &__bottom-two-arrows {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+        padding-top: 0.5rem;
+    }
+
+
+    &__bottom-two-prev,
+    &__bottom-two-next {
+        width: 4rem;
+        height: 4rem;
+        cursor: pointer;
+        background-size: 2.8rem 2rem;
+        background-repeat: no-repeat;
+        background-position: 30% 30%;
+       
+    }
+
+    &__bottom-two-prev {
+        background-image: url(../img/icon/prevblackarrow.svg);
+    }
+
+    &__bottom-two-next {
+        background-image: url(../img/icon/arrowblack.svg);
+        background-position: 80% 30%;
+    }
+
+
+
+}
+
+
+.events--two {
+    .title {
+        &__text {
+            padding-right: 0;
+            padding-left: 5rem;
+            &::before {
+                left: 0;
+                right: initial;
+                top: 0.8rem;
+            }
+        }
+    }
+}
